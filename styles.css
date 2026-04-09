@@ -1,0 +1,914 @@
+/* ========================================
+   LINDSAY HARTLEY — Director & Writer
+   Scrolling layout: Reel → Filters → Films
+   ======================================== */
+
+:root {
+    --bg: #050505;
+    --text: #e8e4df;
+    --text-dim: #8a847c;
+    --text-muted: #4a4640;
+    --accent: #c9917a;
+    --border: rgba(232, 228, 223, 0.12);
+
+    --font-serif: 'DM Serif Display', Georgia, serif;
+    --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+    --font-body: 'Inter', -apple-system, sans-serif;
+
+    --ease: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-nv: cubic-bezier(.77, 0, .175, 1);
+}
+
+/* Reset */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+body {
+    font-family: var(--font-mono);
+    background: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+    cursor: none;
+}
+/* Cinematic Letterbox Bars */
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9998;
+    border-top: 14px solid #000;
+    border-bottom: 14px solid #000;
+    box-sizing: border-box;
+}
+
+/* Color Temperature Breathing */
+@keyframes tempBreath {
+    0%, 100% { filter: sepia(0) hue-rotate(0deg); }
+    25% { filter: sepia(0.03) hue-rotate(-3deg); }
+    50% { filter: sepia(0.05) hue-rotate(2deg); }
+    75% { filter: sepia(0.02) hue-rotate(-1deg); }
+}
+
+.page-content {
+    animation: tempBreath 30s ease-in-out infinite;
+}
+
+a { color: inherit; text-decoration: none; cursor: none; }
+button { border: none; background: none; cursor: none; font-family: inherit; color: inherit; }
+img { max-width: 100%; display: block; }
+::selection { background: var(--accent); color: var(--bg); }
+
+/* Page Load Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.top-bar { animation: fadeIn 0.8s var(--ease) both; animation-delay: 0.1s; }
+.hero { animation: fadeIn 1s var(--ease) both; animation-delay: 0.3s; }
+.films-section { animation: fadeIn 0.8s var(--ease) both; animation-delay: 0.6s; }
+.bottom-bar { animation: fadeIn 0.8s var(--ease) both; animation-delay: 0.8s; }
+
+/* Custom Cursor */
+.cursor {
+    position: fixed;
+    width: 12px;
+    height: 12px;
+    border: 1.5px solid var(--accent);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 10000;
+    transition: width 0.2s var(--ease-nv), height 0.2s var(--ease-nv), opacity 0.2s, border-color 0.2s;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.cursor.visible { opacity: 1; }
+.cursor.hovering {
+    width: 40px;
+    height: 40px;
+    border-color: var(--text);
+    background: rgba(201, 145, 122, 0.08);
+}
+
+/* ========================================
+   PILL BUTTONS
+   ======================================== */
+.pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 18px;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    opacity: 0.5;
+    transition: all 0.6s var(--ease-nv);
+    white-space: nowrap;
+}
+.pill:hover, .pill.active {
+    border-color: var(--text);
+    color: var(--text);
+    opacity: 1;
+}
+
+/* Category-colored filter pills */
+.filters .pill[data-filter="thriller"].active {
+    border-color: #e06060;
+    color: #e06060;
+}
+.filters .pill[data-filter="romance"].active {
+    border-color: #e899ac;
+    color: #e899ac;
+}
+.filters .pill[data-filter="holiday"].active {
+    border-color: #e8b84a;
+    color: #e8b84a;
+}
+.filters .pill[data-filter="series"].active {
+    border-color: #8ac8d9;
+    color: #8ac8d9;
+}
+.filters .pill[data-filter="drama"].active {
+    border-color: #b8a0e8;
+    color: #b8a0e8;
+}
+.pill-active {
+    border-color: var(--text);
+    color: var(--text);
+    opacity: 1;
+}
+
+/* ========================================
+   TOP BAR (fixed)
+   ======================================== */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    padding: 20px 24px 16px;
+    background: linear-gradient(180deg, var(--bg), rgba(5,5,5,0.9), transparent);
+}
+.top-name {
+    font-family: var(--font-serif);
+    font-size: clamp(28px, 4vw, 44px);
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, var(--accent), #d4889a, #d4a843, var(--accent));
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: nameGradient 12s ease-in-out infinite;
+    line-height: 1;
+}
+
+@keyframes nameGradient {
+    0%, 100% { background-position: 0% 50%; }
+    33% { background-position: 100% 50%; }
+    66% { background-position: 50% 100%; }
+}
+
+.tagline {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-top: 4px;
+}
+
+/* Animated line under name */
+.top-bar::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 1px;
+    margin: 10px auto 0;
+    background: linear-gradient(90deg, transparent, var(--accent), #d4889a, #d4a843, var(--accent), transparent);
+    background-size: 300% 100%;
+    animation: lineGlow 6s ease-in-out infinite;
+}
+
+@keyframes lineGlow {
+    0%, 100% { background-position: 0% 50%; opacity: 0.4; }
+    50% { background-position: 100% 50%; opacity: 0.8; }
+}
+
+/* Sound Toggle */
+.sound-toggle {
+    position: fixed;
+    top: 24px;
+    right: 28px;
+    z-index: 200;
+    font-size: 24px;
+    color: var(--text-dim);
+    opacity: 0.7;
+    transition: all 0.6s var(--ease-nv);
+    padding: 8px;
+}
+.sound-toggle:hover, .sound-toggle.active {
+    opacity: 1;
+    color: var(--accent);
+    transform: scale(1.2);
+}
+
+/* ========================================
+   PAGE CONTENT (scrollable)
+   ======================================== */
+.page-content {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+/* ========================================
+   HERO SECTION: Quote + Reel + Networks
+   ======================================== */
+.hero {
+    text-align: center;
+    padding: 20px clamp(24px, 6vw, 80px) 40px;
+}
+
+.director-statement {
+    margin-bottom: 24px;
+}
+.director-statement span {
+    font-family: var(--font-serif);
+    font-size: 16px;
+    font-style: italic;
+    color: var(--text-dim);
+    opacity: 0.7;
+    letter-spacing: 0.5px;
+}
+
+.typewriter-cursor {
+    font-style: normal;
+    color: var(--accent);
+    animation: cursorBlink 0.8s step-end infinite;
+}
+
+@keyframes cursorBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.reel-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    aspect-ratio: 16/9;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.reel-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(135deg, rgba(201, 145, 122, 0.08), rgba(180, 100, 80, 0.05), transparent),
+        radial-gradient(ellipse at center, transparent 50%, rgba(5, 5, 5, 0.6) 100%);
+    pointer-events: none;
+}
+.reel-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+    transition: filter 0.8s var(--ease-nv);
+}
+.reel-container:hover video {
+    filter: brightness(1.1);
+}
+
+.hero .networks {
+    display: none;
+}
+.networks {
+    position: fixed;
+    bottom: 52px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.networks span {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+}
+.net-dot {
+    width: 3px;
+    height: 3px;
+    background: var(--text-muted);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Cinematic Reveal Animations */
+@keyframes revealUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes revealScale {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes curtainOpen {
+    from { clip-path: inset(50% 0); }
+    to { clip-path: inset(0% 0); }
+}
+
+.director-statement {
+    animation: revealUp 1s var(--ease-nv) both;
+    animation-delay: 0.4s;
+}
+
+.reel-container {
+    animation: curtainOpen 1.4s var(--ease-nv) both, revealScale 1.4s var(--ease-nv) both;
+    animation-delay: 0.6s;
+}
+
+.filters .pill {
+    animation: revealUp 0.6s var(--ease-nv) both;
+}
+.filters .pill:nth-child(1) { animation-delay: 0.8s; }
+.filters .pill:nth-child(2) { animation-delay: 0.9s; }
+.filters .pill:nth-child(3) { animation-delay: 1.0s; }
+.filters .pill:nth-child(4) { animation-delay: 1.1s; }
+.filters .pill:nth-child(5) { animation-delay: 1.2s; }
+.filters .pill:nth-child(6) { animation-delay: 1.3s; }
+
+/* Scroll Arrow */
+.scroll-arrow {
+    text-align: center;
+    font-size: 20px;
+    color: var(--text-muted);
+    padding: 20px 0 10px;
+    animation: arrowBounce 2s ease-in-out infinite;
+    opacity: 0.4;
+}
+
+@keyframes arrowBounce {
+    0%, 100% { transform: translateY(0); opacity: 0.4; }
+    50% { transform: translateY(8px); opacity: 0.7; }
+}
+
+/* ========================================
+   FILMS SECTION
+   ======================================== */
+.films-section {
+    padding: 40px clamp(40px, 8vw, 120px);
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Category Filters */
+.filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* ========================================
+   FILM GRID
+   ======================================== */
+.film-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.film-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Film Item (wrapper for link + inline preview) */
+.film-item {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.film-link {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    padding: 10px 10px 10px 20px;
+    transition: all 0.6s var(--ease-nv);
+    position: relative;
+    display: block;
+    z-index: 5;
+}
+.film-link:hover {
+    color: var(--text);
+    transform: translateX(15px);
+}
+.film-link[data-cat="thriller"]:hover {
+    color: #e06060;
+}
+.film-link[data-cat="romance"]:hover {
+    color: #e899ac;
+}
+.film-link[data-cat="holiday"]:hover {
+    color: #e8b84a;
+}
+.film-link[data-cat="series"]:hover {
+    color: #8ac8d9;
+}
+.film-link[data-cat="drama"]:hover {
+    color: #b8a0e8;
+}
+.film-link::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    opacity: 0;
+    transition: opacity 0.6s var(--ease-nv);
+}
+.film-link:hover::before {
+    opacity: 1;
+}
+
+.film-link .year {
+    font-size: 9px;
+    color: var(--text-muted);
+    margin-left: 6px;
+    opacity: 0.5;
+    transition: opacity 0.6s var(--ease-nv);
+}
+.film-link:hover .year {
+    opacity: 1;
+}
+
+/* Stagger entrance */
+.film-link.stagger-in {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: staggerReveal 0.6s var(--ease-nv) forwards;
+}
+@keyframes staggerReveal {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Filtered states */
+.film-link.filtered-out {
+    opacity: 0.08;
+    pointer-events: none;
+}
+.film-link.filtered-in {
+    color: var(--text) !important;
+}
+.film-link.filtered-in[data-cat="thriller"] { color: #e06060 !important; }
+.film-link.filtered-in[data-cat="romance"] { color: #e899ac !important; }
+.film-link.filtered-in[data-cat="holiday"] { color: #e8b84a !important; }
+.film-link.filtered-in[data-cat="series"] { color: #8ac8d9 !important; }
+.film-link.filtered-in[data-cat="drama"] { color: #b8a0e8 !important; }
+
+/* ========================================
+   INLINE VIDEO PREVIEW (expands under title)
+   ======================================== */
+.inline-preview {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s var(--ease-nv), opacity 0.6s var(--ease-nv);
+    opacity: 0;
+    pointer-events: none;
+    position: relative;
+    z-index: 0;
+}
+.inline-preview.active {
+    max-height: 240px;
+    opacity: 1;
+}
+.inline-preview video,
+.inline-preview img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    pointer-events: none;
+}
+
+/* ========================================
+   BOTTOM BAR (fixed)
+   ======================================== */
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 20px 28px;
+    background: linear-gradient(0deg, var(--bg), rgba(5,5,5,0.8), transparent);
+}
+.bottom-link {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    transition: color 0.6s var(--ease-nv);
+}
+.bottom-link:hover { color: var(--text); }
+
+/* ========================================
+   ABOUT OVERLAY
+   ======================================== */
+.about-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    background: var(--bg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    clip-path: inset(0 0 100% 0);
+    transition: opacity 0.8s var(--ease-nv), clip-path 0.8s var(--ease-nv), visibility 0.8s;
+    overflow-y: auto;
+    padding: 40px 0;
+}
+.about-overlay.open {
+    opacity: 1;
+    visibility: visible;
+    clip-path: inset(0 0 0 0);
+}
+.about-close {
+    position: fixed;
+    top: 24px;
+    right: 32px;
+    font-size: 32px;
+    color: var(--text-dim);
+    z-index: 210;
+    transition: color 0.3s;
+}
+.about-close:hover { color: var(--text); }
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: clamp(40px, 6vw, 100px);
+    max-width: 1000px;
+    padding: 60px clamp(24px, 4vw, 60px);
+    align-items: center;
+}
+.about-photo {
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.about-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+}
+.about-text h2 {
+    font-family: var(--font-serif);
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 400;
+    margin-bottom: 24px;
+    background: linear-gradient(135deg, var(--accent), #d4889a, #d4a843, var(--accent));
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: nameGradient 12s ease-in-out infinite;
+}
+.about-text p {
+    font-family: var(--font-body);
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+}
+.about-roles {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.about-links .pill,
+.about-roles .pill {
+    opacity: 1;
+    color: var(--text-dim);
+    border-color: var(--text-dim);
+}
+
+.about-links .pill:hover,
+.about-roles .pill:hover {
+    color: var(--text);
+    border-color: var(--text);
+}
+
+.about-bts { margin-top: 32px; }
+.about-bts h3 {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+}
+.bts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+}
+.bts-grid img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 3px;
+    transition: opacity 0.6s var(--ease-nv);
+}
+.bts-grid img:hover { opacity: 0.8; }
+.about-links {
+    display: flex;
+    gap: 8px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+/* ========================================
+   PROJECT DETAIL OVERLAY
+   ======================================== */
+.project-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    background: var(--bg);
+    opacity: 0;
+    visibility: hidden;
+    clip-path: inset(100% 0 0 0);
+    transition: opacity 0.8s var(--ease-nv), clip-path 0.8s var(--ease-nv), visibility 0.8s;
+    overflow-y: auto;
+}
+.project-overlay.open {
+    opacity: 1;
+    visibility: visible;
+    clip-path: inset(0 0 0 0);
+}
+.project-close {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text);
+    padding: 7px 20px;
+    border: 1px solid var(--accent);
+    border-radius: 24px;
+    transition: all 0.6s var(--ease-nv);
+}
+.project-close:hover {
+    background: var(--accent);
+    color: var(--bg);
+}
+.project-header {
+    text-align: center;
+    padding: 80px 24px 48px;
+}
+.project-header .top-name {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: clamp(28px, 4vw, 44px);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, var(--accent), #d4889a, #d4a843, var(--accent));
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: nameGradient 12s ease-in-out infinite;
+    margin-bottom: 32px;
+    line-height: 1;
+}
+.project-title {
+    font-family: var(--font-serif);
+    font-size: clamp(40px, 8vw, 100px);
+    font-weight: 400;
+    line-height: 1.05;
+    color: var(--text);
+    margin-bottom: 24px;
+}
+.project-tags {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-gallery {
+    padding: 0 clamp(16px, 3vw, 48px) 120px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.project-gallery img {
+    width: 100%;
+    display: block;
+}
+.project-video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #000;
+}
+.project-video iframe,
+.project-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ========================================
+   MINI OVERLAYS (Writer / Actress)
+   ======================================== */
+.mini-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+    background: rgba(5, 5, 5, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s var(--ease-nv), visibility 0.6s;
+}
+.mini-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+.mini-overlay-close {
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    font-size: 36px;
+    color: var(--text-dim);
+    z-index: 301;
+    transition: color 0.3s;
+}
+.mini-overlay-close:hover {
+    color: var(--text);
+}
+.mini-overlay-content {
+    max-width: 500px;
+    padding: 40px;
+    text-align: center;
+}
+.mini-overlay-content h2 {
+    font-family: var(--font-serif);
+    font-size: clamp(24px, 3vw, 36px);
+    font-weight: 400;
+    margin-bottom: 32px;
+    background: linear-gradient(135deg, var(--accent), #d4889a, #d4a843, var(--accent));
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: nameGradient 12s ease-in-out infinite;
+}
+.credits-list {
+    text-align: left;
+}
+.credit-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+}
+.credit-title {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: var(--text);
+}
+.credit-year {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+}
+.credit-detail {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 0.5px;
+    text-align: right;
+}
+.credit-note {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* ========================================
+   LIGHTBOX
+   ======================================== */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 500;
+    background: rgba(5, 5, 5, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s var(--ease-nv), visibility 0.4s;
+}
+.lightbox.open {
+    opacity: 1;
+    visibility: visible;
+}
+.lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 4px;
+}
+.lightbox-close {
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    font-size: 36px;
+    color: var(--text-dim);
+    z-index: 501;
+    transition: color 0.3s;
+}
+.lightbox-close:hover {
+    color: var(--text);
+}
+
+.bts-clickable {
+    cursor: pointer;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+@media (max-width: 900px) {
+    .film-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
+}
+@media (max-width: 600px) {
+    .film-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .about-content { grid-template-columns: 1fr; }
+    .about-photo { max-width: 300px; }
+    .reel-container { aspect-ratio: 16/9; }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lindsay Hartley — Director & Writer</title>
+    <meta name="description" content="Lindsay Hartley - Director, writer, producer, actress. Over 25 features directed for Lifetime, Hulu, Crackle, Tubi, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=22">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+        <span class="top-name">Lindsay Hartley</span>
+        <span class="tagline">28 Features Directed · 2020—Present</span>
+    </header>
+
+    <!-- Sound Toggle -->
+    <button class="sound-toggle" id="soundToggle" title="Toggle sound">
+        <span class="sound-off">&#9834;</span>
+    </button>
+
+    <!-- Page Content (scrollable) -->
+    <div class="page-content">
+
+        <!-- Hero Section: Quote + Reel -->
+        <section class="hero">
+            <div class="director-statement">
+                <span id="typewriterText"></span><span class="typewriter-cursor">|</span>
+            </div>
+            <div class="reel-container">
+                <video id="bgReelVideo" autoplay muted loop playsinline>
+                    <source src="assets/bg-reel.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-arrow">&#8595;</div>
+
+        <!-- Films Section -->
+        <section class="films-section">
+            <!-- Category Filters -->
+            <div class="filters">
+                <button class="pill active" data-filter="all">All</button>
+                <button class="pill" data-filter="thriller">Thriller</button>
+                <button class="pill" data-filter="romance">Romance</button>
+                <button class="pill" data-filter="holiday">Holiday</button>
+                <button class="pill" data-filter="drama">Drama</button>
+                <button class="pill" data-filter="series">Series</button>
+            </div>
+
+            <!-- Film List -->
+            <div class="film-grid" id="filmGrid">
+                <div class="film-col">
+                    <div class="film-item"><a href="#" class="film-link" data-cat="series" data-img="assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.12.59 AM.jpeg" data-folder="Paranormal Nobodies">Paranormal Nobodies <span class="year">2023</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/The Lies We Bury/IMG_1520.jpg" data-folder="The Lies We Bury">The Lies We Bury <span class="year">2025</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-folder="Tempted">Tempted <span class="year">2025</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Her Fiances Double Life/IMG_3834.jpeg" data-folder="Her Fiances Double Life">Her Fiance's Double Life <span class="year">2023</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Vacation Home Nightmare/Screen Shot 2022-09-11 at 4.26.46 PM.jpg" data-folder="Vacation Home Nightmare">Vacation Home Nightmare <span class="year">2023</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller">Don't Breathe a Word <span class="year">2026</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.00.01 PM.jpg" data-folder="Secrets in the Sisterhood">Secrets in the Sisterhood <span class="year">2025</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller">Dressed to Kill <span class="year">2025</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller">Secrets of an Influencer <span class="year">2024</span></a><div class="inline-preview"></div></div>
+                </div>
+                <div class="film-col">
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/The Romeo and Juliet Killers/IMG_0083.jpg" data-folder="The Romeo and Juliet Killers">The Romeo &amp; Juliet Killers <span class="year">2022</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/In Love With My Partners Wife/IMG_2695.jpeg" data-folder="In Love With My Partners Wife">In Love With My Partner's Wife <span class="year">2022</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Killer Ambition/Screen Shot 2022-04-04 at 8.27.29 AM.jpeg" data-folder="Killer Ambition">Killer Ambition <span class="year">2021</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Deadly Debutante/IMG_2925.jpg" data-folder="Deadly Debutante">Deadly Debutante <span class="year">2021</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Trapped by My Sugar Daddy/IMG_1900.jpeg" data-folder="Trapped by My Sugar Daddy">Trapped by My Sugar Daddy <span class="year">2022</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.04.32 PM.jpeg" data-folder="What the Nanny Saw">What the Nanny Saw <span class="year">2022</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller">Bodyguard Seduction <span class="year">2022</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Forgotten Abduction/R3LX_SDI_20190619_152418.jpg" data-folder="Forgotten Abduction">Forgotten Abduction <span class="year">2020</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Beware the Night Nurse/IMG_0050.jpg" data-folder="Beware the Night Nurse">Beware the Night Nurse <span class="year">2023</span></a><div class="inline-preview"></div></div>
+                </div>
+                <div class="film-col">
+                    <div class="film-item"><a href="#" class="film-link" data-cat="romance" data-folder="The Boxer and the Butterfly">The Boxer and the Butterfly <span class="year">2023</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="romance" data-img="assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.08 PM.jpg" data-folder="Dare to Say Yes">Dare to Say Yes <span class="year">2023</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="romance" data-img="assets/Sweet Maple Romance/Screen Shot 2022-02-05 at 8.06.19 AM.jpg" data-folder="Sweet Maple Romance">Sweet Maple Romance <span class="year">2021</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="romance" data-folder="Postcards from the Heart">Postcards from the Heart <span class="year">2026</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday" data-img="assets/A Christmas Frequency/IMG_0291.jpg" data-folder="A Christmas Frequency">A Christmas Frequency <span class="year">2023</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday" data-folder="The Recipe Files">The Recipe Files <span class="year">2023</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday" data-folder="Christmas on Repeat">Christmas on Repeat <span class="year">2022</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday">A Taste of Christmas <span class="year">2026</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday">A Great Chocolate Date <span class="year">2026</span></a><div class="inline-preview"></div></div>
+                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday">The Christmas Mom <span class="year">2026</span></a><div class="inline-preview"></div></div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Network Credits -->
+    <div class="networks">
+        <span>Lifetime</span>
+        <span class="net-dot"></span>
+        <span>Hulu</span>
+        <span class="net-dot"></span>
+        <span>Tubi</span>
+        <span class="net-dot"></span>
+        <span>Crackle</span>
+        <span class="net-dot"></span>
+        <span>QVC+</span>
+    </div>
+
+    <!-- Bottom Bar -->
+    <footer class="bottom-bar">
+        <a href="#about" class="bottom-link">About</a>
+        <a href="https://youtu.be/TBFVFSCM6gk" target="_blank" rel="noopener" class="bottom-link">Director Reel</a>
+        <a href="https://www.imdb.com/name/nm0005102/" target="_blank" rel="noopener" class="bottom-link">IMDb</a>
+        <a href="mailto:lindsayhbh@gmail.com" class="bottom-link">Email</a>
+        <a href="https://www.instagram.com/lindsaynhartley/" target="_blank" rel="noopener" class="bottom-link">Instagram</a>
+    </footer>
+
+    <!-- About Overlay -->
+    <div class="about-overlay" id="aboutOverlay">
+        <button class="about-close" id="aboutClose">&times;</button>
+        <div class="about-content">
+            <div class="about-photo">
+                <img src="assets/Headshots/091A3182chosen.jpg" alt="Lindsay Hartley">
+            </div>
+            <div class="about-text">
+                <h2>About</h2>
+                <div class="about-roles">
+                    <a href="https://www.imdb.com/name/nm0005102/#director" target="_blank" rel="noopener" class="pill pill-active">Director</a>
+                    <button class="pill pill-active" id="writerBtn">Writer</button>
+                    <button class="pill pill-active" id="actressBtn">Actress</button>
+                </div>
+                <p>Lindsay Korman-Hartley is an actress, singer, writer, and director from Palm Springs, California. A performer from age eleven, she won national vocal competitions, headlined a Las Vegas show at sixteen, and went on to perform on Broadway in Grease!.</p>
+                <p>Lindsay is best known for her nine-year run as Theresa Lopez-Fitzgerald on the NBC soap opera Passions, earning a Soap Opera Digest Award nomination. She went on to star in Days of Our Lives, All My Children, Smallville, and General Hospital — accumulating over 2,000 episodes of television.</p>
+                <p>Her transition to film began with a lead in the Hallmark movie On Paper, followed by numerous Lifetime thrillers. In 2017, she starred in the first movie she wrote, Deadly Exchange. After penning ten produced screenplays, Lindsay moved behind the camera.</p>
+                <p>In June 2019, she directed her first feature, Forgotten Abduction, for Lifetime. Since then, she has directed over twenty-five features for Lifetime, Hulu, Crackle, and QVC+, including The Romeo and Juliet Killers for Tubi. Most recently, she produced, directed, and starred in the pilot for Paranormal Nobodies, a supernatural coming-of-age series.</p>
+                <div class="about-bts">
+                    <h3>On Set</h3>
+                    <div class="bts-grid">
+                        <img src="assets/Behind the Scenes/FECCE64F-CCF6-491C-A0E9-5899131C163B.jpg" alt="Lindsay Hartley on set" class="bts-clickable">
+                        <img src="assets/Behind the Scenes/IMG_2673.jpeg" alt="Lindsay Hartley directing" class="bts-clickable">
+                        <img src="assets/Behind the Scenes/IMG_6315.JPG" alt="Lindsay Hartley behind the scenes" class="bts-clickable">
+                        <img src="assets/Behind the Scenes/95A44038-0440-413B-A64E-6B956A98C4D0.jpg" alt="Lindsay Hartley directing on set" class="bts-clickable">
+                        <img src="assets/Behind the Scenes/IMG_9396.jpeg" alt="Lindsay Hartley with actress" class="bts-clickable">
+                        <img src="assets/Behind the Scenes/ParanormalNobodies_BTS_0264.jpg" alt="Lindsay Hartley reading script" class="bts-clickable">
+                    </div>
+                </div>
+                <div class="about-links">
+                    <a href="https://www.imdb.com/name/nm0005102/" target="_blank" rel="noopener" class="pill">IMDb</a>
+                    <a href="mailto:lindsayhbh@gmail.com" class="pill">Email</a>
+                    <a href="https://youtu.be/TBFVFSCM6gk" target="_blank" rel="noopener" class="pill">Director Reel</a>
+                    <a href="https://www.instagram.com/lindsaynhartley/" target="_blank" rel="noopener" class="pill">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Detail Overlay -->
+    <div class="project-overlay" id="projectOverlay">
+        <button class="project-close" id="projectClose">Home</button>
+        <div class="project-header">
+            <span class="top-name">Lindsay Hartley</span>
+            <h2 class="project-title" id="projectTitle"></h2>
+            <div class="project-tags" id="projectTags"></div>
+        </div>
+        <div class="project-gallery" id="projectGallery"></div>
+    </div>
+
+    <!-- Writer Overlay -->
+    <div class="mini-overlay" id="writerOverlay">
+        <button class="mini-overlay-close" id="writerClose">&times;</button>
+        <div class="mini-overlay-content">
+            <h2>10 Produced Screenplays</h2>
+            <div class="credits-list">
+                <div class="credit-item"><span class="credit-title">The Lies We Bury</span><span class="credit-year">2025</span></div>
+                <div class="credit-item"><span class="credit-title">Love, Bubbles & Crystal Cove</span><span class="credit-year">2021</span></div>
+                <div class="credit-item"><span class="credit-title">Love at the Ranch</span><span class="credit-year">2021</span></div>
+                <div class="credit-item"><span class="credit-title">For the Love of Chocolate</span><span class="credit-year">2021</span></div>
+                <div class="credit-item"><span class="credit-title">Deadly Daughter Switch</span><span class="credit-year">2020</span></div>
+                <div class="credit-item"><span class="credit-title">Murder at the Mansion</span><span class="credit-year">2020</span></div>
+                <div class="credit-item"><span class="credit-title">Dying for a Baby</span><span class="credit-year">2019</span></div>
+                <div class="credit-item"><span class="credit-title">Staged Killer</span><span class="credit-year">2019</span></div>
+                <div class="credit-item"><span class="credit-title">Dying for the Crown</span><span class="credit-year">2018</span></div>
+                <div class="credit-item"><span class="credit-title">Deadly Exchange</span><span class="credit-year">2017</span></div>
+            </div>
+            <a href="https://www.imdb.com/name/nm0005102/#writer" target="_blank" rel="noopener" class="pill" style="margin-top:24px;">Full Credits on IMDb</a>
+        </div>
+    </div>
+
+    <!-- Actress Overlay -->
+    <div class="mini-overlay" id="actressOverlay">
+        <button class="mini-overlay-close" id="actressClose">&times;</button>
+        <div class="mini-overlay-content">
+            <h2>2,000+ Episodes of Television</h2>
+            <div class="credits-list">
+                <div class="credit-item"><span class="credit-title">Passions</span><span class="credit-detail">Theresa Lopez-Fitzgerald · NBC · 1999–2008</span></div>
+                <div class="credit-item"><span class="credit-title">General Hospital</span><span class="credit-detail">Sam McCall · ABC · 2020–2024</span></div>
+                <div class="credit-item"><span class="credit-title">Days of Our Lives</span><span class="credit-detail">Arianna Hernandez · NBC · 2009–2010</span></div>
+                <div class="credit-item"><span class="credit-title">All My Children</span><span class="credit-detail">Cara Castillo · ABC · 2010–2013</span></div>
+                <div class="credit-item"><span class="credit-title">Smallville</span><span class="credit-detail">Mad Harriet · The CW · 2010</span></div>
+                <div class="credit-item"><span class="credit-title">CSI</span><span class="credit-detail">Gretchen Javid · CBS · 2009</span></div>
+            </div>
+            <p class="credit-note">20+ Lifetime original movies as lead actress</p>
+            <a href="https://www.imdb.com/name/nm0005102/#actress" target="_blank" rel="noopener" class="pill" style="margin-top:24px;">Full Credits on IMDb</a>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img id="lightboxImg" src="" alt="">
+    </div>
+
+    <script src="script.js?v=21"></script>
+</body>
+</html>
