@@ -1018,6 +1018,7 @@ img { max-width: 100%; display: block; }
     .networks { display: none !important; }
     .hamburger { display: flex; }
     .mobile-menu { display: flex; }
+    .about-links { display: none !important; }
 
     /* Letterbox bars thinner */
     body::after {
