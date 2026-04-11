@@ -429,6 +429,16 @@ img { max-width: 100%; display: block; }
     color: var(--text);
     transform: translateX(15px);
 }
+
+@media (hover: none) {
+    .film-link:hover {
+        transform: none;
+    }
+    .film-link::before {
+        display: none;
+    }
+}
+
 .film-link[data-cat="thriller"]:hover {
     color: #e06060;
 }
@@ -897,18 +907,219 @@ img { max-width: 100%; display: block; }
 /* ========================================
    RESPONSIVE
    ======================================== */
+
+/* Tablet */
 @media (max-width: 900px) {
     .film-grid {
         grid-template-columns: 1fr 1fr;
-        gap: 32px;
-    }
-}
-@media (max-width: 600px) {
-    .film-grid {
-        grid-template-columns: 1fr;
         gap: 24px;
     }
-    .about-content { grid-template-columns: 1fr; }
-    .about-photo { max-width: 300px; }
-    .reel-container { aspect-ratio: 16/9; }
+    .films-section {
+        padding: 30px 32px;
+    }
+    .about-content {
+        gap: 40px;
+        padding: 60px 32px;
+    }
+    .bts-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    /* Hide custom cursor on touch devices */
+    .cursor { display: none !important; }
+    body, a, button { cursor: auto !important; }
+
+    /* Letterbox bars thinner */
+    body::after {
+        border-top-width: 6px;
+        border-bottom-width: 6px;
+    }
+
+    /* Top bar */
+    .top-bar {
+        padding: 16px 16px 12px;
+    }
+    .top-name {
+        font-size: 22px;
+        letter-spacing: 0.05em;
+    }
+    .tagline {
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+    .top-bar::after {
+        width: 80px;
+        margin-top: 8px;
+    }
+
+    /* Sound toggle */
+    .sound-toggle {
+        top: 16px;
+        right: 16px;
+        font-size: 20px;
+    }
+
+    /* Page content */
+    .page-content {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 16px 16px 30px;
+    }
+    .director-statement {
+        margin-bottom: 20px;
+    }
+    .director-statement span {
+        font-size: 13px;
+    }
+    .reel-container {
+        border-radius: 3px;
+    }
+
+    /* Networks */
+    .networks {
+        bottom: 46px;
+        gap: 8px;
+    }
+    .networks span {
+        font-size: 8px;
+        letter-spacing: 1.5px;
+    }
+
+    /* Filters */
+    .filters {
+        margin-bottom: 24px;
+        gap: 6px;
+        justify-content: flex-start;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 8px;
+        -webkit-overflow-scrolling: touch;
+    }
+    .pill {
+        font-size: 10px;
+        padding: 6px 14px;
+        letter-spacing: 1px;
+    }
+
+    /* Films section */
+    .films-section {
+        padding: 20px 20px;
+    }
+    .film-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    .film-link {
+        font-size: 12px;
+        padding: 10px 0 10px 12px;
+    }
+    .film-link:hover {
+        transform: translateX(8px);
+    }
+    .film-link .year {
+        font-size: 8px;
+    }
+
+    /* Inline preview */
+    .inline-preview.active {
+        max-height: 180px;
+    }
+
+    /* Bottom bar */
+    .bottom-bar {
+        gap: 16px;
+        padding: 14px 16px;
+    }
+    .bottom-link {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    /* About overlay */
+    .about-overlay {
+        padding: 20px 0;
+    }
+    .about-content {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+        gap: 24px;
+    }
+    .about-photo {
+        max-width: 240px;
+        margin: 0 auto;
+    }
+    .about-text h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .about-text p {
+        font-size: 13px;
+    }
+    .about-roles {
+        justify-content: center;
+    }
+    .bts-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+    }
+    .about-links {
+        justify-content: center;
+    }
+    .about-close {
+        top: 16px;
+        right: 20px;
+        font-size: 28px;
+    }
+
+    /* Project overlay */
+    .project-header {
+        padding: 60px 16px 32px;
+    }
+    .project-title {
+        font-size: clamp(28px, 7vw, 60px);
+    }
+    .project-gallery {
+        padding: 0 12px 100px;
+    }
+    .project-close {
+        bottom: 30px;
+        font-size: 11px;
+        padding: 8px 22px;
+    }
+
+    /* Mini overlays */
+    .mini-overlay-content {
+        padding: 24px 20px;
+        max-width: 100%;
+    }
+    .mini-overlay-content h2 {
+        font-size: 22px;
+    }
+    .credit-title {
+        font-size: 12px;
+    }
+    .credit-detail {
+        font-size: 9px;
+    }
+    .mini-overlay-close {
+        top: 16px;
+        right: 20px;
+    }
+
+    /* Lightbox */
+    .lightbox img {
+        max-width: 95vw;
+        max-height: 80vh;
+    }
+    .lightbox-close {
+        top: 16px;
+        right: 20px;
+    }
 }
