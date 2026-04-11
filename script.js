@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const videoWrap = document.createElement('div');
                     videoWrap.className = 'project-video';
 
-                    if (trailer.includes('youtube.com') || trailer.includes('vimeo.com')) {
+                    if (trailer.includes('youtube.com') || trailer.includes('vimeo.com') || trailer.includes('dailymotion.com')) {
                         var src = trailer;
                         if (src.includes('youtube.com') && !src.includes('autoplay=1')) {
                             src += (src.includes('?') ? '&' : '?') + 'autoplay=1&mute=1';
