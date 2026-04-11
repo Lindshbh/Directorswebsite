@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const cat = link.getAttribute('data-cat');
 
             projectTitle.textContent = title;
-            projectTags.innerHTML = '<span class="pill pill-active">Director</span><span class="pill pill-active">' + cat.charAt(0).toUpperCase() + cat.slice(1) + '</span>';
+            projectTags.innerHTML = '<button class="pill project-home-pill">Home</button><span class="pill pill-active">Director</span><span class="pill pill-active">' + cat.charAt(0).toUpperCase() + cat.slice(1) + '</span>';
 
             // Load gallery
             projectGallery.innerHTML = '';
@@ -219,6 +219,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             } else {
                 projectGallery.innerHTML = '<p style="text-align:center;color:#4a4640;font-size:13px;letter-spacing:2px;text-transform:uppercase;padding:80px 0;">Gallery coming soon</p>';
+            }
+
+            // Make Home pill clickable
+            const homePill = projectTags.querySelector('.project-home-pill');
+            if (homePill) {
+                homePill.addEventListener('click', () => closeProject());
             }
 
             projectOverlay.classList.add('open');
