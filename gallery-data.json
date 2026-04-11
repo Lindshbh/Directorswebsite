@@ -275,7 +275,31 @@
   },
   "The Boxer and the Butterfly": {
     "clip": "assets/clips/final-boxer-butterfly.mp4",
-    "trailer": "https://www.youtube.com/embed/G0Ls2itJgEs"
+    "trailer": "https://www.youtube.com/embed/G0Ls2itJgEs",
+    "images": [
+      "assets/The Boxer and the Butterfly/still_3.jpg",
+      "assets/The Boxer and the Butterfly/still_4.jpg",
+      "assets/The Boxer and the Butterfly/still_6.jpg",
+      "assets/The Boxer and the Butterfly/still_7.jpg",
+      "assets/The Boxer and the Butterfly/still_8.jpg",
+      "assets/The Boxer and the Butterfly/still_9.jpg",
+      "assets/The Boxer and the Butterfly/still_10.jpg",
+      "assets/The Boxer and the Butterfly/still_11.jpg",
+      "assets/The Boxer and the Butterfly/still_12.jpg",
+      "assets/The Boxer and the Butterfly/still_13.jpg",
+      "assets/The Boxer and the Butterfly/still_17.jpg",
+      "assets/The Boxer and the Butterfly/still_18.jpg",
+      "assets/The Boxer and the Butterfly/still_19.jpg",
+      "assets/The Boxer and the Butterfly/still_20.jpg",
+      "assets/The Boxer and the Butterfly/still_21.jpg",
+      "assets/The Boxer and the Butterfly/still_22.jpg",
+      "assets/The Boxer and the Butterfly/still_23.jpg",
+      "assets/The Boxer and the Butterfly/still_24.jpg",
+      "assets/The Boxer and the Butterfly/still_25.jpg",
+      "assets/The Boxer and the Butterfly/still_26.jpg",
+      "assets/The Boxer and the Butterfly/still_27.jpg",
+      "assets/The Boxer and the Butterfly/still_30.jpg"
+    ]
   },
   "The Recipe Files": {
     "clip": "assets/clips/final-recipe-files.mp4",
