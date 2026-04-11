@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const aboutOverlay = document.getElementById('aboutOverlay');
     const aboutClose = document.getElementById('aboutClose');
 
-    document.querySelectorAll('a[href="#about"]').forEach(link => {
+    document.querySelectorAll('a[href="#about"], .mobile-menu-link[href="#about"]').forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             aboutOverlay.classList.add('open');
@@ -363,6 +363,27 @@ document.addEventListener('DOMContentLoaded', () => {
             lightbox.classList.remove('open');
         }
     });
+
+    // ==========================================
+    // HAMBURGER MENU
+    // ==========================================
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    if (hamburger && mobileMenu) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            mobileMenu.classList.toggle('open');
+        });
+
+        // Close menu when a link is clicked
+        mobileMenu.querySelectorAll('.mobile-menu-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('open');
+                mobileMenu.classList.remove('open');
+            });
+        });
+    }
 
     // Close overlays on Escape
     document.addEventListener('keydown', (e) => {

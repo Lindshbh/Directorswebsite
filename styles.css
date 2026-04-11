@@ -552,6 +552,76 @@ img { max-width: 100%; display: block; }
 }
 .bottom-link:hover { color: var(--text); }
 
+/* Hamburger Menu (hidden on desktop) */
+.hamburger {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 300;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: rgba(5, 5, 5, 0.9);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+}
+.hamburger span {
+    display: block;
+    width: 20px;
+    height: 1.5px;
+    background: var(--text-dim);
+    transition: all 0.4s var(--ease-nv);
+    margin: 0 auto;
+}
+.hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(4px, 4px);
+}
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -4px);
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    bottom: 74px;
+    right: 20px;
+    z-index: 299;
+    background: rgba(5, 5, 5, 0.95);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 24px;
+    flex-direction: column;
+    gap: 16px;
+    opacity: 0;
+    transform: translateY(10px);
+    visibility: hidden;
+    transition: all 0.4s var(--ease-nv);
+}
+.mobile-menu.open {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+.mobile-menu-link {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    transition: color 0.4s var(--ease-nv);
+}
+.mobile-menu-link:hover {
+    color: var(--text);
+}
+
 /* ========================================
    ABOUT OVERLAY
    ======================================== */
@@ -942,6 +1012,12 @@ img { max-width: 100%; display: block; }
     /* Hide custom cursor on touch devices */
     .cursor { display: none !important; }
     body, a, button { cursor: auto !important; }
+
+    /* Hamburger menu */
+    .bottom-bar { display: none !important; }
+    .networks { display: none !important; }
+    .hamburger { display: flex; }
+    .mobile-menu { display: flex; }
 
     /* Letterbox bars thinner */
     body::after {
