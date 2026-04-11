@@ -286,6 +286,15 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.overflow = '';
     });
 
+    const aboutHomeBtn = document.getElementById('aboutHomeBtn');
+    if (aboutHomeBtn) {
+        aboutHomeBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            aboutOverlay.classList.remove('open');
+            document.body.style.overflow = '';
+        });
+    }
+
     // ==========================================
     // SOUND TOGGLE
     // ==========================================
