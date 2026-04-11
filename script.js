@@ -234,12 +234,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    projectClose.addEventListener('click', () => {
+    const projectHomeBtn = document.getElementById('projectHomeBtn');
+
+    function closeProject() {
         projectOverlay.classList.remove('open');
         document.body.style.overflow = '';
         projectGallery.querySelectorAll('video').forEach(v => v.pause());
         projectGallery.querySelectorAll('iframe').forEach(f => f.src = '');
-    });
+    }
+
+    if (projectHomeBtn) {
+        projectHomeBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            closeProject();
+        });
+    }
 
     // About link inside project overlay
     document.querySelectorAll('.project-about-link').forEach(link => {
