@@ -521,9 +521,6 @@ img { max-width: 100%; display: block; }
     opacity: 0.08;
     pointer-events: none;
 }
-.film-link.filtered-in {
-    color: var(--text) !important;
-}
 .film-link.filtered-in[data-cat="thriller"] { color: #e06060 !important; }
 .film-link.filtered-in[data-cat="romance"] { color: #e899ac !important; }
 .film-link.filtered-in[data-cat="holiday"] { color: #e8b84a !important; }
