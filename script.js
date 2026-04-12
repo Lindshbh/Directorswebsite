@@ -498,3 +498,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
+// Loading screen
+window.addEventListener('load', () => {
+    const ls = document.getElementById('loadingScreen');
+    if (ls) {
+        setTimeout(() => ls.classList.add('fade-out'), 300);
+        setTimeout(() => ls.remove(), 1500);
+    }
+});

@@ -19,6 +19,18 @@
     --ease-nv: cubic-bezier(.77, 0, .175, 1);
 }
 
+.loading-screen {
+    position: fixed;
+    inset: 0;
+    background: #0c100e;
+    z-index: 9999;
+    transition: opacity 1s ease;
+}
+.loading-screen.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
 /* Reset */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
@@ -1057,22 +1069,20 @@ img { max-width: 100%; display: block; }
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
-    aspect-ratio: 16/9;
     overflow: hidden;
     border-radius: 4px;
-    opacity: 0;
-    height: 0;
-    transition: opacity 0.6s var(--ease), height 0.6s var(--ease), margin 0.6s var(--ease);
+    display: none;
 }
 .romance-reel-preview.active {
-    opacity: 1;
-    height: auto;
+    display: block;
     margin: 20px auto 10px;
 }
 .romance-reel-preview video {
     width: 100%;
     display: block;
     border-radius: 4px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 
 /* Back to Top Button */
