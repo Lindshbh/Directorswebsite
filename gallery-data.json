@@ -517,7 +517,6 @@
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.45.44 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.40.08 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.14.09 PM.jpeg",
-      "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.06.15 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.19.33 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.12.59 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.06.59 AM.jpeg",
@@ -530,7 +529,6 @@
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.01.00 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.59.25 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.09.29 AM.jpeg",
-      "assets/Paranormal Nobodies/IMG_7126.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.02.17 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.06.36 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.16.56 AM.jpeg",
@@ -539,7 +537,6 @@
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.29.43 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.30.08 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.32.30 AM.jpeg",
-      "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.37.36 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 2.48.10 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 2.48.58 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 2.53.31 PM.jpeg",
@@ -547,7 +544,6 @@
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.01.13 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.03.59 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.40.02 PM.jpeg",
-      "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.40.17 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.41.21 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.44.01 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.06.26 PM.jpeg",
@@ -569,12 +565,8 @@
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.02.16 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.18.08 PM.jpg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.20.05 PM.jpeg",
-      "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.11.32 AM.jpeg",
-      "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.13.09 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.33.32 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.37.25 AM.jpeg",
-      "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.40.56 AM.jpeg",
-      "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.52.27 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.00.43 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.12.41 AM.jpg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.52.26 AM.jpeg",
@@ -589,35 +581,30 @@
         "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.00.04 AM.jpeg"
       },
       {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.36.42 AM.jpeg"
-      },
-      {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.45.44 PM.jpeg"
+        "type": "pair",
+        "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.36.42 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.45.44 PM.jpeg"
+        ]
       },
       {
         "type": "trio",
         "src": [
           "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.40.08 PM.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.14.09 PM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.06.15 PM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.19.33 PM.jpeg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.19.33 PM.jpeg"
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.12.59 AM.jpeg"
       },
       {
         "type": "pair",
         "src": [
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.12.59 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.06.59 AM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.06.59 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.21.54 AM.jpeg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.21.54 AM.jpeg"
       },
       {
         "type": "trio",
@@ -639,14 +626,10 @@
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.59.25 AM.jpeg"
-      },
-      {
         "type": "trio",
         "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.59.25 AM.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.09.29 AM.jpeg",
-          "assets/Paranormal Nobodies/IMG_7126.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.02.17 AM.jpeg"
         ]
       },
@@ -662,20 +645,16 @@
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.25.03 AM.jpeg"
-      },
-      {
         "type": "trio",
         "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.25.03 AM.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.29.43 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.30.08 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.32.30 AM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.30.08 AM.jpeg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.37.36 AM.jpeg"
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.32.30 AM.jpeg"
       },
       {
         "type": "pair",
@@ -685,112 +664,92 @@
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 2.53.31 PM.jpeg"
-      },
-      {
         "type": "trio",
         "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 2.53.31 PM.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 2.54.40 PM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.01.13 PM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.03.59 PM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.01.13 PM.jpeg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.40.02 PM.jpeg"
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.03.59 PM.jpeg"
       },
       {
         "type": "pair",
         "src": [
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.40.17 PM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.40.02 PM.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.41.21 PM.jpeg"
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.44.01 PM.jpeg"
-      },
-      {
         "type": "trio",
         "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.44.01 PM.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.06.26 PM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.17.11 PM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.37.28 AM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.17.11 PM.jpeg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.38.06 AM.jpeg"
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.37.28 AM.jpeg"
       },
       {
         "type": "pair",
         "src": [
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.49.14 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.55.04 AM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.38.06 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.49.14 AM.jpeg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.59.43 AM.jpeg"
       },
       {
         "type": "trio",
         "src": [
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.04.25 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.10.33 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.18.18 AM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.55.04 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.59.43 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.04.25 AM.jpeg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.24.02 AM.jpeg"
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.10.33 AM.jpeg"
       },
       {
         "type": "pair",
+        "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.18.18 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.24.02 AM.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
         "src": [
           "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.27.09 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.30.41 AM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.30.41 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.38.09 AM.jpeg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.38.09 AM.jpeg"
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.39.00 AM.jpeg"
       },
       {
-        "type": "trio",
+        "type": "pair",
         "src": [
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.39.00 AM.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.46.52 AM.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.02.16 PM.jpeg"
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.18.08 PM.jpg"
-      },
-      {
-        "type": "pair",
-        "src": [
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.20.05 PM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.11.32 AM.jpeg"
-        ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.13.09 AM.jpeg"
-      },
-      {
         "type": "trio",
         "src": [
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.33.32 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.37.25 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.40.56 AM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.18.08 PM.jpg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.20.05 PM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.33.32 AM.jpeg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.52.27 AM.jpeg"
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.37.25 AM.jpeg"
       },
       {
         "type": "pair",
@@ -800,16 +759,16 @@
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.52.26 AM.jpeg"
-      },
-      {
         "type": "trio",
         "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.52.26 AM.jpeg",
           "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.59.59 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 9.03.22 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 9.10.37 AM.jpeg"
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 9.03.22 AM.jpeg"
         ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 9.10.37 AM.jpeg"
       }
     ]
   },
