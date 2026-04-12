@@ -166,8 +166,8 @@ img { max-width: 100%; display: block; }
     right: 0;
     z-index: 100;
     text-align: center;
-    padding: 20px 24px 16px;
-    background: linear-gradient(180deg, var(--bg), rgba(5,5,5,0.9), transparent);
+    padding: 20px 24px 12px;
+    background: linear-gradient(180deg, var(--bg) 0%, var(--bg) 70%, rgba(5,5,5,0) 100%);
 }
 .top-name {
     font-family: var(--font-serif);
@@ -1147,69 +1147,7 @@ img { max-width: 100%; display: block; }
     transform: scale(1.02);
 }
 
-/* Timeline */
-.timeline {
-    padding: 30px 0 10px;
-    max-width: 700px;
-    margin: 0 auto;
-}
-.timeline h3 {
-    font-family: var(--font-heading);
-    font-size: 18px;
-    color: var(--text);
-    text-align: center;
-    margin-bottom: 24px;
-    letter-spacing: 0.05em;
-}
-.timeline-track {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 8px;
-    padding: 0 20px;
-    position: relative;
-}
-.timeline-track::after {
-    content: '';
-    position: absolute;
-    bottom: 28px;
-    left: 20px;
-    right: 20px;
-    height: 1px;
-    background: var(--text-dim);
-    opacity: 0.3;
-}
-.timeline-year {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    position: relative;
-    z-index: 1;
-}
-.timeline-bar {
-    width: 36px;
-    background: linear-gradient(to top, var(--accent), var(--cat-romance));
-    border-radius: 3px 3px 0 0;
-    transition: height 1s var(--ease), opacity 1s var(--ease);
-    opacity: 0;
-    min-height: 4px;
-}
-.timeline-bar.visible {
-    opacity: 1;
-}
-.timeline-count {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--accent);
-    font-weight: 500;
-}
-.timeline-label {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    color: var(--text-dim);
-    letter-spacing: 1px;
-}
+
 
 /* Film cut transition */
 .film-cut {
@@ -1516,29 +1454,6 @@ img { max-width: 100%; display: block; }
     .lightbox-close {
         top: 16px;
         right: 20px;
-    }
-
-    /* Timeline mobile */
-    .timeline {
-        padding: 20px 0 8px;
-    }
-    .timeline h3 {
-        font-size: 15px;
-        margin-bottom: 16px;
-    }
-    .timeline-track {
-        gap: 4px;
-        padding: 0 10px;
-    }
-    .timeline-bar {
-        width: 24px;
-    }
-    .timeline-count {
-        font-size: 9px;
-    }
-    .timeline-label {
-        font-size: 8px;
-        letter-spacing: 0.5px;
     }
 
     /* Romance reel preview mobile */
