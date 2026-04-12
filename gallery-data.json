@@ -17,8 +17,7 @@
       "assets/Beware the Night Nurse/IMG_0063.jpg",
       "assets/Beware the Night Nurse/IMG_0064.jpg",
       "assets/Beware the Night Nurse/IMG_0065.jpg",
-      "assets/Beware the Night Nurse/IMG_4369.jpeg",
-      "assets/Beware the Night Nurse/IMG_8543.jpeg"
+      "assets/Beware the Night Nurse/IMG_4369.jpeg"
     ],
     "layout": [
       {
@@ -77,10 +76,6 @@
           "assets/Beware the Night Nurse/IMG_0065.jpg",
           "assets/Beware the Night Nurse/IMG_4369.jpeg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Beware the Night Nurse/IMG_8543.jpeg"
       }
     ]
   },
