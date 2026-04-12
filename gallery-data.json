@@ -2583,8 +2583,7 @@
       "assets/Don't Breathe a Word/IMG_2610.jpg",
       "assets/Don't Breathe a Word/IMG_2841.jpg",
       "assets/Don't Breathe a Word/IMG_2846.jpg",
-      "assets/Don't Breathe a Word/IMG_2847.jpg",
-      "assets/Don't Breathe a Word/poster.jpeg"
+      "assets/Don't Breathe a Word/IMG_2847.jpg"
     ],
     "layout": [
       {
@@ -2601,10 +2600,6 @@
       {
         "type": "wide",
         "src": "assets/Don't Breathe a Word/IMG_2847.jpg"
-      },
-      {
-        "type": "wide",
-        "src": "assets/Don't Breathe a Word/poster.jpeg"
       }
     ],
     "trailer": "https://www.youtube.com/embed/TvnRnBvh3LQ?start=25"
