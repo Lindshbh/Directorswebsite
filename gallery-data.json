@@ -2671,25 +2671,15 @@
   "Secrets of an Influencer": {
     "images": [
       "assets/Secrets of an Influencer/IMG_1040.jpeg",
-      "assets/Secrets of an Influencer/IMG_1041.jpeg",
-      "assets/Secrets of an Influencer/cover.jpeg",
-      "assets/Secrets of an Influencer/poster.jpeg"
+      "assets/Secrets of an Influencer/IMG_1041.jpeg"
     ],
     "layout": [
       {
-        "type": "wide",
-        "src": "assets/Secrets of an Influencer/IMG_1040.jpeg"
-      },
-      {
         "type": "pair",
         "src": [
-          "assets/Secrets of an Influencer/IMG_1041.jpeg",
-          "assets/Secrets of an Influencer/cover.jpeg"
+          "assets/Secrets of an Influencer/IMG_1040.jpeg",
+          "assets/Secrets of an Influencer/IMG_1041.jpeg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Secrets of an Influencer/poster.jpeg"
       }
     ]
   }
