@@ -373,10 +373,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             if (!isMuted) {
                 soundToggle.classList.add('active');
-                soundToggle.innerHTML = '&#9836;';
+                soundToggle.innerHTML = '&#9836; Sound';
             } else {
                 soundToggle.classList.remove('active');
-                soundToggle.innerHTML = '&#9834;';
+                soundToggle.innerHTML = '&#9834; Sound';
             }
         });
     }
