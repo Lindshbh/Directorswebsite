@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=71">
+    <link rel="stylesheet" href="styles.css?v=75">
 </head>
 <body>
 
@@ -48,7 +48,9 @@
                 <span id="typewriterText"></span><span class="typewriter-cursor">|</span>
             </div>
             <div class="reel-container">
-                <iframe id="bgReelVideo" src="" data-src="https://player.vimeo.com/video/1182310317?autoplay=1&muted=1&loop=1&background=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
+                <video id="bgReelVideo" autoplay muted loop playsinline>
+                    <source src="assets/bg-reel.mp4" type="video/mp4">
+                </video>
             </div>
         </section>
 

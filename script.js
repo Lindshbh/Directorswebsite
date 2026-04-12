@@ -371,19 +371,22 @@ document.addEventListener('DOMContentLoaded', () => {
     if (soundToggle && bgReelVideo) {
         let isMuted = true;
         soundToggle.addEventListener('click', () => {
-            if (bgReelVideo.tagName === 'VIDEO') {
-                bgReelVideo.muted = !bgReelVideo.muted;
-                isMuted = bgReelVideo.muted;
-            } else if (bgReelVideo.tagName === 'IFRAME') {
-                // Toggle mute via Vimeo postMessage API
-                const src = bgReelVideo.src;
-                if (isMuted) {
-                    bgReelVideo.src = src.replace('muted=1', 'muted=0').replace('background=1', 'background=0');
-                } else {
-                    bgReelVideo.src = src.replace('muted=0', 'muted=1').replace('background=0', 'background=1');
-                }
-                isMuted = !isMuted;
+            if (isMuted) {
+                // Swap to audio version
+                const currentTime = bgReelVideo.currentTime;
+                bgReelVideo.src = 'assets/bg-reel-audio.mp4';
+                bgReelVideo.currentTime = currentTime;
+                bgReelVideo.muted = false;
+                bgReelVideo.play().catch(() => {});
+            } else {
+                // Swap back to muted version
+                const currentTime = bgReelVideo.currentTime;
+                bgReelVideo.src = 'assets/bg-reel.mp4';
+                bgReelVideo.currentTime = currentTime;
+                bgReelVideo.muted = true;
+                bgReelVideo.play().catch(() => {});
             }
+            isMuted = !isMuted;
             if (!isMuted) {
                 soundToggle.classList.add('active');
                 soundToggle.innerHTML = '&#9836; Sound';
@@ -553,16 +556,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (track) timelineObserver.observe(track);
     }
 
-    // ==========================================
-    // DEFERRED VIMEO EMBED LOAD
-    // ==========================================
-    const bgReel = document.getElementById('bgReelVideo');
-    if (bgReel && bgReel.tagName === 'IFRAME') {
-        const reelSrc = bgReel.getAttribute('data-src');
-        if (reelSrc) {
-            setTimeout(() => { bgReel.src = reelSrc; }, 1500);
-        }
-    }
+    // (Vimeo deferred load removed — now using local mp4)
 
     // ==========================================
     // PRELOAD HOVER CLIPS (first 6 after page load)
