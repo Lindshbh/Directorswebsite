@@ -1304,7 +1304,90 @@
   },
   "Tempted": {
     "clip": "assets/clips/final-tempted.mp4",
-    "trailer": "https://www.youtube.com/embed/FKFiVbtC7as"
+    "trailer": "https://www.youtube.com/embed/FKFiVbtC7as",
+    "images": [
+      "assets/Tempted/still_1.jpg",
+      "assets/Tempted/still_2.jpg",
+      "assets/Tempted/still_3.jpg",
+      "assets/Tempted/still_5.jpg",
+      "assets/Tempted/still_6.jpg",
+      "assets/Tempted/still_7.jpg",
+      "assets/Tempted/still_8.jpg",
+      "assets/Tempted/still_10.jpg",
+      "assets/Tempted/still_12.jpg",
+      "assets/Tempted/still_13.jpg",
+      "assets/Tempted/still_14.jpg",
+      "assets/Tempted/still_15.jpg",
+      "assets/Tempted/still_17.jpg",
+      "assets/Tempted/still_18.jpg",
+      "assets/Tempted/still_19.jpg",
+      "assets/Tempted/still_20.jpg",
+      "assets/Tempted/still_21.jpg",
+      "assets/Tempted/still_25.jpg"
+    ],
+    "layout": [
+      {
+        "type": "wide",
+        "src": "assets/Tempted/still_1.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Tempted/still_2.jpg",
+          "assets/Tempted/still_3.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Tempted/still_5.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Tempted/still_6.jpg",
+          "assets/Tempted/still_7.jpg",
+          "assets/Tempted/still_8.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Tempted/still_10.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Tempted/still_12.jpg",
+          "assets/Tempted/still_13.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Tempted/still_14.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Tempted/still_15.jpg",
+          "assets/Tempted/still_17.jpg",
+          "assets/Tempted/still_18.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Tempted/still_19.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Tempted/still_20.jpg",
+          "assets/Tempted/still_21.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Tempted/still_25.jpg"
+      }
+    ]
   },
   "Postcards from the Heart": {},
   "Killer Ambition": {
