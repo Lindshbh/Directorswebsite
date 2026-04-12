@@ -1077,7 +1077,8 @@ img { max-width: 100%; display: block; }
     z-index: 10000;
     display: none;
     pointer-events: none;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.8);
+    background: #000;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.7), 0 20px 60px rgba(0,0,0,0.9);
 }
 .romance-reel-preview video {
     width: 100%;
