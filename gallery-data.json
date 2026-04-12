@@ -766,14 +766,12 @@
       "assets/Forgotten Abduction/still_19.jpg",
       "assets/Forgotten Abduction/still_21.jpg",
       "assets/Forgotten Abduction/still_22.jpg",
-      "assets/Forgotten Abduction/still_23.jpg",
       "assets/Forgotten Abduction/still_24.jpg",
       "assets/Forgotten Abduction/still_27.jpg",
       "assets/Forgotten Abduction/R3LX_SDI_20190619_152418.JPG",
       "assets/Forgotten Abduction/R3LX_SDI_20190619_164741.JPG",
       "assets/Forgotten Abduction/R3LX_SDI_20190621_160455.JPG",
-      "assets/Forgotten Abduction/R3LX_SDI_20190621_174741.JPG",
-      "assets/Forgotten Abduction/R3LX_SDI_20190621_193022.JPG"
+      "assets/Forgotten Abduction/R3LX_SDI_20190621_174741.JPG"
     ],
     "clip": "assets/clips/final-forgotten.mp4",
     "trailer": "https://www.dailymotion.com/embed/video/x8hrscg",
@@ -825,11 +823,8 @@
         "src": "assets/Forgotten Abduction/still_21.jpg"
       },
       {
-        "type": "pair",
-        "src": [
-          "assets/Forgotten Abduction/still_22.jpg",
-          "assets/Forgotten Abduction/still_23.jpg"
-        ]
+        "type": "wide",
+        "src": "assets/Forgotten Abduction/still_22.jpg"
       },
       {
         "type": "wide",
@@ -849,10 +844,6 @@
           "assets/Forgotten Abduction/R3LX_SDI_20190621_160455.JPG",
           "assets/Forgotten Abduction/R3LX_SDI_20190621_174741.JPG"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Forgotten Abduction/R3LX_SDI_20190621_193022.JPG"
       }
     ]
   },
