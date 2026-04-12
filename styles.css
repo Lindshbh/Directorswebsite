@@ -1278,8 +1278,7 @@ img { max-width: 100%; display: block; }
         letter-spacing: 2px;
     }
     .top-bar::after {
-        width: 80px;
-        margin-top: 8px;
+        display: none;
     }
 
     /* Sound toggle pill */
