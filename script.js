@@ -378,6 +378,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     // MINI OVERLAYS (Writer / Actress)
     // ==========================================
+    // ROMANCE REEL HOVER PREVIEW
+    // ==========================================
+    const romancePill = document.getElementById('romanceReelPill');
+    const romancePreview = document.getElementById('romanceReelPreview');
+    if (romancePill && romancePreview) {
+        romancePill.addEventListener('mouseenter', () => {
+            romancePreview.innerHTML = '<video src="assets/clips/romance-reel-clip.mp4" muted autoplay loop playsinline></video>';
+            romancePreview.classList.add('active');
+        });
+        romancePill.addEventListener('mouseleave', () => {
+            romancePreview.classList.remove('active');
+            setTimeout(() => { romancePreview.innerHTML = ''; }, 600);
+        });
+    }
+
+    // ==========================================
     const writerOverlay = document.getElementById('writerOverlay');
     const actressOverlay = document.getElementById('actressOverlay');
     const writerBtn = document.getElementById('writerBtn');
