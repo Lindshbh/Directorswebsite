@@ -247,7 +247,12 @@
       "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.27.15 PM.jpeg",
       "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.28.22 PM.jpeg",
       "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.45.36 PM.jpeg",
-      "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.48.09 PM.jpeg"
+      "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.48.09 PM.jpeg",
+      "assets/What the Nanny Saw/new_5.jpg",
+      "assets/What the Nanny Saw/new_7.jpg",
+      "assets/What the Nanny Saw/new_14.jpg",
+      "assets/What the Nanny Saw/new_23.jpg",
+      "assets/What the Nanny Saw/new_25.jpg"
     ],
     "clip": "assets/clips/final-nanny-saw.mp4",
     "trailer": "https://www.dailymotion.com/embed/video/x876e8l"
@@ -307,6 +312,13 @@
     ]
   },
   "Christmas on Repeat": {
+    "images": [
+      "assets/Christmas on Repeat/new_3.jpg",
+      "assets/Christmas on Repeat/new_15.jpg",
+      "assets/Christmas on Repeat/new_17.jpg",
+      "assets/Christmas on Repeat/new_18.jpg",
+      "assets/Christmas on Repeat/new_24.jpg"
+    ],
     "clip": "assets/clips/final-christmas-repeat.mp4",
     "trailer": "https://www.youtube.com/embed/QzYZreKJYaA"
   },
@@ -339,6 +351,18 @@
     ]
   },
   "The Recipe Files": {
+    "images": [
+      "assets/The Recipe Files/new_8.jpg",
+      "assets/The Recipe Files/new_9.jpg",
+      "assets/The Recipe Files/new_10.jpg",
+      "assets/The Recipe Files/new_11.jpg",
+      "assets/The Recipe Files/new_12.jpg",
+      "assets/The Recipe Files/new_13.jpg",
+      "assets/The Recipe Files/new_16.jpg",
+      "assets/The Recipe Files/new_17.jpg",
+      "assets/The Recipe Files/new_21.jpg",
+      "assets/The Recipe Files/new_22.jpg"
+    ],
     "clip": "assets/clips/final-recipe-files.mp4",
     "trailer": "https://www.youtube.com/embed/ijx6yxNAReY"
   },
@@ -349,20 +373,41 @@
   "Postcards from the Heart": {},
   "Killer Ambition": {
     "images": [
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 10.16.54 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 8.27.29 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 8.34.40 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 8.37.07 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 8.39.14 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 8.47.19 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 8.53.45 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 9.03.05 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 9.06.05 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 8.53.47 AM.jpeg",
-      "assets/Killer Ambition/Screen Shot 2022-04-04 at 10.05.06 AM.jpeg"
+      "assets/Killer Ambition/new_1.jpg",
+      "assets/Killer Ambition/new_3.jpg",
+      "assets/Killer Ambition/new_4.jpg",
+      "assets/Killer Ambition/new_5.jpg",
+      "assets/Killer Ambition/new_6.jpg",
+      "assets/Killer Ambition/new_7.jpg",
+      "assets/Killer Ambition/new_10.jpg",
+      "assets/Killer Ambition/new_12.jpg",
+      "assets/Killer Ambition/new_14.jpg",
+      "assets/Killer Ambition/new_15.jpg",
+      "assets/Killer Ambition/new_18.jpg",
+      "assets/Killer Ambition/new_21.jpg",
+      "assets/Killer Ambition/new_22.jpg",
+      "assets/Killer Ambition/new_23.jpg",
+      "assets/Killer Ambition/new_25.jpg",
+      "assets/Killer Ambition/new_26.jpg",
+      "assets/Killer Ambition/new_27.jpg"
     ],
     "clip": "assets/clips/final-killer-ambition.mp4",
     "trailer": "https://www.dailymotion.com/embed/video/x8jef3f"
+  },
+  "Sinister Cover Up": {
+    "images": [
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.16.54 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.27.29 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.34.40 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.37.07 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.39.14 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.47.19 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.45 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.03.05 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.06.05 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.47 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.05.06 AM.jpeg"
+    ]
   },
   "Sweet Maple Romance": {
     "images": [

@@ -2,3 +2,7 @@
 pick-*.html
 review-*.html
 *.psb
+*_contact/
+CLAUDE.md
+assets/reel-opener.mp4
+assets/reel-closer.mp4
