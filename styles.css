@@ -1117,6 +1117,11 @@ img { max-width: 100%; display: block; }
     .mobile-menu { display: flex; }
     .about-links { display: none !important; }
 
+    /* Gallery layout mobile */
+    .gallery-trio { grid-template-columns: 1fr 1fr; }
+    .gallery-pair { grid-template-columns: 1fr 1fr; }
+    .gallery-top-btn { font-size: 13px; padding: 10px 28px; margin: 30px auto 50px; }
+
     /* Letterbox bars thinner */
     body::after {
         border-top-width: 6px;
