@@ -2816,9 +2816,6 @@
       "assets/Sweet Maple Romance/still_26.jpg",
       "assets/Sweet Maple Romance/still_27.jpg",
       "assets/Sweet Maple Romance/48858_1_THE_BEAUTY_OF_LOVE_KEY_ART_V7-min-1052x1536.jpg",
-      "assets/Sweet Maple Romance/5C592D09-FADE-4C17-9FB4-DD468E63A75C.JPG",
-      "assets/Sweet Maple Romance/81193FF6-D372-49DC-A62D-E2099CD5EB63.jpg",
-      "assets/Sweet Maple Romance/IMG_3094.JPG",
       "assets/Sweet Maple Romance/IMG_8005.jpeg",
       "assets/Sweet Maple Romance/IMG_8006.jpeg",
       "assets/Sweet Maple Romance/IMG_8007.jpeg"
@@ -2898,17 +2895,6 @@
       {
         "type": "wide",
         "src": "assets/Sweet Maple Romance/48858_1_THE_BEAUTY_OF_LOVE_KEY_ART_V7-min-1052x1536.jpg"
-      },
-      {
-        "type": "pair",
-        "src": [
-          "assets/Sweet Maple Romance/5C592D09-FADE-4C17-9FB4-DD468E63A75C.JPG",
-          "assets/Sweet Maple Romance/81193FF6-D372-49DC-A62D-E2099CD5EB63.jpg"
-        ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Sweet Maple Romance/IMG_3094.JPG"
       },
       {
         "type": "trio",
