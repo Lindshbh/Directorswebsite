@@ -805,7 +805,6 @@
       "assets/Forgotten Abduction/still_27.jpg",
       "assets/Forgotten Abduction/R3LX_SDI_20190619_152418.JPG",
       "assets/Forgotten Abduction/R3LX_SDI_20190619_164741.JPG",
-      "assets/Forgotten Abduction/R3LX_SDI_20190621_160455.JPG",
       "assets/Forgotten Abduction/R3LX_SDI_20190621_174741.JPG"
     ],
     "clip": "assets/clips/final-forgotten.mp4",
@@ -873,10 +872,9 @@
         ]
       },
       {
-        "type": "trio",
+        "type": "pair",
         "src": [
           "assets/Forgotten Abduction/R3LX_SDI_20190619_164741.JPG",
-          "assets/Forgotten Abduction/R3LX_SDI_20190621_160455.JPG",
           "assets/Forgotten Abduction/R3LX_SDI_20190621_174741.JPG"
         ]
       }
