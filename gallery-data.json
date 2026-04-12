@@ -192,12 +192,31 @@
   },
   "Forgotten Abduction": {
     "images": [
+      "assets/Forgotten Abduction/still_1.jpg",
+      "assets/Forgotten Abduction/still_3.jpg",
+      "assets/Forgotten Abduction/still_5.jpg",
+      "assets/Forgotten Abduction/still_6.jpg",
+      "assets/Forgotten Abduction/still_7.jpg",
+      "assets/Forgotten Abduction/still_8.jpg",
+      "assets/Forgotten Abduction/still_9.jpg",
+      "assets/Forgotten Abduction/still_12.jpg",
+      "assets/Forgotten Abduction/still_14.jpg",
+      "assets/Forgotten Abduction/still_16.jpg",
+      "assets/Forgotten Abduction/still_17.jpg",
+      "assets/Forgotten Abduction/still_18.jpg",
+      "assets/Forgotten Abduction/still_19.jpg",
+      "assets/Forgotten Abduction/still_21.jpg",
+      "assets/Forgotten Abduction/still_22.jpg",
+      "assets/Forgotten Abduction/still_23.jpg",
+      "assets/Forgotten Abduction/still_24.jpg",
+      "assets/Forgotten Abduction/still_27.jpg",
       "assets/Forgotten Abduction/R3LX_SDI_20190619_152418.JPG",
       "assets/Forgotten Abduction/R3LX_SDI_20190619_164741.JPG",
       "assets/Forgotten Abduction/R3LX_SDI_20190621_160455.JPG",
       "assets/Forgotten Abduction/R3LX_SDI_20190621_174741.JPG",
       "assets/Forgotten Abduction/R3LX_SDI_20190621_193022.JPG"
     ],
+    "clip": "assets/clips/forgotten-clip-1.mp4",
     "trailer": "https://www.dailymotion.com/embed/video/x8hrscg"
   },
   "What the Nanny Saw": {
