@@ -2361,7 +2361,8 @@
       "assets/Killer Ambition/new_23.jpg",
       "assets/Killer Ambition/new_25.jpg",
       "assets/Killer Ambition/new_26.jpg",
-      "assets/Killer Ambition/new_27.jpg"
+      "assets/Killer Ambition/new_27.jpg",
+      "assets/Killer Ambition/Screen Shot 2021-11-28 at 3.15.22 PM.jpeg"
     ],
     "clip": "assets/clips/final-killer-ambition.mp4",
     "trailer": "https://www.youtube.com/embed/qRttX3aW1lQ",
@@ -2378,49 +2379,49 @@
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/Killer Ambition/new_5.jpg"
-      },
-      {
         "type": "trio",
         "src": [
+          "assets/Killer Ambition/new_5.jpg",
           "assets/Killer Ambition/new_6.jpg",
-          "assets/Killer Ambition/new_7.jpg",
-          "assets/Killer Ambition/new_10.jpg"
+          "assets/Killer Ambition/new_7.jpg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Killer Ambition/new_12.jpg"
+        "src": "assets/Killer Ambition/new_10.jpg"
       },
       {
         "type": "pair",
         "src": [
-          "assets/Killer Ambition/new_14.jpg",
-          "assets/Killer Ambition/new_15.jpg"
+          "assets/Killer Ambition/new_12.jpg",
+          "assets/Killer Ambition/new_14.jpg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Killer Ambition/new_18.jpg"
       },
       {
         "type": "trio",
         "src": [
-          "assets/Killer Ambition/new_21.jpg",
-          "assets/Killer Ambition/new_22.jpg",
-          "assets/Killer Ambition/new_23.jpg"
+          "assets/Killer Ambition/new_15.jpg",
+          "assets/Killer Ambition/new_18.jpg",
+          "assets/Killer Ambition/new_21.jpg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Killer Ambition/new_25.jpg"
+        "src": "assets/Killer Ambition/new_22.jpg"
       },
       {
         "type": "pair",
+        "src": [
+          "assets/Killer Ambition/new_23.jpg",
+          "assets/Killer Ambition/new_25.jpg"
+        ]
+      },
+      {
+        "type": "trio",
         "src": [
           "assets/Killer Ambition/new_26.jpg",
-          "assets/Killer Ambition/new_27.jpg"
+          "assets/Killer Ambition/new_27.jpg",
+          "assets/Killer Ambition/Screen Shot 2021-11-28 at 3.15.22 PM.jpeg"
         ]
       }
     ]
@@ -2647,9 +2648,7 @@
       "assets/Dressed to Kill/IMG_0555.PNG",
       "assets/Dressed to Kill/IMG_0557.PNG",
       "assets/Dressed to Kill/IMG_0559.PNG",
-      "assets/Dressed to Kill/IMG_0562.PNG",
-      "assets/Dressed to Kill/IMG_0662.jpg",
-      "assets/Dressed to Kill/Screen Shot 2021-11-28 at 3.15.22 PM.jpeg"
+      "assets/Dressed to Kill/IMG_0562.PNG"
     ],
     "layout": [
       {
@@ -2664,12 +2663,8 @@
         ]
       },
       {
-        "type": "trio",
-        "src": [
-          "assets/Dressed to Kill/IMG_0562.PNG",
-          "assets/Dressed to Kill/IMG_0662.jpg",
-          "assets/Dressed to Kill/Screen Shot 2021-11-28 at 3.15.22 PM.jpeg"
-        ]
+        "type": "wide",
+        "src": "assets/Dressed to Kill/IMG_0562.PNG"
       }
     ]
   },
