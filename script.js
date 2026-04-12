@@ -518,6 +518,40 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==========================================
+    // TIMELINE BAR ANIMATION
+    // ==========================================
+    const timelineBars = document.querySelectorAll('.timeline-bar');
+    if (timelineBars.length > 0) {
+        const timelineObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const bars = entry.target.querySelectorAll('.timeline-bar');
+                    bars.forEach((bar, i) => {
+                        setTimeout(() => {
+                            bar.style.height = bar.getAttribute('data-height') + 'px';
+                            bar.classList.add('visible');
+                        }, i * 150);
+                    });
+                    timelineObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+        const track = document.querySelector('.timeline-track');
+        if (track) timelineObserver.observe(track);
+    }
+
+    // ==========================================
+    // DEFERRED VIMEO EMBED LOAD
+    // ==========================================
+    const bgReel = document.getElementById('bgReelVideo');
+    if (bgReel && bgReel.tagName === 'IFRAME') {
+        const reelSrc = bgReel.getAttribute('data-src');
+        if (reelSrc) {
+            setTimeout(() => { bgReel.src = reelSrc; }, 1500);
+        }
+    }
+
+    // ==========================================
     // PRELOAD HOVER CLIPS (first 6 after page load)
     // ==========================================
     setTimeout(() => {
