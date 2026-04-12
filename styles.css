@@ -1348,11 +1348,13 @@ img { max-width: 100%; display: block; }
         margin-top: 8px;
     }
 
-    /* Sound toggle */
+    /* Sound toggle pill */
     .sound-toggle {
-        top: 16px;
-        right: 16px;
-        font-size: 20px;
+        top: 14px;
+        right: 14px;
+        font-size: 9px;
+        padding: 5px 10px;
+        letter-spacing: 1px;
     }
 
     /* Page content */
@@ -1377,12 +1379,12 @@ img { max-width: 100%; display: block; }
 
     /* Networks */
     .networks {
-        bottom: 46px;
-        gap: 8px;
+        padding: 12px 0 6px;
+        gap: 6px;
     }
     .networks span {
-        font-size: 8px;
-        letter-spacing: 1.5px;
+        font-size: 7px;
+        letter-spacing: 1px;
     }
 
     /* Filters */
@@ -1514,5 +1516,87 @@ img { max-width: 100%; display: block; }
     .lightbox-close {
         top: 16px;
         right: 20px;
+    }
+
+    /* Timeline mobile */
+    .timeline {
+        padding: 20px 0 8px;
+    }
+    .timeline h3 {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+    .timeline-track {
+        gap: 4px;
+        padding: 0 10px;
+    }
+    .timeline-bar {
+        width: 24px;
+    }
+    .timeline-count {
+        font-size: 9px;
+    }
+    .timeline-label {
+        font-size: 8px;
+        letter-spacing: 0.5px;
+    }
+
+    /* Romance reel preview mobile */
+    .romance-reel-preview {
+        width: 85vw;
+        max-width: 85vw;
+        bottom: 60px;
+    }
+
+    /* About home button mobile */
+    .about-top-bar .top-name {
+        font-size: 20px;
+    }
+
+    /* Scroll arrow mobile */
+    .scroll-arrow {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    /* Inline preview mobile */
+    .inline-preview.active {
+        max-height: 200px;
+    }
+    .inline-preview video,
+    .inline-preview img {
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    /* Gallery progress bar mobile */
+    .gallery-progress {
+        height: 3px;
+    }
+
+    /* Film title hover - no transform on touch */
+    .film-link:hover {
+        transform: none;
+    }
+    .film-link:active {
+        color: var(--accent);
+    }
+
+    /* Coming soon badge mobile */
+    .coming-soon {
+        font-size: 7px;
+    }
+
+    /* Project home button mobile */
+    .project-home-btn {
+        font-size: 18px;
+    }
+
+    /* Gallery parallax - disable on mobile for performance */
+    .gallery-wide:hover img,
+    .gallery-pair img:hover,
+    .gallery-trio img:hover,
+    .project-gallery > img:hover {
+        transform: none;
     }
 }
