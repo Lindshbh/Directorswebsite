@@ -2628,7 +2628,6 @@
   },
   "Postcards from the Heart": {
     "images": [
-      "assets/Postcards from the Heart/IMG_4381.jpeg",
       "assets/Postcards from the Heart/IMG_5601.jpeg",
       "assets/Postcards from the Heart/PNG image 2.jpeg",
       "assets/Postcards from the Heart/PNG image 3.jpeg",
@@ -2638,18 +2637,14 @@
     "layout": [
       {
         "type": "wide",
-        "src": "assets/Postcards from the Heart/IMG_4381.jpeg"
+        "src": "assets/Postcards from the Heart/IMG_5601.jpeg"
       },
       {
         "type": "pair",
         "src": [
-          "assets/Postcards from the Heart/IMG_5601.jpeg",
-          "assets/Postcards from the Heart/PNG image 2.jpeg"
+          "assets/Postcards from the Heart/PNG image 2.jpeg",
+          "assets/Postcards from the Heart/PNG image 3.jpeg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Postcards from the Heart/PNG image 3.jpeg"
       },
       {
         "type": "pair",
