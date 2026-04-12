@@ -9,10 +9,28 @@
       "assets/Beware the Night Nurse/IMG_0062.jpg"
     ],
     "layout": [
-      {"type": "wide", "src": "assets/Beware the Night Nurse/IMG_0053.jpg"},
-      {"type": "pair", "src": ["assets/Beware the Night Nurse/IMG_0055.jpg", "assets/Beware the Night Nurse/IMG_0050.jpg"]},
-      {"type": "wide", "src": "assets/Beware the Night Nurse/Screen Shot 2022-10-20 at 10.21.29 AM.jpeg"},
-      {"type": "pair", "src": ["assets/Beware the Night Nurse/Screen Shot 2022-10-20 at 10.41.41 AM.jpeg", "assets/Beware the Night Nurse/IMG_0062.jpg"]}
+      {
+        "type": "wide",
+        "src": "assets/Beware the Night Nurse/IMG_0053.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Beware the Night Nurse/IMG_0055.jpg",
+          "assets/Beware the Night Nurse/IMG_0050.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Beware the Night Nurse/Screen Shot 2022-10-20 at 10.21.29 AM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Beware the Night Nurse/Screen Shot 2022-10-20 at 10.41.41 AM.jpeg",
+          "assets/Beware the Night Nurse/IMG_0062.jpg"
+        ]
+      }
     ]
   },
   "The Lies We Bury": {
@@ -31,11 +49,9 @@
       "assets/The Lies We Bury/GUILTY-SECRETS_1.378.1.jpg",
       "assets/The Lies We Bury/GUILTY-SECRETS_1.395.1.jpg",
       "assets/The Lies We Bury/GUILTY-SECRETS_1.516.1.jpg",
-      "assets/The Lies We Bury/GUILTY-SECRETS_1.570.1.jpg",
       "assets/The Lies We Bury/GUILTY-SECRETS_1.571.1.jpg",
       "assets/The Lies We Bury/GUILTY-SECRETS_1.626.1.jpg",
       "assets/The Lies We Bury/GUILTY-SECRETS_1.651.1.jpg",
-      "assets/The Lies We Bury/GUILTY-SECRETS_1.651.2.jpg",
       "assets/The Lies We Bury/GUILTY-SECRETS_1.657.1.jpg",
       "assets/The Lies We Bury/GUILTY-SECRETS_1.674.1.jpg",
       "assets/The Lies We Bury/GUILTY-SECRETS_1.678.1.jpg",
@@ -58,26 +74,121 @@
     "trailer": "https://www.youtube.com/embed/ZvRgj4jcN_E",
     "clip": "assets/clips/final-lies-we-bury.mp4",
     "layout": [
-      {"type": "wide", "src": "assets/The Lies We Bury/IMG_1537.jpg"},
-      {"type": "pair", "src": ["assets/The Lies We Bury/IMG_1539.jpg", "assets/The Lies We Bury/IMG_1571.jpg"]},
-      {"type": "wide", "src": "assets/The Lies We Bury/IMG_1552.jpg"},
-      {"type": "trio", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.35.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.87.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.115.1.jpg"]},
-      {"type": "wide", "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.288.1.jpg"},
-      {"type": "pair", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.327.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.351.1.jpg"]},
-      {"type": "trio", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.372.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.378.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.395.1.jpg"]},
-      {"type": "wide", "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.516.1.jpg"},
-      {"type": "pair", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.570.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.571.1.jpg"]},
-      {"type": "wide", "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.626.1.jpg"},
-      {"type": "pair", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.651.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.651.2.jpg"]},
-      {"type": "trio", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.657.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.674.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.678.1.jpg"]},
-      {"type": "wide", "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.683.1.jpg"},
-      {"type": "pair", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.685.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.730.1.jpg"]},
-      {"type": "wide", "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.738.1.jpg"},
-      {"type": "trio", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.759.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.762.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.768.1.jpg"]},
-      {"type": "wide", "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.773.1.jpg"},
-      {"type": "pair", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.778.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.816.1.jpg"]},
-      {"type": "trio", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.840.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.863.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.865.1.jpg"]},
-      {"type": "pair", "src": ["assets/The Lies We Bury/GUILTY-SECRETS_1.884.1.jpg", "assets/The Lies We Bury/GUILTY-SECRETS_1.894.1.jpg"]}
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/IMG_1537.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Lies We Bury/IMG_1539.jpg",
+          "assets/The Lies We Bury/IMG_1571.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/IMG_1552.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.35.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.87.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.115.1.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.288.1.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.327.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.351.1.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.372.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.378.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.395.1.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.516.1.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.571.1.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.626.1.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.651.1.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.657.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.674.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.678.1.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.683.1.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.685.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.730.1.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.738.1.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.759.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.762.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.768.1.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Lies We Bury/GUILTY-SECRETS_1.773.1.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.778.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.816.1.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.840.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.863.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.865.1.jpg"
+        ]
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.884.1.jpg",
+          "assets/The Lies We Bury/GUILTY-SECRETS_1.894.1.jpg"
+        ]
+      }
     ]
   },
   "In Love With My Partners Wife": {
@@ -92,10 +203,28 @@
     ],
     "trailer": "https://www.youtube.com/embed/MFZBkOvxhHw",
     "layout": [
-      {"type": "wide", "src": "assets/In Love With My Partners Wife/IMG_2681.jpeg"},
-      {"type": "pair", "src": ["assets/In Love With My Partners Wife/IMG_2685.jpeg", "assets/In Love With My Partners Wife/IMG_2697.jpeg"]},
-      {"type": "wide", "src": "assets/In Love With My Partners Wife/IMG_2702.jpeg"},
-      {"type": "pair", "src": ["assets/In Love With My Partners Wife/IMG_2691.jpeg", "assets/In Love With My Partners Wife/IMG_2679.jpeg"]}
+      {
+        "type": "wide",
+        "src": "assets/In Love With My Partners Wife/IMG_2681.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/In Love With My Partners Wife/IMG_2685.jpeg",
+          "assets/In Love With My Partners Wife/IMG_2697.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/In Love With My Partners Wife/IMG_2702.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/In Love With My Partners Wife/IMG_2691.jpeg",
+          "assets/In Love With My Partners Wife/IMG_2679.jpeg"
+        ]
+      }
     ]
   },
   "Her Fiances Double Life": {
@@ -120,15 +249,59 @@
     ],
     "trailer": "https://www.youtube.com/embed/tqVyVv2Yitw",
     "layout": [
-      {"type": "wide", "src": "assets/Her Fiances Double Life/IMG_3832.jpeg"},
-      {"type": "pair", "src": ["assets/Her Fiances Double Life/IMG_3833.jpeg", "assets/Her Fiances Double Life/IMG_3835.jpeg"]},
-      {"type": "wide", "src": "assets/Her Fiances Double Life/IMG_3839.jpeg"},
-      {"type": "trio", "src": ["assets/Her Fiances Double Life/IMG_3838.jpeg", "assets/Her Fiances Double Life/IMG_3837.jpeg", "assets/Her Fiances Double Life/IMG_3847.jpeg"]},
-      {"type": "wide", "src": "assets/Her Fiances Double Life/IMG_3848.jpeg"},
-      {"type": "pair", "src": ["assets/Her Fiances Double Life/IMG_3851.jpeg", "assets/Her Fiances Double Life/IMG_3850.jpeg"]},
-      {"type": "trio", "src": ["assets/Her Fiances Double Life/IMG_3852.jpeg", "assets/Her Fiances Double Life/IMG_3853.jpeg", "assets/Her Fiances Double Life/IMG_3861.jpeg"]},
-      {"type": "wide", "src": "assets/Her Fiances Double Life/IMG_3859.jpeg"},
-      {"type": "pair", "src": ["assets/Her Fiances Double Life/IMG_3857.jpeg", "assets/Her Fiances Double Life/IMG_3856.jpeg"]}
+      {
+        "type": "wide",
+        "src": "assets/Her Fiances Double Life/IMG_3832.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Her Fiances Double Life/IMG_3833.jpeg",
+          "assets/Her Fiances Double Life/IMG_3835.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Her Fiances Double Life/IMG_3839.jpeg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Her Fiances Double Life/IMG_3838.jpeg",
+          "assets/Her Fiances Double Life/IMG_3837.jpeg",
+          "assets/Her Fiances Double Life/IMG_3847.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Her Fiances Double Life/IMG_3848.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Her Fiances Double Life/IMG_3851.jpeg",
+          "assets/Her Fiances Double Life/IMG_3850.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Her Fiances Double Life/IMG_3852.jpeg",
+          "assets/Her Fiances Double Life/IMG_3853.jpeg",
+          "assets/Her Fiances Double Life/IMG_3861.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Her Fiances Double Life/IMG_3859.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Her Fiances Double Life/IMG_3857.jpeg",
+          "assets/Her Fiances Double Life/IMG_3856.jpeg"
+        ]
+      }
     ]
   },
   "Paranormal Nobodies": {
@@ -156,16 +329,67 @@
     ],
     "trailer": "https://www.youtube.com/embed/miAmRyOLM5c",
     "layout": [
-      {"type": "wide", "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.00.04 AM.jpeg"},
-      {"type": "pair", "src": ["assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.13.28 AM.jpeg", "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.36.42 AM.jpeg"]},
-      {"type": "wide", "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.45.44 PM.jpeg"},
-      {"type": "trio", "src": ["assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.40.08 PM.jpeg", "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.14.09 PM.jpeg", "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.06.15 PM.jpeg"]},
-      {"type": "wide", "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.19.33 PM.jpeg"},
-      {"type": "pair", "src": ["assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.12.59 AM.jpeg", "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.06.59 AM.jpeg"]},
-      {"type": "trio", "src": ["assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.21.54 AM.jpeg", "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.46.39 AM.jpeg", "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.08.20 PM.jpeg"]},
-      {"type": "wide", "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.40.37 AM.jpeg"},
-      {"type": "pair", "src": ["assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.24.36 AM.jpeg", "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.44.49 AM.jpeg"]},
-      {"type": "trio", "src": ["assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.01.00 AM.jpeg", "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.59.25 AM.jpeg", "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.09.29 AM.jpeg"]}
+      {
+        "type": "wide",
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.00.04 AM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.13.28 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.36.42 AM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.45.44 PM.jpeg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.40.08 PM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.14.09 PM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.06.15 PM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 7.19.33 PM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.12.59 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 8.06.59 AM.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.21.54 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 9.46.39 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 12.08.20 PM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.40.37 AM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.24.36 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 7.44.49 AM.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.01.00 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.59.25 AM.jpeg",
+          "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.09.29 AM.jpeg"
+        ]
+      }
     ]
   },
   "A Christmas Frequency": {
@@ -189,37 +413,160 @@
     ],
     "trailer": "https://www.youtube.com/embed/qa6JWw7ksS0",
     "layout": [
-      {"type": "wide", "src": "assets/A Christmas Frequency/IMG_0291.jpg"},
-      {"type": "pair", "src": ["assets/A Christmas Frequency/IMG_0299.jpg", "assets/A Christmas Frequency/IMG_0318.jpg"]},
-      {"type": "wide", "src": "assets/A Christmas Frequency/IMG_0292.jpg"},
-      {"type": "trio", "src": ["assets/A Christmas Frequency/IMG_0317.jpg", "assets/A Christmas Frequency/new_3.jpg", "assets/A Christmas Frequency/new_4.jpg"]},
-      {"type": "wide", "src": "assets/A Christmas Frequency/new_8.jpg"},
-      {"type": "pair", "src": ["assets/A Christmas Frequency/new_12.jpg", "assets/A Christmas Frequency/new_15.jpg"]},
-      {"type": "trio", "src": ["assets/A Christmas Frequency/new_16.jpg", "assets/A Christmas Frequency/new_17.jpg", "assets/A Christmas Frequency/new_25.jpg"]},
-      {"type": "wide", "src": "assets/A Christmas Frequency/new_27.jpg"},
-      {"type": "wide", "src": "assets/A Christmas Frequency/new_28.jpg"}
+      {
+        "type": "wide",
+        "src": "assets/A Christmas Frequency/IMG_0291.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/A Christmas Frequency/IMG_0299.jpg",
+          "assets/A Christmas Frequency/IMG_0318.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Christmas Frequency/IMG_0292.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/A Christmas Frequency/IMG_0317.jpg",
+          "assets/A Christmas Frequency/new_3.jpg",
+          "assets/A Christmas Frequency/new_4.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Christmas Frequency/new_8.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/A Christmas Frequency/new_12.jpg",
+          "assets/A Christmas Frequency/new_15.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/A Christmas Frequency/new_16.jpg",
+          "assets/A Christmas Frequency/new_17.jpg",
+          "assets/A Christmas Frequency/new_25.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Christmas Frequency/new_27.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Christmas Frequency/new_28.jpg"
+      }
     ]
   },
   "The Romeo and Juliet Killers": {
     "clip": "assets/clips/final-romeo-juliet.mp4",
     "layout": [
-      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_2.jpg"},
-      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/still_1.jpg", "assets/The Romeo and Juliet Killers/r4_13.jpg"]},
-      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_4.jpg"},
-      {"type": "trio", "src": ["assets/The Romeo and Juliet Killers/still_5.jpg", "assets/The Romeo and Juliet Killers/new_6.jpg", "assets/The Romeo and Juliet Killers/new_8.jpg"]},
-      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_10.jpg"},
-      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/still_8.jpg", "assets/The Romeo and Juliet Killers/still_9.jpg"]},
-      {"type": "trio", "src": ["assets/The Romeo and Juliet Killers/r5_11.jpg", "assets/The Romeo and Juliet Killers/r5_12.jpg", "assets/The Romeo and Juliet Killers/r3_21.jpg"]},
-      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/r5_18.jpg"},
-      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/r5_2.jpg", "assets/The Romeo and Juliet Killers/r5_15.jpg"]},
-      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_25.jpg"},
-      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/still_22.jpg", "assets/The Romeo and Juliet Killers/still_21.jpg"]},
-      {"type": "trio", "src": ["assets/The Romeo and Juliet Killers/still_23.jpg", "assets/The Romeo and Juliet Killers/still_24.jpg", "assets/The Romeo and Juliet Killers/r5_19.jpg"]},
-      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/r4_25.jpg"},
-      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/r4_22.jpg", "assets/The Romeo and Juliet Killers/r3_25.jpg"]},
-      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/r5_20.jpg"},
-      {"type": "trio", "src": ["assets/The Romeo and Juliet Killers/still_27.jpg", "assets/The Romeo and Juliet Killers/still_28.jpg", "assets/The Romeo and Juliet Killers/still_29.jpg"]},
-      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/r4_13.jpg"}
+      {
+        "type": "wide",
+        "src": "assets/The Romeo and Juliet Killers/still_2.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Romeo and Juliet Killers/still_1.jpg",
+          "assets/The Romeo and Juliet Killers/r4_13.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Romeo and Juliet Killers/still_4.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Romeo and Juliet Killers/still_5.jpg",
+          "assets/The Romeo and Juliet Killers/new_6.jpg",
+          "assets/The Romeo and Juliet Killers/new_8.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Romeo and Juliet Killers/still_10.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Romeo and Juliet Killers/still_8.jpg",
+          "assets/The Romeo and Juliet Killers/still_9.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Romeo and Juliet Killers/r5_11.jpg",
+          "assets/The Romeo and Juliet Killers/r5_12.jpg",
+          "assets/The Romeo and Juliet Killers/r3_21.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Romeo and Juliet Killers/r5_18.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Romeo and Juliet Killers/r5_2.jpg",
+          "assets/The Romeo and Juliet Killers/r5_15.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Romeo and Juliet Killers/still_25.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Romeo and Juliet Killers/still_22.jpg",
+          "assets/The Romeo and Juliet Killers/still_21.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Romeo and Juliet Killers/still_23.jpg",
+          "assets/The Romeo and Juliet Killers/still_24.jpg",
+          "assets/The Romeo and Juliet Killers/r5_19.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Romeo and Juliet Killers/r4_25.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Romeo and Juliet Killers/r4_22.jpg",
+          "assets/The Romeo and Juliet Killers/r3_25.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Romeo and Juliet Killers/r5_20.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Romeo and Juliet Killers/still_27.jpg",
+          "assets/The Romeo and Juliet Killers/still_28.jpg",
+          "assets/The Romeo and Juliet Killers/still_29.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Romeo and Juliet Killers/r4_13.jpg"
+      }
     ],
     "images": [
       "assets/The Romeo and Juliet Killers/still_1.jpg",
@@ -269,12 +616,40 @@
       "assets/Deadly Debutante/IMG_3089.jpg"
     ],
     "layout": [
-      {"type": "wide", "src": "assets/Deadly Debutante/IMG_2975.PNG"},
-      {"type": "pair", "src": ["assets/Deadly Debutante/IMG_2979.PNG", "assets/Deadly Debutante/IMG_2982.PNG"]},
-      {"type": "wide", "src": "assets/Deadly Debutante/IMG_3016.PNG"},
-      {"type": "trio", "src": ["assets/Deadly Debutante/IMG_3019.PNG", "assets/Deadly Debutante/IMG_3068.jpg", "assets/Deadly Debutante/IMG_3053.jpg"]},
-      {"type": "wide", "src": "assets/Deadly Debutante/IMG_3032.PNG"},
-      {"type": "pair", "src": ["assets/Deadly Debutante/IMG_2986.PNG", "assets/Deadly Debutante/IMG_3089.jpg"]}
+      {
+        "type": "wide",
+        "src": "assets/Deadly Debutante/IMG_2975.PNG"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Deadly Debutante/IMG_2979.PNG",
+          "assets/Deadly Debutante/IMG_2982.PNG"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Deadly Debutante/IMG_3016.PNG"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Deadly Debutante/IMG_3019.PNG",
+          "assets/Deadly Debutante/IMG_3068.jpg",
+          "assets/Deadly Debutante/IMG_3053.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Deadly Debutante/IMG_3032.PNG"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Deadly Debutante/IMG_2986.PNG",
+          "assets/Deadly Debutante/IMG_3089.jpg"
+        ]
+      }
     ]
   },
   "Trapped by My Sugar Daddy": {
@@ -304,18 +679,78 @@
       "assets/Trapped by My Sugar Daddy/r2_28.jpg"
     ],
     "layout": [
-      {"type": "wide", "src": "assets/Trapped by My Sugar Daddy/new_7.jpg"},
-      {"type": "pair", "src": ["assets/Trapped by My Sugar Daddy/new_8.jpg", "assets/Trapped by My Sugar Daddy/new_10.jpg"]},
-      {"type": "wide", "src": "assets/Trapped by My Sugar Daddy/new_11.jpg"},
-      {"type": "trio", "src": ["assets/Trapped by My Sugar Daddy/new_12.jpg", "assets/Trapped by My Sugar Daddy/new_15.jpg", "assets/Trapped by My Sugar Daddy/new_19.jpg"]},
-      {"type": "wide", "src": "assets/Trapped by My Sugar Daddy/new_20.jpg"},
-      {"type": "pair", "src": ["assets/Trapped by My Sugar Daddy/new_21.jpg", "assets/Trapped by My Sugar Daddy/new_25.jpg"]},
-      {"type": "trio", "src": ["assets/Trapped by My Sugar Daddy/new_26.jpg", "assets/Trapped by My Sugar Daddy/new_29.jpg", "assets/Trapped by My Sugar Daddy/r2_1.jpg"]},
-      {"type": "wide", "src": "assets/Trapped by My Sugar Daddy/r2_5.jpg"},
-      {"type": "pair", "src": ["assets/Trapped by My Sugar Daddy/r2_10.jpg", "assets/Trapped by My Sugar Daddy/r2_11.jpg"]},
-      {"type": "trio", "src": ["assets/Trapped by My Sugar Daddy/r2_15.jpg", "assets/Trapped by My Sugar Daddy/r2_16.jpg", "assets/Trapped by My Sugar Daddy/r2_17.jpg"]},
-      {"type": "wide", "src": "assets/Trapped by My Sugar Daddy/r2_26.jpg"},
-      {"type": "pair", "src": ["assets/Trapped by My Sugar Daddy/r2_27.jpg", "assets/Trapped by My Sugar Daddy/r2_28.jpg"]}
+      {
+        "type": "wide",
+        "src": "assets/Trapped by My Sugar Daddy/new_7.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Trapped by My Sugar Daddy/new_8.jpg",
+          "assets/Trapped by My Sugar Daddy/new_10.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Trapped by My Sugar Daddy/new_11.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Trapped by My Sugar Daddy/new_12.jpg",
+          "assets/Trapped by My Sugar Daddy/new_15.jpg",
+          "assets/Trapped by My Sugar Daddy/new_19.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Trapped by My Sugar Daddy/new_20.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Trapped by My Sugar Daddy/new_21.jpg",
+          "assets/Trapped by My Sugar Daddy/new_25.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Trapped by My Sugar Daddy/new_26.jpg",
+          "assets/Trapped by My Sugar Daddy/new_29.jpg",
+          "assets/Trapped by My Sugar Daddy/r2_1.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Trapped by My Sugar Daddy/r2_5.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Trapped by My Sugar Daddy/r2_10.jpg",
+          "assets/Trapped by My Sugar Daddy/r2_11.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Trapped by My Sugar Daddy/r2_15.jpg",
+          "assets/Trapped by My Sugar Daddy/r2_16.jpg",
+          "assets/Trapped by My Sugar Daddy/r2_17.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Trapped by My Sugar Daddy/r2_26.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Trapped by My Sugar Daddy/r2_27.jpg",
+          "assets/Trapped by My Sugar Daddy/r2_28.jpg"
+        ]
+      }
     ]
   },
   "Forgotten Abduction": {
@@ -347,19 +782,82 @@
     "clip": "assets/clips/final-forgotten.mp4",
     "trailer": "https://www.dailymotion.com/embed/video/x8hrscg",
     "layout": [
-      {"type": "wide", "src": "assets/Forgotten Abduction/still_1.jpg"},
-      {"type": "pair", "src": ["assets/Forgotten Abduction/still_3.jpg", "assets/Forgotten Abduction/still_5.jpg"]},
-      {"type": "wide", "src": "assets/Forgotten Abduction/still_6.jpg"},
-      {"type": "trio", "src": ["assets/Forgotten Abduction/still_7.jpg", "assets/Forgotten Abduction/still_8.jpg", "assets/Forgotten Abduction/still_9.jpg"]},
-      {"type": "wide", "src": "assets/Forgotten Abduction/still_12.jpg"},
-      {"type": "pair", "src": ["assets/Forgotten Abduction/still_14.jpg", "assets/Forgotten Abduction/still_16.jpg"]},
-      {"type": "trio", "src": ["assets/Forgotten Abduction/still_17.jpg", "assets/Forgotten Abduction/still_18.jpg", "assets/Forgotten Abduction/still_19.jpg"]},
-      {"type": "wide", "src": "assets/Forgotten Abduction/still_21.jpg"},
-      {"type": "pair", "src": ["assets/Forgotten Abduction/still_22.jpg", "assets/Forgotten Abduction/still_23.jpg"]},
-      {"type": "wide", "src": "assets/Forgotten Abduction/still_24.jpg"},
-      {"type": "pair", "src": ["assets/Forgotten Abduction/still_27.jpg", "assets/Forgotten Abduction/R3LX_SDI_20190619_152418.JPG"]},
-      {"type": "trio", "src": ["assets/Forgotten Abduction/R3LX_SDI_20190619_164741.JPG", "assets/Forgotten Abduction/R3LX_SDI_20190621_160455.JPG", "assets/Forgotten Abduction/R3LX_SDI_20190621_174741.JPG"]},
-      {"type": "wide", "src": "assets/Forgotten Abduction/R3LX_SDI_20190621_193022.JPG"}
+      {
+        "type": "wide",
+        "src": "assets/Forgotten Abduction/still_1.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Forgotten Abduction/still_3.jpg",
+          "assets/Forgotten Abduction/still_5.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Forgotten Abduction/still_6.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Forgotten Abduction/still_7.jpg",
+          "assets/Forgotten Abduction/still_8.jpg",
+          "assets/Forgotten Abduction/still_9.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Forgotten Abduction/still_12.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Forgotten Abduction/still_14.jpg",
+          "assets/Forgotten Abduction/still_16.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Forgotten Abduction/still_17.jpg",
+          "assets/Forgotten Abduction/still_18.jpg",
+          "assets/Forgotten Abduction/still_19.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Forgotten Abduction/still_21.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Forgotten Abduction/still_22.jpg",
+          "assets/Forgotten Abduction/still_23.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Forgotten Abduction/still_24.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Forgotten Abduction/still_27.jpg",
+          "assets/Forgotten Abduction/R3LX_SDI_20190619_152418.JPG"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Forgotten Abduction/R3LX_SDI_20190619_164741.JPG",
+          "assets/Forgotten Abduction/R3LX_SDI_20190621_160455.JPG",
+          "assets/Forgotten Abduction/R3LX_SDI_20190621_174741.JPG"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Forgotten Abduction/R3LX_SDI_20190621_193022.JPG"
+      }
     ]
   },
   "What the Nanny Saw": {
@@ -382,15 +880,55 @@
     "clip": "assets/clips/final-nanny-saw.mp4",
     "trailer": "https://www.dailymotion.com/embed/video/x876e8l",
     "layout": [
-      {"type": "wide", "src": "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.04.32 PM.jpeg"},
-      {"type": "pair", "src": ["assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.04.55 PM.jpeg", "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.11.54 PM.jpeg"]},
-      {"type": "wide", "src": "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.13.21 PM.jpeg"},
-      {"type": "trio", "src": ["assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.25.48 PM.jpeg", "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.27.15 PM.jpeg", "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.28.22 PM.jpeg"]},
-      {"type": "wide", "src": "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.45.36 PM.jpeg"},
-      {"type": "pair", "src": ["assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.48.09 PM.jpeg", "assets/What the Nanny Saw/new_5.jpg"]},
-      {"type": "wide", "src": "assets/What the Nanny Saw/new_7.jpg"},
-      {"type": "pair", "src": ["assets/What the Nanny Saw/new_14.jpg", "assets/What the Nanny Saw/new_23.jpg"]},
-      {"type": "wide", "src": "assets/What the Nanny Saw/new_25.jpg"}
+      {
+        "type": "wide",
+        "src": "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.04.32 PM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.04.55 PM.jpeg",
+          "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.11.54 PM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.13.21 PM.jpeg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.25.48 PM.jpeg",
+          "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.27.15 PM.jpeg",
+          "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.28.22 PM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.45.36 PM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.48.09 PM.jpeg",
+          "assets/What the Nanny Saw/new_5.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/What the Nanny Saw/new_7.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/What the Nanny Saw/new_14.jpg",
+          "assets/What the Nanny Saw/new_23.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/What the Nanny Saw/new_25.jpg"
+      }
     ]
   },
   "Vacation Home Nightmare": {
@@ -418,18 +956,74 @@
     ],
     "trailer": "https://www.youtube.com/embed/YBk-Et-enpo",
     "layout": [
-      {"type": "wide", "src": "assets/Vacation Home Nightmare/Screen Shot 2022-09-11 at 4.26.46 PM.jpg"},
-      {"type": "pair", "src": ["assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.07.23 PM.jpeg", "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.08.32 PM.jpeg"]},
-      {"type": "wide", "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.10.03 PM.jpeg"},
-      {"type": "trio", "src": ["assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.10.22 PM.jpeg", "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.15.46 PM.jpeg", "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.17.09 PM.jpeg"]},
-      {"type": "wide", "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.17.24 PM.jpeg"},
-      {"type": "pair", "src": ["assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.18.38 PM.jpeg", "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.19.19 PM.jpeg"]},
-      {"type": "trio", "src": ["assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.21.29 PM.jpeg", "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.22.28 PM.jpeg", "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.22.59 PM.jpeg"]},
-      {"type": "wide", "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.49.54 PM.jpeg"},
-      {"type": "pair", "src": ["assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.50.28 PM.jpeg", "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.53.38 PM.jpeg"]},
-      {"type": "wide", "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 9.12.01 PM.jpeg"},
-      {"type": "pair", "src": ["assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 9.13.17 PM.jpeg", "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 9.14.15 PM.jpeg"]},
-      {"type": "wide", "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 9.26.07 PM.jpeg"}
+      {
+        "type": "wide",
+        "src": "assets/Vacation Home Nightmare/Screen Shot 2022-09-11 at 4.26.46 PM.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.07.23 PM.jpeg",
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.08.32 PM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.10.03 PM.jpeg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.10.22 PM.jpeg",
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.15.46 PM.jpeg",
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.17.09 PM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.17.24 PM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.18.38 PM.jpeg",
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.19.19 PM.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.21.29 PM.jpeg",
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.22.28 PM.jpeg",
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.22.59 PM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.49.54 PM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.50.28 PM.jpeg",
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 12.53.38 PM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 9.12.01 PM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 9.13.17 PM.jpeg",
+          "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 9.14.15 PM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Vacation Home Nightmare/Screen Shot 2022-10-09 at 9.26.07 PM.jpeg"
+      }
     ]
   },
   "Bodyguard Seduction": {},
@@ -449,13 +1043,44 @@
       "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.07.31 PM.jpg"
     ],
     "layout": [
-      {"type": "wide", "src": "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.02.55 PM.jpg"},
-      {"type": "pair", "src": ["assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.04.10 PM.jpg", "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.04.19 PM.jpg"]},
-      {"type": "wide", "src": "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.08 PM.jpg"},
-      {"type": "trio", "src": ["assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.25 PM.jpg", "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.39 PM.jpg", "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.51 PM.jpg"]},
-      {"type": "wide", "src": "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.07.05 PM.jpg"},
-      {"type": "pair", "src": ["assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.07.12 PM.jpg", "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.07.25 PM.jpg"]},
-      {"type": "wide", "src": "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.07.31 PM.jpg"}
+      {
+        "type": "wide",
+        "src": "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.02.55 PM.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.04.10 PM.jpg",
+          "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.04.19 PM.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.08 PM.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.25 PM.jpg",
+          "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.39 PM.jpg",
+          "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.51 PM.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.07.05 PM.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.07.12 PM.jpg",
+          "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.07.25 PM.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.07.31 PM.jpg"
+      }
     ]
   },
   "Secrets in the Sisterhood": {
@@ -470,11 +1095,33 @@
       "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.02.22 PM.jpg"
     ],
     "layout": [
-      {"type": "wide", "src": "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.00.01 PM.jpg"},
-      {"type": "pair", "src": ["assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.00.12 PM.jpg", "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.00.27 PM.jpg"]},
-      {"type": "wide", "src": "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.01.01 PM.jpg"},
-      {"type": "trio", "src": ["assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.01.12 PM.jpg", "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.01.37 PM.jpg", "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.01.45 PM.jpg"]},
-      {"type": "wide", "src": "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.02.22 PM.jpg"}
+      {
+        "type": "wide",
+        "src": "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.00.01 PM.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.00.12 PM.jpg",
+          "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.00.27 PM.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.01.01 PM.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.01.12 PM.jpg",
+          "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.01.37 PM.jpg",
+          "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.01.45 PM.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.02.22 PM.jpg"
+      }
     ]
   },
   "Christmas on Repeat": {
@@ -488,10 +1135,25 @@
     "clip": "assets/clips/final-christmas-repeat.mp4",
     "trailer": "https://www.youtube.com/embed/QzYZreKJYaA",
     "layout": [
-      {"type": "wide", "src": "assets/Christmas on Repeat/new_3.jpg"},
-      {"type": "pair", "src": ["assets/Christmas on Repeat/new_15.jpg", "assets/Christmas on Repeat/new_17.jpg"]},
-      {"type": "wide", "src": "assets/Christmas on Repeat/new_18.jpg"},
-      {"type": "wide", "src": "assets/Christmas on Repeat/new_24.jpg"}
+      {
+        "type": "wide",
+        "src": "assets/Christmas on Repeat/new_3.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Christmas on Repeat/new_15.jpg",
+          "assets/Christmas on Repeat/new_17.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Christmas on Repeat/new_18.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/Christmas on Repeat/new_24.jpg"
+      }
     ]
   },
   "The Boxer and the Butterfly": {
@@ -521,18 +1183,75 @@
       "assets/The Boxer and the Butterfly/still_27.jpg"
     ],
     "layout": [
-      {"type": "wide", "src": "assets/The Boxer and the Butterfly/still_3.jpg"},
-      {"type": "pair", "src": ["assets/The Boxer and the Butterfly/still_4.jpg", "assets/The Boxer and the Butterfly/still_6.jpg"]},
-      {"type": "wide", "src": "assets/The Boxer and the Butterfly/still_7.jpg"},
-      {"type": "trio", "src": ["assets/The Boxer and the Butterfly/still_8.jpg", "assets/The Boxer and the Butterfly/still_9.jpg", "assets/The Boxer and the Butterfly/still_10.jpg"]},
-      {"type": "wide", "src": "assets/The Boxer and the Butterfly/still_11.jpg"},
-      {"type": "pair", "src": ["assets/The Boxer and the Butterfly/still_12.jpg", "assets/The Boxer and the Butterfly/still_13.jpg"]},
-      {"type": "trio", "src": ["assets/The Boxer and the Butterfly/still_17.jpg", "assets/The Boxer and the Butterfly/still_18.jpg", "assets/The Boxer and the Butterfly/still_19.jpg"]},
-      {"type": "wide", "src": "assets/The Boxer and the Butterfly/still_20.jpg"},
-      {"type": "pair", "src": ["assets/The Boxer and the Butterfly/still_21.jpg", "assets/The Boxer and the Butterfly/still_22.jpg"]},
-      {"type": "trio", "src": ["assets/The Boxer and the Butterfly/still_23.jpg", "assets/The Boxer and the Butterfly/still_24.jpg", "assets/The Boxer and the Butterfly/still_25.jpg"]},
-      {"type": "wide", "src": "assets/The Boxer and the Butterfly/still_26.jpg"},
-      {"type": "wide", "src": "assets/The Boxer and the Butterfly/still_27.jpg"}
+      {
+        "type": "wide",
+        "src": "assets/The Boxer and the Butterfly/still_3.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Boxer and the Butterfly/still_4.jpg",
+          "assets/The Boxer and the Butterfly/still_6.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Boxer and the Butterfly/still_7.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Boxer and the Butterfly/still_8.jpg",
+          "assets/The Boxer and the Butterfly/still_9.jpg",
+          "assets/The Boxer and the Butterfly/still_10.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Boxer and the Butterfly/still_11.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Boxer and the Butterfly/still_12.jpg",
+          "assets/The Boxer and the Butterfly/still_13.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Boxer and the Butterfly/still_17.jpg",
+          "assets/The Boxer and the Butterfly/still_18.jpg",
+          "assets/The Boxer and the Butterfly/still_19.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Boxer and the Butterfly/still_20.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Boxer and the Butterfly/still_21.jpg",
+          "assets/The Boxer and the Butterfly/still_22.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Boxer and the Butterfly/still_23.jpg",
+          "assets/The Boxer and the Butterfly/still_24.jpg",
+          "assets/The Boxer and the Butterfly/still_25.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Boxer and the Butterfly/still_26.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Boxer and the Butterfly/still_27.jpg"
+      }
     ]
   },
   "The Recipe Files": {
@@ -551,12 +1270,40 @@
     "clip": "assets/clips/final-recipe-files.mp4",
     "trailer": "https://www.youtube.com/embed/ijx6yxNAReY",
     "layout": [
-      {"type": "wide", "src": "assets/The Recipe Files/new_8.jpg"},
-      {"type": "pair", "src": ["assets/The Recipe Files/new_9.jpg", "assets/The Recipe Files/new_10.jpg"]},
-      {"type": "wide", "src": "assets/The Recipe Files/new_11.jpg"},
-      {"type": "trio", "src": ["assets/The Recipe Files/new_12.jpg", "assets/The Recipe Files/new_13.jpg", "assets/The Recipe Files/new_16.jpg"]},
-      {"type": "wide", "src": "assets/The Recipe Files/new_17.jpg"},
-      {"type": "pair", "src": ["assets/The Recipe Files/new_21.jpg", "assets/The Recipe Files/new_22.jpg"]}
+      {
+        "type": "wide",
+        "src": "assets/The Recipe Files/new_8.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Recipe Files/new_9.jpg",
+          "assets/The Recipe Files/new_10.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Recipe Files/new_11.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/The Recipe Files/new_12.jpg",
+          "assets/The Recipe Files/new_13.jpg",
+          "assets/The Recipe Files/new_16.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Recipe Files/new_17.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Recipe Files/new_21.jpg",
+          "assets/The Recipe Files/new_22.jpg"
+        ]
+      }
     ]
   },
   "Tempted": {
@@ -587,16 +1334,63 @@
     "clip": "assets/clips/final-killer-ambition.mp4",
     "trailer": "https://www.youtube.com/embed/qRttX3aW1lQ",
     "layout": [
-      {"type": "wide", "src": "assets/Killer Ambition/new_1.jpg"},
-      {"type": "pair", "src": ["assets/Killer Ambition/new_3.jpg", "assets/Killer Ambition/new_4.jpg"]},
-      {"type": "wide", "src": "assets/Killer Ambition/new_5.jpg"},
-      {"type": "trio", "src": ["assets/Killer Ambition/new_6.jpg", "assets/Killer Ambition/new_7.jpg", "assets/Killer Ambition/new_10.jpg"]},
-      {"type": "wide", "src": "assets/Killer Ambition/new_12.jpg"},
-      {"type": "pair", "src": ["assets/Killer Ambition/new_14.jpg", "assets/Killer Ambition/new_15.jpg"]},
-      {"type": "trio", "src": ["assets/Killer Ambition/new_18.jpg", "assets/Killer Ambition/new_21.jpg", "assets/Killer Ambition/new_22.jpg"]},
-      {"type": "wide", "src": "assets/Killer Ambition/new_23.jpg"},
-      {"type": "pair", "src": ["assets/Killer Ambition/new_25.jpg", "assets/Killer Ambition/new_26.jpg"]},
-      {"type": "wide", "src": "assets/Killer Ambition/new_27.jpg"}
+      {
+        "type": "wide",
+        "src": "assets/Killer Ambition/new_1.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Killer Ambition/new_3.jpg",
+          "assets/Killer Ambition/new_4.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Killer Ambition/new_5.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Killer Ambition/new_6.jpg",
+          "assets/Killer Ambition/new_7.jpg",
+          "assets/Killer Ambition/new_10.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Killer Ambition/new_12.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Killer Ambition/new_14.jpg",
+          "assets/Killer Ambition/new_15.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Killer Ambition/new_18.jpg",
+          "assets/Killer Ambition/new_21.jpg",
+          "assets/Killer Ambition/new_22.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Killer Ambition/new_23.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Killer Ambition/new_25.jpg",
+          "assets/Killer Ambition/new_26.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Killer Ambition/new_27.jpg"
+      }
     ]
   },
   "Sinister Cover Up": {
@@ -614,13 +1408,44 @@
       "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.05.06 AM.jpeg"
     ],
     "layout": [
-      {"type": "wide", "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.16.54 AM.jpeg"},
-      {"type": "pair", "src": ["assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.27.29 AM.jpeg", "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.34.40 AM.jpeg"]},
-      {"type": "wide", "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.37.07 AM.jpeg"},
-      {"type": "trio", "src": ["assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.39.14 AM.jpeg", "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.47.19 AM.jpeg", "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.45 AM.jpeg"]},
-      {"type": "wide", "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.03.05 AM.jpeg"},
-      {"type": "pair", "src": ["assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.06.05 AM.jpeg", "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.47 AM.jpeg"]},
-      {"type": "wide", "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.05.06 AM.jpeg"}
+      {
+        "type": "wide",
+        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.16.54 AM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.27.29 AM.jpeg",
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.34.40 AM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.37.07 AM.jpeg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.39.14 AM.jpeg",
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.47.19 AM.jpeg",
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.45 AM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.03.05 AM.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.06.05 AM.jpeg",
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.47 AM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.05.06 AM.jpeg"
+      }
     ]
   },
   "Sweet Maple Romance": {
@@ -650,18 +1475,75 @@
     "clip": "assets/clips/final-sweet-maple.mp4",
     "trailer": "https://www.youtube.com/embed/rpilhVVBjj0",
     "layout": [
-      {"type": "wide", "src": "assets/Sweet Maple Romance/still_2.jpg"},
-      {"type": "pair", "src": ["assets/Sweet Maple Romance/still_3.jpg", "assets/Sweet Maple Romance/still_4.jpg"]},
-      {"type": "wide", "src": "assets/Sweet Maple Romance/still_5.jpg"},
-      {"type": "trio", "src": ["assets/Sweet Maple Romance/still_6.jpg", "assets/Sweet Maple Romance/still_7.jpg", "assets/Sweet Maple Romance/still_8.jpg"]},
-      {"type": "wide", "src": "assets/Sweet Maple Romance/still_10.jpg"},
-      {"type": "pair", "src": ["assets/Sweet Maple Romance/still_11.jpg", "assets/Sweet Maple Romance/still_14.jpg"]},
-      {"type": "trio", "src": ["assets/Sweet Maple Romance/still_15.jpg", "assets/Sweet Maple Romance/still_16.jpg", "assets/Sweet Maple Romance/still_17.jpg"]},
-      {"type": "wide", "src": "assets/Sweet Maple Romance/still_18.jpg"},
-      {"type": "pair", "src": ["assets/Sweet Maple Romance/still_19.jpg", "assets/Sweet Maple Romance/still_20.jpg"]},
-      {"type": "trio", "src": ["assets/Sweet Maple Romance/still_21.jpg", "assets/Sweet Maple Romance/still_22.jpg", "assets/Sweet Maple Romance/still_25.jpg"]},
-      {"type": "wide", "src": "assets/Sweet Maple Romance/still_26.jpg"},
-      {"type": "wide", "src": "assets/Sweet Maple Romance/still_27.jpg"}
+      {
+        "type": "wide",
+        "src": "assets/Sweet Maple Romance/still_2.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Sweet Maple Romance/still_3.jpg",
+          "assets/Sweet Maple Romance/still_4.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Sweet Maple Romance/still_5.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Sweet Maple Romance/still_6.jpg",
+          "assets/Sweet Maple Romance/still_7.jpg",
+          "assets/Sweet Maple Romance/still_8.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Sweet Maple Romance/still_10.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Sweet Maple Romance/still_11.jpg",
+          "assets/Sweet Maple Romance/still_14.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Sweet Maple Romance/still_15.jpg",
+          "assets/Sweet Maple Romance/still_16.jpg",
+          "assets/Sweet Maple Romance/still_17.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Sweet Maple Romance/still_18.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Sweet Maple Romance/still_19.jpg",
+          "assets/Sweet Maple Romance/still_20.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Sweet Maple Romance/still_21.jpg",
+          "assets/Sweet Maple Romance/still_22.jpg",
+          "assets/Sweet Maple Romance/still_25.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Sweet Maple Romance/still_26.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/Sweet Maple Romance/still_27.jpg"
+      }
     ]
   },
   "Don't Breathe a Word": {
