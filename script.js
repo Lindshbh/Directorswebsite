@@ -107,21 +107,24 @@ document.addEventListener('DOMContentLoaded', () => {
     filmLinks.forEach(link => {
         const folder = link.getAttribute('data-folder');
         const imgPath = link.getAttribute('data-img');
-        if (!folder && !imgPath) return;
 
         const previewEl = link.parentElement.querySelector('.inline-preview');
-        if (!previewEl) return;
 
         link.addEventListener('mouseenter', () => {
-            // Close previous preview
-            if (activePreview && activePreview !== previewEl) {
+            // Always close previous preview
+            if (activePreview) {
                 activePreview.classList.remove('active');
                 activePreview.innerHTML = '';
                 if (activeVideo) {
                     activeVideo.pause();
                     activeVideo = null;
                 }
+                activePreview = null;
             }
+
+            // If this film has no folder and no image, nothing to show
+            if (!folder && !imgPath) return;
+            if (!previewEl) return;
 
             const entry = folder && galleryData[folder];
             const clip = entry && entry.clip;
