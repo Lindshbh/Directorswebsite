@@ -264,7 +264,7 @@ img { max-width: 100%; display: block; }
    PAGE CONTENT (scrollable)
    ======================================== */
 .page-content {
-    padding-top: 100px;
+    padding-top: 85px;
     padding-bottom: 80px;
 }
 
@@ -273,11 +273,11 @@ img { max-width: 100%; display: block; }
    ======================================== */
 .hero {
     text-align: center;
-    padding: 20px clamp(24px, 6vw, 80px) 40px;
+    padding: 10px clamp(24px, 6vw, 80px) 30px;
 }
 
 .director-statement {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 .director-statement span {
     font-family: var(--font-serif);
