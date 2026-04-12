@@ -382,14 +382,25 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     const romancePill = document.getElementById('romanceReelPill');
     const romancePreview = document.getElementById('romanceReelPreview');
+    let romanceVideo = null;
     if (romancePill && romancePreview) {
-        romancePill.addEventListener('mouseenter', () => {
-            romancePreview.innerHTML = '<video src="assets/clips/romance-reel-clip.mp4" muted autoplay loop playsinline></video>';
-            romancePreview.classList.add('active');
+        romancePill.addEventListener('mouseenter', (e) => {
+            e.stopPropagation();
+            if (!romanceVideo) {
+                romanceVideo = document.createElement('video');
+                romanceVideo.src = 'assets/clips/romance-reel-clip.mp4';
+                romanceVideo.muted = true;
+                romanceVideo.loop = true;
+                romanceVideo.playsInline = true;
+                romanceVideo.autoplay = true;
+                romancePreview.appendChild(romanceVideo);
+            }
+            romanceVideo.play().catch(() => {});
+            romancePreview.style.display = 'block';
         });
         romancePill.addEventListener('mouseleave', () => {
-            romancePreview.classList.remove('active');
-            setTimeout(() => { romancePreview.innerHTML = ''; }, 600);
+            romancePreview.style.display = 'none';
+            if (romanceVideo) { romanceVideo.pause(); }
         });
     }
 

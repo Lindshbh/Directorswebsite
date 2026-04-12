@@ -1068,14 +1068,10 @@ img { max-width: 100%; display: block; }
 .romance-reel-preview {
     width: 100%;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 20px auto 10px;
     overflow: hidden;
     border-radius: 4px;
     display: none;
-}
-.romance-reel-preview.active {
-    display: block;
-    margin: 20px auto 10px;
 }
 .romance-reel-preview video {
     width: 100%;
