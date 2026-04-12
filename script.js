@@ -254,6 +254,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         projectGallery.appendChild(img);
                     });
                 }
+                // Add back-to-top button at end of gallery
+                const topBtn = document.createElement('button');
+                topBtn.className = 'gallery-top-btn';
+                topBtn.textContent = '↑ Back to Top';
+                topBtn.addEventListener('click', () => {
+                    projectOverlay.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+                projectGallery.appendChild(topBtn);
             } else {
                 projectGallery.innerHTML = '<p style="text-align:center;color:#4a4640;font-size:13px;letter-spacing:2px;text-transform:uppercase;padding:80px 0;">Gallery coming soon</p>';
             }
