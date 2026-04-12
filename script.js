@@ -257,6 +257,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         projectGallery.appendChild(img);
                     });
                 }
+                // Add blur-to-sharp loading effect
+                projectGallery.querySelectorAll('img').forEach(img => {
+                    if (img.complete) { img.classList.add('loaded'); }
+                    else { img.addEventListener('load', () => img.classList.add('loaded')); }
+                });
+
                 // Add back-to-top button at end of gallery
                 const topBtn = document.createElement('button');
                 topBtn.className = 'gallery-top-btn';
@@ -498,6 +504,36 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     });
+
+    // ==========================================
+    // SCROLL ARROW — smooth scroll to films
+    // ==========================================
+    const scrollArrow = document.querySelector('.scroll-arrow');
+    const filmsSection = document.querySelector('.films-section');
+    if (scrollArrow && filmsSection) {
+        scrollArrow.addEventListener('click', () => {
+            filmsSection.scrollIntoView({ behavior: 'smooth' });
+        });
+        scrollArrow.style.cursor = 'pointer';
+    }
+
+    // ==========================================
+    // PRELOAD HOVER CLIPS (first 6 after page load)
+    // ==========================================
+    setTimeout(() => {
+        if (!galleryData) return;
+        let preloaded = 0;
+        for (const [film, entry] of Object.entries(galleryData)) {
+            if (preloaded >= 6) break;
+            if (entry.clip) {
+                const link = document.createElement('link');
+                link.rel = 'prefetch';
+                link.href = entry.clip;
+                document.head.appendChild(link);
+                preloaded++;
+            }
+        }
+    }, 3000);
 
 });
 

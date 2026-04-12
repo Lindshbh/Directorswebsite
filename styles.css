@@ -1088,6 +1088,31 @@ img { max-width: 100%; display: block; }
     object-fit: cover;
 }
 
+/* Image blur-to-sharp loading */
+.project-gallery img {
+    filter: blur(8px);
+    transition: filter 0.6s ease;
+}
+.project-gallery img.loaded {
+    filter: blur(0);
+}
+
+/* Coming Soon badge */
+.coming-soon {
+    font-family: var(--font-mono);
+    font-size: 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--accent);
+    opacity: 0.5;
+    margin-left: 8px;
+}
+
+/* Scroll arrow clickable */
+.scroll-arrow {
+    cursor: pointer;
+}
+
 /* Back to Top Button */
 .gallery-top-btn {
     display: block;

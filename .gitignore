@@ -1,8 +1,10 @@
 .DS_Store
 pick-*.html
 review-*.html
+contact-sheet.html
 *.psb
 *_contact/
+*_round*/
 CLAUDE.md
 assets/reel-opener.mp4
 assets/reel-closer.mp4
