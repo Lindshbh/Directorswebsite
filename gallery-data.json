@@ -609,7 +609,15 @@
       "assets/Deadly Debutante/IMG_3053.jpg",
       "assets/Deadly Debutante/IMG_3032.PNG",
       "assets/Deadly Debutante/IMG_2986.PNG",
-      "assets/Deadly Debutante/IMG_3089.jpg"
+      "assets/Deadly Debutante/IMG_3089.jpg",
+      "assets/Deadly Debutante/new_1.jpg",
+      "assets/Deadly Debutante/new_2.jpg",
+      "assets/Deadly Debutante/new_3.jpg",
+      "assets/Deadly Debutante/new_4.jpg",
+      "assets/Deadly Debutante/new_13.jpg",
+      "assets/Deadly Debutante/new_14.jpg",
+      "assets/Deadly Debutante/new_15.jpg",
+      "assets/Deadly Debutante/new_16.jpg"
     ],
     "layout": [
       {
@@ -645,6 +653,33 @@
           "assets/Deadly Debutante/IMG_2986.PNG",
           "assets/Deadly Debutante/IMG_3089.jpg"
         ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Deadly Debutante/new_1.jpg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Deadly Debutante/new_2.jpg",
+          "assets/Deadly Debutante/new_3.jpg",
+          "assets/Deadly Debutante/new_4.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Deadly Debutante/new_13.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Deadly Debutante/new_14.jpg",
+          "assets/Deadly Debutante/new_15.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Deadly Debutante/new_16.jpg"
       }
     ]
   },
