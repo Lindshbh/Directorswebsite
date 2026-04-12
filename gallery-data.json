@@ -137,7 +137,8 @@
       "assets/The Lies We Bury/IMG_1623.PNG",
       "assets/The Lies We Bury/IMG_1627.PNG",
       "assets/The Lies We Bury/IMG_1631.PNG",
-      "assets/The Lies We Bury/image5.png"
+      "assets/The Lies We Bury/image5.png",
+      "assets/The Lies We Bury/image6.png"
     ],
     "trailer": "https://www.youtube.com/embed/ZvRgj4jcN_E",
     "clip": "assets/clips/final-lies-we-bury.mp4",
@@ -970,7 +971,6 @@
   "The Romeo and Juliet Killers": {
     "clip": "assets/clips/final-romeo-juliet.mp4",
     "images": [
-      "assets/The Romeo and Juliet Killers/still_1.jpg",
       "assets/The Romeo and Juliet Killers/still_2.jpg",
       "assets/The Romeo and Juliet Killers/still_4.jpg",
       "assets/The Romeo and Juliet Killers/still_5.jpg",
@@ -980,14 +980,10 @@
       "assets/The Romeo and Juliet Killers/still_21.jpg",
       "assets/The Romeo and Juliet Killers/still_22.jpg",
       "assets/The Romeo and Juliet Killers/still_23.jpg",
-      "assets/The Romeo and Juliet Killers/still_24.jpg",
-      "assets/The Romeo and Juliet Killers/still_25.jpg",
       "assets/The Romeo and Juliet Killers/still_27.jpg",
       "assets/The Romeo and Juliet Killers/still_28.jpg",
       "assets/The Romeo and Juliet Killers/still_29.jpg",
-      "assets/The Romeo and Juliet Killers/new_6.jpg",
       "assets/The Romeo and Juliet Killers/new_8.jpg",
-      "assets/The Romeo and Juliet Killers/r3_21.jpg",
       "assets/The Romeo and Juliet Killers/r3_25.jpg",
       "assets/The Romeo and Juliet Killers/r4_13.jpg",
       "assets/The Romeo and Juliet Killers/r4_22.jpg",
@@ -998,7 +994,6 @@
       "assets/The Romeo and Juliet Killers/r5_15.jpg",
       "assets/The Romeo and Juliet Killers/r5_18.jpg",
       "assets/The Romeo and Juliet Killers/r5_19.jpg",
-      "assets/The Romeo and Juliet Killers/r5_20.jpg",
       "assets/The Romeo and Juliet Killers/IMG_0087.PNG",
       "assets/The Romeo and Juliet Killers/IMG_0089.PNG",
       "assets/The Romeo and Juliet Killers/IMG_0101.PNG",
@@ -1007,25 +1002,20 @@
       "assets/The Romeo and Juliet Killers/IMG_0119.PNG",
       "assets/The Romeo and Juliet Killers/IMG_0129.PNG",
       "assets/The Romeo and Juliet Killers/IMG_0133.PNG",
-      "assets/The Romeo and Juliet Killers/Screen Shot 2021-11-06 at 2.25.27 PM.jpeg",
-      "assets/The Romeo and Juliet Killers/image6.png"
+      "assets/The Romeo and Juliet Killers/Screen Shot 2021-11-06 at 2.25.27 PM.jpeg"
     ],
     "trailer": "https://www.youtube.com/embed/qL5rHupprpk",
     "layout": [
       {
         "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/still_1.jpg"
+        "src": "assets/The Romeo and Juliet Killers/still_2.jpg"
       },
       {
         "type": "pair",
         "src": [
-          "assets/The Romeo and Juliet Killers/still_2.jpg",
-          "assets/The Romeo and Juliet Killers/still_4.jpg"
+          "assets/The Romeo and Juliet Killers/still_4.jpg",
+          "assets/The Romeo and Juliet Killers/still_5.jpg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/still_5.jpg"
       },
       {
         "type": "trio",
@@ -1047,89 +1037,69 @@
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/still_24.jpg"
-      },
-      {
         "type": "trio",
         "src": [
-          "assets/The Romeo and Juliet Killers/still_25.jpg",
           "assets/The Romeo and Juliet Killers/still_27.jpg",
-          "assets/The Romeo and Juliet Killers/still_28.jpg"
+          "assets/The Romeo and Juliet Killers/still_28.jpg",
+          "assets/The Romeo and Juliet Killers/still_29.jpg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/still_29.jpg"
+        "src": "assets/The Romeo and Juliet Killers/new_8.jpg"
       },
       {
         "type": "pair",
-        "src": [
-          "assets/The Romeo and Juliet Killers/new_6.jpg",
-          "assets/The Romeo and Juliet Killers/new_8.jpg"
-        ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/r3_21.jpg"
-      },
-      {
-        "type": "trio",
         "src": [
           "assets/The Romeo and Juliet Killers/r3_25.jpg",
-          "assets/The Romeo and Juliet Killers/r4_13.jpg",
-          "assets/The Romeo and Juliet Killers/r4_22.jpg"
+          "assets/The Romeo and Juliet Killers/r4_13.jpg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/r4_25.jpg"
-      },
-      {
-        "type": "pair",
-        "src": [
-          "assets/The Romeo and Juliet Killers/r5_2.jpg",
-          "assets/The Romeo and Juliet Killers/r5_11.jpg"
-        ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/r5_12.jpg"
       },
       {
         "type": "trio",
         "src": [
-          "assets/The Romeo and Juliet Killers/r5_15.jpg",
+          "assets/The Romeo and Juliet Killers/r4_22.jpg",
+          "assets/The Romeo and Juliet Killers/r4_25.jpg",
+          "assets/The Romeo and Juliet Killers/r5_2.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Romeo and Juliet Killers/r5_11.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Romeo and Juliet Killers/r5_12.jpg",
+          "assets/The Romeo and Juliet Killers/r5_15.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
           "assets/The Romeo and Juliet Killers/r5_18.jpg",
-          "assets/The Romeo and Juliet Killers/r5_19.jpg"
+          "assets/The Romeo and Juliet Killers/r5_19.jpg",
+          "assets/The Romeo and Juliet Killers/IMG_0087.PNG"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/r5_20.jpg"
+        "src": "assets/The Romeo and Juliet Killers/IMG_0089.PNG"
       },
       {
         "type": "pair",
         "src": [
-          "assets/The Romeo and Juliet Killers/IMG_0087.PNG",
-          "assets/The Romeo and Juliet Killers/IMG_0089.PNG"
+          "assets/The Romeo and Juliet Killers/IMG_0101.PNG",
+          "assets/The Romeo and Juliet Killers/IMG_0108.PNG"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/IMG_0101.PNG"
       },
       {
         "type": "trio",
         "src": [
-          "assets/The Romeo and Juliet Killers/IMG_0108.PNG",
           "assets/The Romeo and Juliet Killers/IMG_0115.PNG",
-          "assets/The Romeo and Juliet Killers/IMG_0119.PNG"
+          "assets/The Romeo and Juliet Killers/IMG_0119.PNG",
+          "assets/The Romeo and Juliet Killers/IMG_0129.PNG"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/IMG_0129.PNG"
       },
       {
         "type": "pair",
@@ -1137,10 +1107,6 @@
           "assets/The Romeo and Juliet Killers/IMG_0133.PNG",
           "assets/The Romeo and Juliet Killers/Screen Shot 2021-11-06 at 2.25.27 PM.jpeg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/The Romeo and Juliet Killers/image6.png"
       }
     ]
   },
