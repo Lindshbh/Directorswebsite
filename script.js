@@ -350,13 +350,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const bgReelVideo = document.getElementById('bgReelVideo');
 
     if (soundToggle && bgReelVideo) {
+        let isMuted = true;
         soundToggle.addEventListener('click', () => {
-            if (bgReelVideo.muted) {
-                bgReelVideo.muted = false;
+            if (bgReelVideo.tagName === 'VIDEO') {
+                bgReelVideo.muted = !bgReelVideo.muted;
+                isMuted = bgReelVideo.muted;
+            } else if (bgReelVideo.tagName === 'IFRAME') {
+                // Toggle mute via Vimeo postMessage API
+                const src = bgReelVideo.src;
+                if (isMuted) {
+                    bgReelVideo.src = src.replace('muted=1', 'muted=0').replace('background=1', 'background=0');
+                } else {
+                    bgReelVideo.src = src.replace('muted=0', 'muted=1').replace('background=0', 'background=1');
+                }
+                isMuted = !isMuted;
+            }
+            if (!isMuted) {
                 soundToggle.classList.add('active');
                 soundToggle.innerHTML = '&#9836;';
             } else {
-                bgReelVideo.muted = true;
                 soundToggle.classList.remove('active');
                 soundToggle.innerHTML = '&#9834;';
             }

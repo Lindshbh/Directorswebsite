@@ -286,14 +286,16 @@ img { max-width: 100%; display: block; }
         radial-gradient(ellipse at center, transparent 50%, rgba(5, 5, 5, 0.6) 100%);
     pointer-events: none;
 }
-.reel-container video {
+.reel-container video,
+.reel-container iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
     filter: brightness(0.9);
     transition: filter 0.8s var(--ease-nv);
 }
-.reel-container:hover video {
+.reel-container:hover video,
+.reel-container:hover iframe {
     filter: brightness(1.1);
 }
 
