@@ -820,7 +820,6 @@
   "A Christmas Frequency": {
     "clip": "assets/clips/final-christmas-frequency.mp4",
     "images": [
-      "assets/A Christmas Frequency/IMG_0291.jpg",
       "assets/A Christmas Frequency/IMG_0299.jpg",
       "assets/A Christmas Frequency/IMG_0318.jpg",
       "assets/A Christmas Frequency/IMG_0292.jpg",
@@ -837,9 +836,7 @@
       "assets/A Christmas Frequency/new_28.jpg",
       "assets/A Christmas Frequency/IMG_0293.jpg",
       "assets/A Christmas Frequency/IMG_0294.jpg",
-      "assets/A Christmas Frequency/IMG_0295.jpg",
       "assets/A Christmas Frequency/IMG_0296.jpg",
-      "assets/A Christmas Frequency/IMG_0297.jpg",
       "assets/A Christmas Frequency/IMG_0298.jpg",
       "assets/A Christmas Frequency/IMG_0300.jpg",
       "assets/A Christmas Frequency/IMG_0301.jpg",
@@ -869,10 +866,6 @@
     ],
     "trailer": "https://www.youtube.com/embed/qa6JWw7ksS0",
     "layout": [
-      {
-        "type": "wide",
-        "src": "assets/A Christmas Frequency/IMG_0291.jpg"
-      },
       {
         "type": "pair",
         "src": [
@@ -927,14 +920,9 @@
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/A Christmas Frequency/IMG_0295.jpg"
-      },
-      {
-        "type": "trio",
+        "type": "pair",
         "src": [
           "assets/A Christmas Frequency/IMG_0296.jpg",
-          "assets/A Christmas Frequency/IMG_0297.jpg",
           "assets/A Christmas Frequency/IMG_0298.jpg"
         ]
       },
