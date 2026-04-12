@@ -2657,35 +2657,35 @@
     ]
   },
   "Don't Breathe a Word": {
-    "trailer": "https://www.youtube.com/embed/TvnRnBvh3LQ",
     "images": [
-      "assets/Don't Breathe a Word/IMG_2610.PNG",
-      "assets/Don't Breathe a Word/IMG_2841.PNG",
-      "assets/Don't Breathe a Word/IMG_2846.PNG",
-      "assets/Don't Breathe a Word/IMG_2847.PNG",
+      "assets/Don't Breathe a Word/IMG_2610.jpg",
+      "assets/Don't Breathe a Word/IMG_2841.jpg",
+      "assets/Don't Breathe a Word/IMG_2846.jpg",
+      "assets/Don't Breathe a Word/IMG_2847.jpg",
       "assets/Don't Breathe a Word/poster.jpeg"
     ],
     "layout": [
       {
         "type": "wide",
-        "src": "assets/Don't Breathe a Word/IMG_2610.PNG"
+        "src": "assets/Don't Breathe a Word/IMG_2610.jpg"
       },
       {
         "type": "pair",
         "src": [
-          "assets/Don't Breathe a Word/IMG_2841.PNG",
-          "assets/Don't Breathe a Word/IMG_2846.PNG"
+          "assets/Don't Breathe a Word/IMG_2841.jpg",
+          "assets/Don't Breathe a Word/IMG_2846.jpg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Don't Breathe a Word/IMG_2847.PNG"
+        "src": "assets/Don't Breathe a Word/IMG_2847.jpg"
       },
       {
         "type": "wide",
         "src": "assets/Don't Breathe a Word/poster.jpeg"
       }
-    ]
+    ],
+    "trailer": "https://www.youtube.com/embed/TvnRnBvh3LQ"
   },
   "Dressed to Kill": {
     "images": [
