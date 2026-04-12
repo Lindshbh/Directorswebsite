@@ -2632,7 +2632,14 @@
       "assets/Postcards from the Heart/PNG image 2.jpeg",
       "assets/Postcards from the Heart/PNG image 3.jpeg",
       "assets/Postcards from the Heart/PNG image 4.jpeg",
-      "assets/Postcards from the Heart/PNG image 5.jpeg"
+      "assets/Postcards from the Heart/PNG image 5.jpeg",
+      "assets/Postcards from the Heart/still_3.jpg",
+      "assets/Postcards from the Heart/still_5.jpg",
+      "assets/Postcards from the Heart/still_6.jpg",
+      "assets/Postcards from the Heart/still_8.jpg",
+      "assets/Postcards from the Heart/still_18.jpg",
+      "assets/Postcards from the Heart/still_22.jpg",
+      "assets/Postcards from the Heart/still_29.jpg"
     ],
     "layout": [
       {
@@ -2647,10 +2654,30 @@
         ]
       },
       {
-        "type": "pair",
+        "type": "trio",
         "src": [
           "assets/Postcards from the Heart/PNG image 4.jpeg",
-          "assets/Postcards from the Heart/PNG image 5.jpeg"
+          "assets/Postcards from the Heart/PNG image 5.jpeg",
+          "assets/Postcards from the Heart/still_3.jpg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Postcards from the Heart/still_5.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/Postcards from the Heart/still_6.jpg",
+          "assets/Postcards from the Heart/still_8.jpg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Postcards from the Heart/still_18.jpg",
+          "assets/Postcards from the Heart/still_22.jpg",
+          "assets/Postcards from the Heart/still_29.jpg"
         ]
       }
     ],
