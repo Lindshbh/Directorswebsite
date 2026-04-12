@@ -209,14 +209,51 @@ document.addEventListener('DOMContentLoaded', () => {
                     projectGallery.appendChild(videoWrap);
                 }
 
-                // Add images
-                images.forEach(imgSrc => {
-                    const img = document.createElement('img');
-                    img.src = imgSrc;
-                    img.alt = title + ' - production still';
-                    img.loading = 'lazy';
-                    projectGallery.appendChild(img);
-                });
+                // Add images — use layout if available, otherwise flat grid
+                if (entry.layout) {
+                    entry.layout.forEach(block => {
+                        if (block.type === 'wide') {
+                            const wrap = document.createElement('div');
+                            wrap.className = 'gallery-wide';
+                            const img = document.createElement('img');
+                            img.src = block.src;
+                            img.alt = title + ' - production still';
+                            img.loading = 'lazy';
+                            wrap.appendChild(img);
+                            projectGallery.appendChild(wrap);
+                        } else if (block.type === 'pair') {
+                            const wrap = document.createElement('div');
+                            wrap.className = 'gallery-pair';
+                            block.src.forEach(s => {
+                                const img = document.createElement('img');
+                                img.src = s;
+                                img.alt = title + ' - production still';
+                                img.loading = 'lazy';
+                                wrap.appendChild(img);
+                            });
+                            projectGallery.appendChild(wrap);
+                        } else if (block.type === 'trio') {
+                            const wrap = document.createElement('div');
+                            wrap.className = 'gallery-trio';
+                            block.src.forEach(s => {
+                                const img = document.createElement('img');
+                                img.src = s;
+                                img.alt = title + ' - production still';
+                                img.loading = 'lazy';
+                                wrap.appendChild(img);
+                            });
+                            projectGallery.appendChild(wrap);
+                        }
+                    });
+                } else {
+                    images.forEach(imgSrc => {
+                        const img = document.createElement('img');
+                        img.src = imgSrc;
+                        img.alt = title + ' - production still';
+                        img.loading = 'lazy';
+                        projectGallery.appendChild(img);
+                    });
+                }
             } else {
                 projectGallery.innerHTML = '<p style="text-align:center;color:#4a4640;font-size:13px;letter-spacing:2px;text-transform:uppercase;padding:80px 0;">Gallery coming soon</p>';
             }

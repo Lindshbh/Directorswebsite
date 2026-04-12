@@ -127,6 +127,25 @@
   },
   "The Romeo and Juliet Killers": {
     "clip": "assets/clips/final-romeo-juliet.mp4",
+    "layout": [
+      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_2.jpg"},
+      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/still_1.jpg", "assets/The Romeo and Juliet Killers/still_3.jpg"]},
+      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_4.jpg"},
+      {"type": "trio", "src": ["assets/The Romeo and Juliet Killers/still_6.jpg", "assets/The Romeo and Juliet Killers/still_7.jpg", "assets/The Romeo and Juliet Killers/still_9.jpg"]},
+      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_10.jpg"},
+      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/still_5.jpg", "assets/The Romeo and Juliet Killers/still_8.jpg"]},
+      {"type": "trio", "src": ["assets/The Romeo and Juliet Killers/still_11.jpg", "assets/The Romeo and Juliet Killers/still_12.jpg", "assets/The Romeo and Juliet Killers/still_16.jpg"]},
+      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_13.jpg"},
+      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/still_14.jpg", "assets/The Romeo and Juliet Killers/still_15.jpg"]},
+      {"type": "trio", "src": ["assets/The Romeo and Juliet Killers/still_17.jpg", "assets/The Romeo and Juliet Killers/still_18.jpg", "assets/The Romeo and Juliet Killers/still_19.jpg"]},
+      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_25.jpg"},
+      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/still_20.jpg", "assets/The Romeo and Juliet Killers/still_22.jpg"]},
+      {"type": "trio", "src": ["assets/The Romeo and Juliet Killers/still_21.jpg", "assets/The Romeo and Juliet Killers/still_23.jpg", "assets/The Romeo and Juliet Killers/still_24.jpg"]},
+      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_26.jpg"},
+      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_27.jpg"},
+      {"type": "pair", "src": ["assets/The Romeo and Juliet Killers/still_28.jpg", "assets/The Romeo and Juliet Killers/still_29.jpg"]},
+      {"type": "wide", "src": "assets/The Romeo and Juliet Killers/still_30.jpg"}
+    ],
     "images": [
       "assets/The Romeo and Juliet Killers/still_1.jpg",
       "assets/The Romeo and Juliet Killers/still_2.jpg",
