@@ -281,9 +281,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 homePill.addEventListener('click', () => closeProject());
             }
 
-            projectOverlay.classList.add('open');
-            projectOverlay.scrollTop = 0;
-            document.body.style.overflow = 'hidden';
+            // Film cut transition
+            const filmCut = document.getElementById('filmCut');
+            filmCut.classList.add('flash');
+            setTimeout(() => {
+                projectOverlay.classList.add('open');
+                projectOverlay.scrollTop = 0;
+                document.body.style.overflow = 'hidden';
+                filmCut.classList.remove('flash');
+            }, 200);
 
             // Close any inline preview
             if (activePreview) {
@@ -297,10 +303,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectHomeBtn = document.getElementById('projectHomeBtn');
 
     function closeProject() {
-        projectOverlay.classList.remove('open');
-        document.body.style.overflow = '';
-        projectGallery.querySelectorAll('video').forEach(v => v.pause());
-        projectGallery.querySelectorAll('iframe').forEach(f => f.src = '');
+        const filmCut = document.getElementById('filmCut');
+        const progressBar = document.getElementById('galleryProgress');
+        filmCut.classList.add('flash');
+        setTimeout(() => {
+            projectOverlay.classList.remove('open');
+            document.body.style.overflow = '';
+            projectGallery.querySelectorAll('video').forEach(v => v.pause());
+            projectGallery.querySelectorAll('iframe').forEach(f => f.src = '');
+            if (progressBar) progressBar.classList.remove('visible');
+            filmCut.classList.remove('flash');
+        }, 200);
     }
 
     if (projectHomeBtn) {
@@ -568,6 +581,105 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     }, 3000);
+
+    // ==========================================
+    // GALLERY SCROLL PROGRESS BAR
+    // ==========================================
+    const progressBar = document.getElementById('galleryProgress');
+    if (projectOverlay && progressBar) {
+        projectOverlay.addEventListener('scroll', () => {
+            if (!projectOverlay.classList.contains('open')) return;
+            const scrollTop = projectOverlay.scrollTop;
+            const scrollHeight = projectOverlay.scrollHeight - projectOverlay.clientHeight;
+            if (scrollHeight > 0) {
+                const progress = (scrollTop / scrollHeight) * 100;
+                progressBar.style.width = progress + '%';
+                if (!progressBar.classList.contains('visible')) {
+                    progressBar.classList.add('visible');
+                }
+            }
+        });
+    }
+
+    // ==========================================
+    // KEYBOARD NAVIGATION
+    // ==========================================
+    const allFilmLinks = Array.from(document.querySelectorAll('.film-link'));
+    let currentFilmIndex = -1;
+
+    document.addEventListener('keydown', (e) => {
+        // Only on main page (no overlay open)
+        if (projectOverlay && projectOverlay.classList.contains('open')) return;
+        if (aboutOverlay && aboutOverlay.classList.contains('open')) return;
+
+        if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+            e.preventDefault();
+            currentFilmIndex = Math.min(currentFilmIndex + 1, allFilmLinks.length - 1);
+            allFilmLinks[currentFilmIndex].focus();
+            allFilmLinks[currentFilmIndex].dispatchEvent(new Event('mouseenter'));
+        } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+            e.preventDefault();
+            currentFilmIndex = Math.max(currentFilmIndex - 1, 0);
+            allFilmLinks[currentFilmIndex].focus();
+            allFilmLinks[currentFilmIndex].dispatchEvent(new Event('mouseenter'));
+        } else if (e.key === 'Enter' && currentFilmIndex >= 0) {
+            allFilmLinks[currentFilmIndex].click();
+        }
+    });
+
+    // ==========================================
+    // TYPEWRITER CURSOR → FILM FRAME ICON
+    // ==========================================
+    const twCursor = document.querySelector('.typewriter-cursor');
+    if (twCursor) {
+        // After typewriter finishes (~4s), blink 3 times then transform
+        setTimeout(() => {
+            let blinks = 0;
+            const blinkInterval = setInterval(() => {
+                twCursor.style.opacity = twCursor.style.opacity === '0' ? '1' : '0';
+                blinks++;
+                if (blinks >= 6) {
+                    clearInterval(blinkInterval);
+                    twCursor.classList.add('done');
+                    twCursor.textContent = '🎬';
+                }
+            }, 300);
+        }, 5000);
+    }
+
+    // ==========================================
+    // EASTER EGG — Triple click name
+    // ==========================================
+    const topName = document.querySelector('.top-bar .top-name');
+    if (topName) {
+        let clickCount = 0;
+        let clickTimer = null;
+        topName.addEventListener('click', () => {
+            clickCount++;
+            if (clickTimer) clearTimeout(clickTimer);
+            clickTimer = setTimeout(() => { clickCount = 0; }, 600);
+            if (clickCount >= 3) {
+                clickCount = 0;
+                // Flash a BTS photo
+                const btsOverlay = document.createElement('div');
+                btsOverlay.style.cssText = 'position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.9);display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;transition:opacity 0.5s ease;';
+                const btsImg = document.createElement('img');
+                btsImg.src = 'assets/Behind the Scenes/FECCE64F-CCF6-491C-A0E9-5899131C163B.jpg';
+                btsImg.style.cssText = 'max-width:70vw;max-height:70vh;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,0.8);';
+                btsOverlay.appendChild(btsImg);
+                document.body.appendChild(btsOverlay);
+                requestAnimationFrame(() => { btsOverlay.style.opacity = '1'; });
+                btsOverlay.addEventListener('click', () => {
+                    btsOverlay.style.opacity = '0';
+                    setTimeout(() => btsOverlay.remove(), 500);
+                });
+                setTimeout(() => {
+                    btsOverlay.style.opacity = '0';
+                    setTimeout(() => btsOverlay.remove(), 500);
+                }, 3000);
+            }
+        });
+    }
 
 });
 

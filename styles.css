@@ -1197,6 +1197,47 @@ img { max-width: 100%; display: block; }
     letter-spacing: 1px;
 }
 
+/* Film cut transition */
+.film-cut {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    z-index: 9998;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+}
+.film-cut.flash {
+    opacity: 1;
+}
+
+/* Gallery scroll progress bar */
+.gallery-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), #d4889a);
+    z-index: 10001;
+    width: 0%;
+    transition: width 0.1s linear;
+    pointer-events: none;
+    display: none;
+}
+.gallery-progress.visible {
+    display: block;
+}
+
+/* Typewriter cursor transform */
+.typewriter-cursor.done {
+    animation: none;
+    opacity: 1;
+    font-size: 10px;
+    vertical-align: middle;
+    margin-left: 4px;
+    transition: all 0.5s ease;
+}
+
 /* Back to Top Button */
 .gallery-top-btn {
     display: block;
