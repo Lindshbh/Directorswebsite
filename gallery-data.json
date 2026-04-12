@@ -2821,8 +2821,7 @@
       "assets/Sweet Maple Romance/IMG_3094.JPG",
       "assets/Sweet Maple Romance/IMG_8005.jpeg",
       "assets/Sweet Maple Romance/IMG_8006.jpeg",
-      "assets/Sweet Maple Romance/IMG_8007.jpeg",
-      "assets/Sweet Maple Romance/Screen Shot 2021-11-28 at 3.15.22 PM.jpeg"
+      "assets/Sweet Maple Romance/IMG_8007.jpeg"
     ],
     "clip": "assets/clips/final-sweet-maple.mp4",
     "trailer": "https://www.youtube.com/embed/rpilhVVBjj0",
@@ -2918,10 +2917,6 @@
           "assets/Sweet Maple Romance/IMG_8006.jpeg",
           "assets/Sweet Maple Romance/IMG_8007.jpeg"
         ]
-      },
-      {
-        "type": "wide",
-        "src": "assets/Sweet Maple Romance/Screen Shot 2021-11-28 at 3.15.22 PM.jpeg"
       }
     ]
   },
@@ -2962,7 +2957,8 @@
       "assets/Dressed to Kill/IMG_0557.PNG",
       "assets/Dressed to Kill/IMG_0559.PNG",
       "assets/Dressed to Kill/IMG_0562.PNG",
-      "assets/Dressed to Kill/IMG_0662.jpg"
+      "assets/Dressed to Kill/IMG_0662.jpg",
+      "assets/Dressed to Kill/Screen Shot 2021-11-28 at 3.15.22 PM.jpeg"
     ],
     "layout": [
       {
@@ -2977,12 +2973,12 @@
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/Dressed to Kill/IMG_0562.PNG"
-      },
-      {
-        "type": "wide",
-        "src": "assets/Dressed to Kill/IMG_0662.jpg"
+        "type": "trio",
+        "src": [
+          "assets/Dressed to Kill/IMG_0562.PNG",
+          "assets/Dressed to Kill/IMG_0662.jpg",
+          "assets/Dressed to Kill/Screen Shot 2021-11-28 at 3.15.22 PM.jpeg"
+        ]
       }
     ]
   },
