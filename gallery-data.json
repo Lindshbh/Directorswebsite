@@ -2755,7 +2755,13 @@
       "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.03.05 AM.jpeg",
       "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.06.05 AM.jpeg",
       "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.47 AM.jpeg",
-      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.05.06 AM.jpeg"
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.05.06 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.15.04 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.15.33 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.16.18 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.17.46 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.50.51 AM.jpeg",
+      "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.13.49 AM.jpeg"
     ],
     "layout": [
       {
@@ -2770,31 +2776,47 @@
         ]
       },
       {
-        "type": "wide",
-        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.37.07 AM.jpeg"
-      },
-      {
         "type": "trio",
         "src": [
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.37.07 AM.jpeg",
           "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.39.14 AM.jpeg",
-          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.47.19 AM.jpeg",
-          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.45 AM.jpeg"
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.47.19 AM.jpeg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.03.05 AM.jpeg"
+        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.45 AM.jpeg"
       },
       {
         "type": "pair",
         "src": [
-          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.06.05 AM.jpeg",
-          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.47 AM.jpeg"
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.03.05 AM.jpeg",
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.06.05 AM.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.53.47 AM.jpeg",
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.05.06 AM.jpeg",
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.15.04 AM.jpeg"
         ]
       },
       {
         "type": "wide",
-        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.05.06 AM.jpeg"
+        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.15.33 AM.jpeg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.16.18 AM.jpeg",
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.17.46 AM.jpeg",
+          "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 9.50.51 AM.jpeg"
+        ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/Sinister Cover Up/Screen Shot 2022-04-04 at 10.13.49 AM.jpeg"
       }
     ]
   },
