@@ -513,7 +513,6 @@
     "clip": "assets/clips/final-paranormal.mp4",
     "images": [
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.00.04 AM.jpeg",
-      "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.13.28 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.36.42 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 4.45.44 PM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 3.40.08 PM.jpeg",
@@ -590,11 +589,8 @@
         "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.00.04 AM.jpeg"
       },
       {
-        "type": "pair",
-        "src": [
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.13.28 AM.jpeg",
-          "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.36.42 AM.jpeg"
-        ]
+        "type": "wide",
+        "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-24 at 11.36.42 AM.jpeg"
       },
       {
         "type": "wide",
