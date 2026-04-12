@@ -382,25 +382,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     const romancePill = document.getElementById('romanceReelPill');
     const romancePreview = document.getElementById('romanceReelPreview');
-    let romanceVideo = null;
-    if (romancePill && romancePreview) {
-        romancePill.addEventListener('mouseenter', (e) => {
-            e.stopPropagation();
-            if (!romanceVideo) {
-                romanceVideo = document.createElement('video');
-                romanceVideo.src = 'assets/clips/romance-reel-clip.mp4';
-                romanceVideo.muted = true;
-                romanceVideo.loop = true;
-                romanceVideo.playsInline = true;
-                romanceVideo.autoplay = true;
-                romancePreview.appendChild(romanceVideo);
-            }
-            romanceVideo.play().catch(() => {});
+    const romanceVideo = romancePreview ? romancePreview.querySelector('video') : null;
+    if (romancePill && romancePreview && romanceVideo) {
+        romancePill.addEventListener('mouseenter', () => {
             romancePreview.style.display = 'block';
+            romanceVideo.currentTime = 0;
+            romanceVideo.play().catch(() => {});
         });
         romancePill.addEventListener('mouseleave', () => {
             romancePreview.style.display = 'none';
-            if (romanceVideo) { romanceVideo.pause(); }
+            romanceVideo.pause();
         });
     }
 

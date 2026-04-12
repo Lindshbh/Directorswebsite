@@ -1066,12 +1066,18 @@ img { max-width: 100%; display: block; }
 
 /* Romance Reel Hover Preview */
 .romance-reel-preview {
-    width: 100%;
-    max-width: 500px;
-    margin: 20px auto 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    max-width: 600px;
     overflow: hidden;
-    border-radius: 4px;
+    border-radius: 8px;
+    z-index: 10000;
     display: none;
+    pointer-events: none;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.8);
 }
 .romance-reel-preview video {
     width: 100%;
