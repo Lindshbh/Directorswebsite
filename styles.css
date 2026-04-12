@@ -213,7 +213,7 @@ img { max-width: 100%; display: block; }
     right: 28px;
     z-index: 200;
     font-size: 28px;
-    background: linear-gradient(135deg, #c9917a, #d4889a, #d4a843);
+    background: linear-gradient(135deg, #c9917a, #d4889a, #d4a843, #c9917a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -221,7 +221,7 @@ img { max-width: 100%; display: block; }
     transition: all 0.6s var(--ease-nv);
     padding: 8px;
     animation: nameGradient 12s ease infinite;
-    background-size: 200% 200%;
+    background-size: 300% 300%;
 }
 .sound-toggle:hover, .sound-toggle.active {
     opacity: 1;
