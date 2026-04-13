@@ -1155,6 +1155,16 @@ img { max-width: 100%; display: block; }
     animation: nameGradient 12s ease infinite;
     margin-bottom: 8px;
 }
+.contact-content h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 1px;
+    margin: 12px 0 0;
+    background: linear-gradient(90deg, var(--accent), #d4889a, #d4a843);
+    background-size: 300% 100%;
+    animation: lineGlow 6s ease-in-out infinite;
+}
 .contact-subtitle {
     font-family: var(--font-mono);
     font-size: 11px;
@@ -1611,5 +1621,27 @@ img { max-width: 100%; display: block; }
     .gallery-trio img:hover,
     .project-gallery > img:hover {
         transform: none;
+    }
+
+    /* Contact form mobile */
+    .contact-content {
+        padding: 60px 20px 40px;
+        width: 100%;
+    }
+    .contact-content h2 {
+        font-size: 26px;
+    }
+    .contact-subtitle {
+        font-size: 10px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 13px;
+        padding: 12px 0;
+    }
+    .contact-close {
+        top: 16px;
+        right: 20px;
+        font-size: 28px;
     }
 }
