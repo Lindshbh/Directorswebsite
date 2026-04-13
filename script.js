@@ -501,6 +501,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 lightbox.classList.remove('open');
                 return;
             }
+            if (contactOverlay && contactOverlay.classList.contains('open')) {
+                contactOverlay.classList.remove('open');
+                document.body.style.overflow = '';
+                return;
+            }
             if (writerOverlay && writerOverlay.classList.contains('open')) {
                 writerOverlay.classList.remove('open');
                 return;
@@ -520,6 +525,53 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     });
+
+    // ==========================================
+    // CONTACT FORM OVERLAY
+    // ==========================================
+    const contactOverlay = document.getElementById('contactOverlay');
+    const contactClose = document.getElementById('contactClose');
+    const contactForm = document.getElementById('contactForm');
+    const contactThanks = document.getElementById('contactThanks');
+
+    document.querySelectorAll('a[href="#contact"]').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            contactOverlay.classList.add('open');
+            document.body.style.overflow = 'hidden';
+            // Close about overlay if open
+            if (aboutOverlay && aboutOverlay.classList.contains('open')) {
+                aboutOverlay.classList.remove('open');
+            }
+            // Close mobile menu if open
+            if (hamburger) hamburger.classList.remove('open');
+            if (mobileMenu) mobileMenu.classList.remove('open');
+        });
+    });
+
+    if (contactClose) {
+        contactClose.addEventListener('click', () => {
+            contactOverlay.classList.remove('open');
+            document.body.style.overflow = '';
+        });
+    }
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const data = new FormData(contactForm);
+            fetch(contactForm.action, {
+                method: 'POST',
+                body: data,
+                headers: { 'Accept': 'application/json' }
+            }).then(response => {
+                if (response.ok) {
+                    contactForm.style.display = 'none';
+                    contactThanks.style.display = 'block';
+                }
+            });
+        });
+    }
 
     // ==========================================
     // SCROLL ARROW — smooth scroll to films

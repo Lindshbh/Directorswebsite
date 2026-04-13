@@ -55,7 +55,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=86">
+    <link rel="stylesheet" href="styles.css?v=90">
 </head>
 <body>
 
@@ -163,7 +163,7 @@
         <a href="#about" class="bottom-link">About</a>
         <a href="https://vimeo.com/1182444899" target="_blank" rel="noopener" class="bottom-link">Director Reel</a>
         <a href="https://www.imdb.com/name/nm0005102/" target="_blank" rel="noopener" class="bottom-link">IMDb</a>
-        <a href="mailto:lindsayhbh@gmail.com" class="bottom-link">Email</a>
+        <a href="#contact" class="bottom-link">Contact</a>
         <a href="https://www.instagram.com/lindsaynhartley/" target="_blank" rel="noopener" class="bottom-link">Instagram</a>
     </footer>
 
@@ -177,7 +177,7 @@
         <a href="#about" class="mobile-menu-link">About</a>
         <a href="https://vimeo.com/1182444899" target="_blank" rel="noopener" class="mobile-menu-link">Director Reel</a>
         <a href="https://www.imdb.com/name/nm0005102/" target="_blank" rel="noopener" class="mobile-menu-link">IMDb</a>
-        <a href="mailto:lindsayhbh@gmail.com" class="mobile-menu-link">Email</a>
+        <a href="#contact" class="mobile-menu-link">Contact</a>
         <a href="https://www.instagram.com/lindsaynhartley/" target="_blank" rel="noopener" class="mobile-menu-link">Instagram</a>
     </div>
 
@@ -215,7 +215,7 @@
                 </div>
                 <div class="about-links">
                     <a href="https://www.imdb.com/name/nm0005102/" target="_blank" rel="noopener" class="pill">IMDb</a>
-                    <a href="mailto:lindsayhbh@gmail.com" class="pill">Email</a>
+                    <a href="#contact" class="pill">Contact</a>
                     <a href="https://vimeo.com/1182300407" target="_blank" rel="noopener" class="pill" id="romanceReelPill">Romance Reel</a>
                     <a href="https://www.instagram.com/lindsaynhartley/" target="_blank" rel="noopener" class="pill">Instagram</a>
                 </div>
@@ -278,6 +278,23 @@
     <!-- Gallery Progress Bar -->
     <div class="gallery-progress" id="galleryProgress"></div>
 
+    <!-- Contact Form Overlay -->
+    <div class="contact-overlay" id="contactOverlay">
+        <button class="contact-close" id="contactClose">&times;</button>
+        <div class="contact-content">
+            <h2>Get in Touch</h2>
+            <p class="contact-subtitle">For directing inquiries, collaborations, or representation.</p>
+            <form action="https://formspree.io/f/mqewzjjj" method="POST" class="contact-form" id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="contact-submit">Send Message</button>
+            </form>
+            <p class="contact-thanks" id="contactThanks" style="display:none;">Thank you — I'll be in touch.</p>
+        </div>
+    </div>
+
     <!-- Lightbox -->
     <div class="lightbox" id="lightbox">
         <button class="lightbox-close" id="lightboxClose">&times;</button>
@@ -289,6 +306,6 @@
         <video src="assets/clips/romance-reel-clip.mp4" muted loop playsinline></video>
     </div>
 
-    <script src="script.js?v=75"></script>
+    <script src="script.js?v=90"></script>
 </body>
 </html>
