@@ -1147,7 +1147,12 @@ img { max-width: 100%; display: block; }
 .contact-content h2 {
     font-family: var(--font-serif);
     font-size: 32px;
-    color: var(--text);
+    background: linear-gradient(135deg, #c9917a, #d4889a, #d4a843, #c9917a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 300% 300%;
+    animation: nameGradient 12s ease infinite;
     margin-bottom: 8px;
 }
 .contact-subtitle {
