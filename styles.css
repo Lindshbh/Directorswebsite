@@ -129,23 +129,28 @@ img { max-width: 100%; display: block; }
     opacity: 1;
 }
 
-/* Category-colored filter pills */
+/* Category-colored filter pills — hover AND active */
+.filters .pill[data-filter="thriller"]:hover,
 .filters .pill[data-filter="thriller"].active {
     border-color: #e06060;
     color: #e06060;
 }
+.filters .pill[data-filter="romance"]:hover,
 .filters .pill[data-filter="romance"].active {
     border-color: #e899ac;
     color: #e899ac;
 }
+.filters .pill[data-filter="holiday"]:hover,
 .filters .pill[data-filter="holiday"].active {
     border-color: #e8b84a;
     color: #e8b84a;
 }
+.filters .pill[data-filter="series"]:hover,
 .filters .pill[data-filter="series"].active {
     border-color: #8ac8d9;
     color: #8ac8d9;
 }
+.filters .pill[data-filter="drama"]:hover,
 .filters .pill[data-filter="drama"].active {
     border-color: #b8a0e8;
     color: #b8a0e8;
