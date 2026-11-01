@@ -735,7 +735,7 @@ img { max-width: 100%; display: block; }
     grid-template-columns: 1fr 1.2fr;
     gap: clamp(40px, 6vw, 100px);
     max-width: 1000px;
-    padding: 28px clamp(24px, 4vw, 60px) 60px;
+    padding: 44px clamp(24px, 4vw, 60px) 60px;
     align-items: start;
 }
 .about-photo {
@@ -1078,7 +1078,7 @@ img { max-width: 100%; display: block; }
     }
     .about-content {
         gap: 40px;
-        padding: 60px 32px;
+        padding: 44px 32px;
     }
     .bts-grid {
         grid-template-columns: 1fr 1fr;
