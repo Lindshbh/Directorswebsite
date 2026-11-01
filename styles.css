@@ -735,8 +735,8 @@ img { max-width: 100%; display: block; }
     grid-template-columns: 1fr 1.2fr;
     gap: clamp(40px, 6vw, 100px);
     max-width: 1000px;
-    padding: 60px clamp(24px, 4vw, 60px);
-    align-items: center;
+    padding: 28px clamp(24px, 4vw, 60px) 60px;
+    align-items: start;
 }
 .about-photo {
     aspect-ratio: 3/4;
@@ -1241,6 +1241,17 @@ img { max-width: 100%; display: block; }
     color: var(--accent);
     opacity: 0.5;
     margin-left: 8px;
+}
+
+/* Active/ongoing project glow */
+.year.glow {
+    color: var(--accent);
+    text-shadow: 0 0 6px rgba(201, 145, 122, 0.5), 0 0 18px rgba(201, 145, 122, 0.25);
+    animation: activeGlow 3s ease-in-out infinite;
+}
+@keyframes activeGlow {
+    0%, 100% { opacity: 0.7; text-shadow: 0 0 6px rgba(201, 145, 122, 0.4), 0 0 18px rgba(201, 145, 122, 0.2); }
+    50% { opacity: 1; text-shadow: 0 0 8px rgba(201, 145, 122, 0.6), 0 0 24px rgba(201, 145, 122, 0.35); }
 }
 
 /* Scroll arrow clickable */
