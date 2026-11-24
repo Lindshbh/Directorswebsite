@@ -573,7 +573,28 @@
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.52.26 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 8.59.59 AM.jpeg",
       "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 9.03.22 AM.jpeg",
-      "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 9.10.37 AM.jpeg"
+      "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 9.10.37 AM.jpeg",
+      "assets/Paranormal Nobodies/pn_new_10.png",
+      "assets/Paranormal Nobodies/pn_new_11.png",
+      "assets/Paranormal Nobodies/pn_new_55.png",
+      "assets/Paranormal Nobodies/pn_new_56.png",
+      "assets/Paranormal Nobodies/pn_new_64.png",
+      "assets/Paranormal Nobodies/pn_new_74.png",
+      "assets/Paranormal Nobodies/pn_new_78.png",
+      "assets/Paranormal Nobodies/pn_new_79.png",
+      "assets/Paranormal Nobodies/pn_new_83.png",
+      "assets/Paranormal Nobodies/pn_new_92.png",
+      "assets/Paranormal Nobodies/pn_new_93.png",
+      "assets/Paranormal Nobodies/pn_new_95.png",
+      "assets/Paranormal Nobodies/pn_new_99.png",
+      "assets/Paranormal Nobodies/pn_new_bts1.jpeg",
+      "assets/Paranormal Nobodies/pn_new_bts2.jpeg",
+      "assets/Paranormal Nobodies/pn_add_01.png",
+      "assets/Paranormal Nobodies/pn_add_02.png",
+      "assets/Paranormal Nobodies/pn_add_03.png",
+      "assets/Paranormal Nobodies/pn_add_04.png",
+      "assets/Paranormal Nobodies/pn_add_05.png",
+      "assets/Paranormal Nobodies/pn_add_06.png"
     ],
     "trailer": "https://www.youtube.com/embed/miAmRyOLM5c",
     "layout": [
@@ -770,6 +791,62 @@
       {
         "type": "wide",
         "src": "assets/Paranormal Nobodies/Screen Shot 2023-02-25 at 9.10.37 AM.jpeg"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_new_10.png",
+          "assets/Paranormal Nobodies/pn_new_11.png",
+          "assets/Paranormal Nobodies/pn_new_55.png"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_new_56.png",
+          "assets/Paranormal Nobodies/pn_new_64.png",
+          "assets/Paranormal Nobodies/pn_new_74.png"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_new_78.png",
+          "assets/Paranormal Nobodies/pn_new_79.png",
+          "assets/Paranormal Nobodies/pn_new_83.png"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_new_92.png",
+          "assets/Paranormal Nobodies/pn_new_93.png",
+          "assets/Paranormal Nobodies/pn_new_95.png"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_new_99.png",
+          "assets/Paranormal Nobodies/pn_new_bts1.jpeg",
+          "assets/Paranormal Nobodies/pn_new_bts2.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_add_01.png",
+          "assets/Paranormal Nobodies/pn_add_02.png",
+          "assets/Paranormal Nobodies/pn_add_03.png"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_add_04.png",
+          "assets/Paranormal Nobodies/pn_add_05.png",
+          "assets/Paranormal Nobodies/pn_add_06.png"
+        ]
       }
     ]
   },
@@ -2658,7 +2735,12 @@
       "assets/The Sweetest Christmas Date/TGCCD_STILL_33_01-15-27-16.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_37_01-21-45-21.jpg",
       "assets/The Sweetest Christmas Date/poster.webp",
-      "assets/The Sweetest Christmas Date/unnamed.jpg"
+      "assets/The Sweetest Christmas Date/unnamed.jpg",
+      "assets/The Sweetest Christmas Date/TGCCD_STILL_07_00-19-39-00.jpg",
+      "assets/The Sweetest Christmas Date/TGCCD_STILL_10_00-46-10-16.jpg",
+      "assets/The Sweetest Christmas Date/TGCCD_STILL_15_00-58-07-21.jpg",
+      "assets/The Sweetest Christmas Date/TGCCD_STILL_20_01-00-29-01.jpg",
+      "assets/The Sweetest Christmas Date/TGCCD_STILL_31_01-14-56-07.jpg"
     ],
     "trailer": "https://www.youtube.com/embed/3FJ-tv0rJtI",
     "layout": [
@@ -2707,6 +2789,26 @@
           "assets/The Sweetest Christmas Date/poster.webp",
           "assets/The Sweetest Christmas Date/unnamed.jpg"
         ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Sweetest Christmas Date/TGCCD_STILL_07_00-19-39-00.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Sweetest Christmas Date/TGCCD_STILL_10_00-46-10-16.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Sweetest Christmas Date/TGCCD_STILL_15_00-58-07-21.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Sweetest Christmas Date/TGCCD_STILL_20_01-00-29-01.jpg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/The Sweetest Christmas Date/TGCCD_STILL_31_01-14-56-07.jpg"
       }
     ]
   },
@@ -2734,7 +2836,15 @@
       "assets/A Taste of Christmas/A020_A010_07245M_001.R3D_1.166.1.jpeg",
       "assets/A Taste of Christmas/A024_A024_0726BC_001.R3D_1.633.1.jpeg",
       "assets/A Taste of Christmas/A025_A027_0727JC_001.R3D_1.918.1.jpeg",
-      "assets/A Taste of Christmas/A026_A010_0727OA_001.R3D_1.526.1.jpeg"
+      "assets/A Taste of Christmas/A026_A010_0727OA_001.R3D_1.526.1.jpeg",
+      "assets/A Taste of Christmas/A003_A005_07129H_001.R3D_1.861.1.jpeg",
+      "assets/A Taste of Christmas/A004_A025_07131S_001.R3D_1.759.1.jpeg",
+      "assets/A Taste of Christmas/A005_A003_0713R7_001.R3D_1.620.1.jpeg",
+      "assets/A Taste of Christmas/A011_A039_071862_001.R3D_1.1042.1.jpeg",
+      "assets/A Taste of Christmas/A013_A044_071919_001.R3D_1.971.1.jpeg",
+      "assets/A Taste of Christmas/A019_A022_0723UK_001.R3D_1.707.1.jpeg",
+      "assets/A Taste of Christmas/A025_A034_07277X_001.R3D_1.928.1.jpeg",
+      "assets/A Taste of Christmas/A025_A043_0727IA_001.R3D_1.948.1.jpeg"
     ],
     "layout": [
       {
@@ -2779,6 +2889,38 @@
           "assets/A Taste of Christmas/A025_A027_0727JC_001.R3D_1.918.1.jpeg",
           "assets/A Taste of Christmas/A026_A010_0727OA_001.R3D_1.526.1.jpeg"
         ]
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A003_A005_07129H_001.R3D_1.861.1.jpeg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A004_A025_07131S_001.R3D_1.759.1.jpeg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A005_A003_0713R7_001.R3D_1.620.1.jpeg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A011_A039_071862_001.R3D_1.1042.1.jpeg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A013_A044_071919_001.R3D_1.971.1.jpeg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A019_A022_0723UK_001.R3D_1.707.1.jpeg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A025_A034_07277X_001.R3D_1.928.1.jpeg"
+      },
+      {
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A025_A043_0727IA_001.R3D_1.948.1.jpeg"
       }
     ]
   }
