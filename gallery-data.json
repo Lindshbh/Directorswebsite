@@ -2573,12 +2573,68 @@
   },
   "An Unexpected Christmas Plan": {
     "images": [
+      "assets/An Unexpected Christmas Plan/still_01.jpeg",
+      "assets/An Unexpected Christmas Plan/still_02.jpeg",
+      "assets/An Unexpected Christmas Plan/still_03.jpeg",
+      "assets/An Unexpected Christmas Plan/still_04.jpeg",
+      "assets/An Unexpected Christmas Plan/still_05.jpeg",
+      "assets/An Unexpected Christmas Plan/still_06.jpeg",
+      "assets/An Unexpected Christmas Plan/still_07.jpeg",
+      "assets/An Unexpected Christmas Plan/still_08.jpeg",
+      "assets/An Unexpected Christmas Plan/still_09.jpeg",
+      "assets/An Unexpected Christmas Plan/still_10.jpeg",
+      "assets/An Unexpected Christmas Plan/still_11.jpeg",
+      "assets/An Unexpected Christmas Plan/still_12.jpeg",
+      "assets/An Unexpected Christmas Plan/still_13.jpeg",
+      "assets/An Unexpected Christmas Plan/still_14.jpeg",
+      "assets/An Unexpected Christmas Plan/still_15.jpeg",
+      "assets/An Unexpected Christmas Plan/still_16.jpeg",
       "assets/An Unexpected Christmas Plan/poster.webp"
     ],
     "layout": [
       {
+        "type": "trio",
+        "src": [
+          "assets/An Unexpected Christmas Plan/still_01.jpeg",
+          "assets/An Unexpected Christmas Plan/still_02.jpeg",
+          "assets/An Unexpected Christmas Plan/still_03.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/An Unexpected Christmas Plan/still_04.jpeg",
+          "assets/An Unexpected Christmas Plan/still_05.jpeg",
+          "assets/An Unexpected Christmas Plan/still_06.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/An Unexpected Christmas Plan/still_07.jpeg",
+          "assets/An Unexpected Christmas Plan/still_08.jpeg",
+          "assets/An Unexpected Christmas Plan/still_09.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/An Unexpected Christmas Plan/still_10.jpeg",
+          "assets/An Unexpected Christmas Plan/still_11.jpeg",
+          "assets/An Unexpected Christmas Plan/still_12.jpeg"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/An Unexpected Christmas Plan/still_13.jpeg",
+          "assets/An Unexpected Christmas Plan/still_14.jpeg",
+          "assets/An Unexpected Christmas Plan/still_15.jpeg"
+        ]
+      },
+      {
         "type": "wide",
-        "src": "assets/An Unexpected Christmas Plan/poster.webp"
+        "src": "assets/An Unexpected Christmas Plan/still_16.jpeg"
       }
     ]
   },
