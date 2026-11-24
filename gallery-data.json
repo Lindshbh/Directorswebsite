@@ -531,7 +531,16 @@
       "assets/Paranormal Nobodies/pn_add_03.png",
       "assets/Paranormal Nobodies/pn_add_04.png",
       "assets/Paranormal Nobodies/pn_add_05.png",
-      "assets/Paranormal Nobodies/pn_add_06.png"
+      "assets/Paranormal Nobodies/pn_add_06.png",
+      "assets/Paranormal Nobodies/pn_add_07.png",
+      "assets/Paranormal Nobodies/pn_add_08.png",
+      "assets/Paranormal Nobodies/pn_add_09.png",
+      "assets/Paranormal Nobodies/pn_add_10.png",
+      "assets/Paranormal Nobodies/pn_add_11.png",
+      "assets/Paranormal Nobodies/pn_add_12.png",
+      "assets/Paranormal Nobodies/pn_add_13.png",
+      "assets/Paranormal Nobodies/pn_add_14.png",
+      "assets/Paranormal Nobodies/pn_add_15.png"
     ],
     "trailer": "https://www.youtube.com/embed/miAmRyOLM5c",
     "layout": [
@@ -586,6 +595,30 @@
       {
         "type": "wide",
         "src": "assets/Paranormal Nobodies/pn_add_06.png"
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_add_07.png",
+          "assets/Paranormal Nobodies/pn_add_08.png",
+          "assets/Paranormal Nobodies/pn_add_09.png"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_add_10.png",
+          "assets/Paranormal Nobodies/pn_add_11.png",
+          "assets/Paranormal Nobodies/pn_add_12.png"
+        ]
+      },
+      {
+        "type": "trio",
+        "src": [
+          "assets/Paranormal Nobodies/pn_add_13.png",
+          "assets/Paranormal Nobodies/pn_add_14.png",
+          "assets/Paranormal Nobodies/pn_add_15.png"
+        ]
       }
     ]
   },
