@@ -2509,7 +2509,11 @@
       "assets/The Sweetest Christmas Date/TGCCD_STILL_10_00-46-10-16.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_15_00-58-07-21.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_20_01-00-29-01.jpg",
-      "assets/The Sweetest Christmas Date/TGCCD_STILL_31_01-14-56-07.jpg"
+      "assets/The Sweetest Christmas Date/TGCCD_STILL_31_01-14-56-07.jpg",
+      "assets/The Sweetest Christmas Date/tgccd_add_01.jpg",
+      "assets/The Sweetest Christmas Date/tgccd_add_02.jpg",
+      "assets/The Sweetest Christmas Date/tgccd_add_03.jpg",
+      "assets/The Sweetest Christmas Date/tgccd_add_04.jpg"
     ],
     "layout": [
       {
@@ -2568,6 +2572,20 @@
       {
         "type": "wide",
         "src": "assets/The Sweetest Christmas Date/TGCCD_STILL_31_01-14-56-07.jpg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Sweetest Christmas Date/tgccd_add_01.jpg",
+          "assets/The Sweetest Christmas Date/tgccd_add_02.jpg"
+        ]
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/The Sweetest Christmas Date/tgccd_add_03.jpg",
+          "assets/The Sweetest Christmas Date/tgccd_add_04.jpg"
+        ]
       }
     ]
   },
