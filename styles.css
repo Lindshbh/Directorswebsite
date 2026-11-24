@@ -561,6 +561,131 @@ img { max-width: 100%; display: block; }
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
 
+
+/* ========================================
+   VISUAL CARD GRID
+   ======================================== */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+}
+
+.film-card {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: none;
+    transition: transform 0.6s var(--ease-nv), box-shadow 0.6s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: cardReveal 0.6s var(--ease-nv) forwards;
+}
+.film-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+.film-card img {
+    width: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.75);
+    transition: filter 0.6s ease;
+}
+.film-card:hover img {
+    filter: brightness(1);
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 16px 14px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.85));
+}
+.card-title {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text);
+}
+.card-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+}
+.card-year {
+    font-size: 10px;
+    color: var(--text-muted);
+}
+.card-cat {
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid;
+    opacity: 0.7;
+}
+.card-post {
+    font-size: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--accent);
+    opacity: 0.5;
+}
+
+.cat-thriller { color: #e06060; border-color: #e06060; }
+.cat-romance { color: #e899ac; border-color: #e899ac; }
+.cat-holiday { color: #e8b84a; border-color: #e8b84a; }
+.cat-series { color: #8ac8d9; border-color: #8ac8d9; }
+.cat-drama { color: #b8a0e8; border-color: #b8a0e8; }
+
+.card-placeholder {
+    width: 100%;
+    aspect-ratio: 5/3;
+    background: linear-gradient(135deg, #111, #1a1a1a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-placeholder span {
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Card filtered states */
+.film-card.filtered-out {
+    opacity: 0.08;
+    pointer-events: none;
+    transform: scale(0.95);
+}
+.film-card.filtered-in {
+    opacity: 1;
+    transform: scale(1);
+}
+
+@keyframes cardReveal {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Card grid responsive */
+@media (max-width: 900px) {
+    .card-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+}
+@media (max-width: 550px) {
+    .card-grid { grid-template-columns: 1fr; gap: 12px; }
+}
+
 /* ========================================
    BOTTOM BAR (fixed)
    ======================================== */

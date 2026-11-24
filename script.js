@@ -38,9 +38,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     // STAGGERED TITLE ENTRANCE
     // ==========================================
-    document.querySelectorAll('.film-link').forEach((link, i) => {
-        link.classList.add('stagger-in');
-        link.style.animationDelay = (0.6 + i * 0.04) + 's';
+    document.querySelectorAll('.film-card').forEach((card, i) => {
+        card.style.animationDelay = (0.6 + i * 0.06) + 's';
     });
 
     // ==========================================
@@ -69,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     animateCursor();
 
     // Expand cursor on interactive elements
-    document.querySelectorAll('a, button, .film-link, .pill').forEach(el => {
+    document.querySelectorAll('a, button, .film-card, .pill').forEach(el => {
         el.addEventListener('mouseenter', () => cursor.classList.add('hovering'));
         el.addEventListener('mouseleave', () => cursor.classList.remove('hovering'));
     });
@@ -78,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // CATEGORY FILTERS
     // ==========================================
     const filterBtns = document.querySelectorAll('.filters .pill');
-    const filmLinks = document.querySelectorAll('.film-link');
+    const filmLinks = document.querySelectorAll('.film-card');
 
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -99,73 +98,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ==========================================
-    // INLINE VIDEO/IMAGE PREVIEW (expands under title)
-    // ==========================================
-    let activePreview = null;
-    let activeVideo = null;
-
-    filmLinks.forEach(link => {
-        const folder = link.getAttribute('data-folder');
-        const imgPath = link.getAttribute('data-img');
-
-        const previewEl = link.parentElement.querySelector('.inline-preview');
-
-        link.addEventListener('mouseenter', () => {
-            // Always close previous preview
-            if (activePreview) {
-                activePreview.classList.remove('active');
-                activePreview.innerHTML = '';
-                if (activeVideo) {
-                    activeVideo.pause();
-                    activeVideo = null;
-                }
-                activePreview = null;
-            }
-
-            // If this film has no folder and no image, nothing to show
-            if (!folder && !imgPath) return;
-            if (!previewEl) return;
-
-            const entry = folder && galleryData[folder];
-            const clip = entry && entry.clip;
-            const trailer = entry && entry.trailer;
-
-            // Use clip first, then trailer (local only), then still image
-            if (clip) {
-                previewEl.innerHTML = '<video src="' + clip + '" muted autoplay loop playsinline></video>';
-                activeVideo = previewEl.querySelector('video');
-                activeVideo.play().catch(() => {});
-            } else if (trailer && !trailer.includes('youtube.com') && !trailer.includes('vimeo.com')) {
-                previewEl.innerHTML = '<video src="' + trailer + '" muted autoplay loop playsinline></video>';
-                activeVideo = previewEl.querySelector('video');
-                activeVideo.play().catch(() => {});
-            } else if (imgPath) {
-                previewEl.innerHTML = '<img src="' + imgPath + '" alt="">';
-                activeVideo = null;
-            }
-
-            previewEl.classList.add('active');
-            activePreview = previewEl;
-        });
-    });
-
-    // Close preview when mouse leaves the film grid entirely
-    const filmGrid = document.getElementById('filmGrid');
-    if (filmGrid) {
-        filmGrid.addEventListener('mouseleave', () => {
-            if (activePreview) {
-                activePreview.classList.remove('active');
-                setTimeout(() => { activePreview.innerHTML = ''; }, 600);
-                if (activeVideo) {
-                    activeVideo.pause();
-                    activeVideo = null;
-                }
-                activePreview = null;
-            }
-        });
-    }
-
-    // ==========================================
     // PROJECT DETAIL OVERLAY
     // ==========================================
     const projectOverlay = document.getElementById('projectOverlay');
@@ -174,12 +106,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectTags = document.getElementById('projectTags');
     const projectGallery = document.getElementById('projectGallery');
 
-    filmLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
+    filmLinks.forEach(card => {
+        card.addEventListener('click', (e) => {
             e.preventDefault();
-            const folder = link.getAttribute('data-folder');
-            const title = link.childNodes[0].textContent.trim();
-            const cat = link.getAttribute('data-cat');
+            const folder = card.getAttribute('data-folder');
+            const titleEl = card.querySelector('.card-title');
+            const title = titleEl ? titleEl.textContent.trim() : 'Untitled';
+            const cat = card.getAttribute('data-cat');
 
             projectTitle.textContent = title;
             projectTags.innerHTML = '<button class="pill project-home-pill">Home</button><span class="pill pill-active">Director</span><span class="pill pill-active">' + cat.charAt(0).toUpperCase() + cat.slice(1) + '</span>';
@@ -650,7 +583,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     // KEYBOARD NAVIGATION
     // ==========================================
-    const allFilmLinks = Array.from(document.querySelectorAll('.film-link'));
+    const allFilmLinks = Array.from(document.querySelectorAll('.film-card'));
     let currentFilmIndex = -1;
 
     document.addEventListener('keydown', (e) => {
@@ -661,13 +594,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
             e.preventDefault();
             currentFilmIndex = Math.min(currentFilmIndex + 1, allFilmLinks.length - 1);
-            allFilmLinks[currentFilmIndex].focus();
-            allFilmLinks[currentFilmIndex].dispatchEvent(new Event('mouseenter'));
+            allFilmLinks[currentFilmIndex].scrollIntoView({behavior:'smooth', block:'center'});
         } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
             e.preventDefault();
             currentFilmIndex = Math.max(currentFilmIndex - 1, 0);
-            allFilmLinks[currentFilmIndex].focus();
-            allFilmLinks[currentFilmIndex].dispatchEvent(new Event('mouseenter'));
+            allFilmLinks[currentFilmIndex].scrollIntoView({behavior:'smooth', block:'center'});
         } else if (e.key === 'Enter' && currentFilmIndex >= 0) {
             allFilmLinks[currentFilmIndex].click();
         }

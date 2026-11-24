@@ -60,7 +60,7 @@
       html, body { background: #050505; margin: 0; }
     </style>
     <meta name="theme-color" content="#050505">
-    <link rel="stylesheet" href="styles.css?v=98">
+    <link rel="stylesheet" href="styles.css?v=99">
 </head>
 <body>
 
@@ -122,44 +122,338 @@
             </div>
 
             <!-- Film List -->
-            <div class="film-grid" id="filmGrid">
-                <div class="film-col">
-                    <div class="film-item"><a href="#" class="film-link" data-cat="series" data-img="assets/Paranormal Nobodies/pn_add_01.png" data-folder="Paranormal Nobodies">Paranormal Nobodies <span class="year glow">2023–Present</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/The Lies We Bury/IMG_1520.jpg" data-folder="The Lies We Bury">The Lies We Bury <span class="year">2025</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/The Romeo and Juliet Killers/still_2.jpg" data-folder="The Romeo and Juliet Killers">The Romeo &amp; Juliet Killers <span class="year">2022</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Tempted/still_1.jpg" data-folder="Tempted">Tempted <span class="year">2025</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Her Fiances Double Life/IMG_3834.jpeg" data-folder="Her Fiances Double Life">Her Fiance's Double Life <span class="year">2023</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Vacation Home Nightmare/Screen Shot 2022-09-11 at 4.26.46 PM.jpg" data-folder="Vacation Home Nightmare">Vacation Home Nightmare <span class="year">2023</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Don't Breathe a Word/IMG_2841.jpg" data-folder="Don't Breathe a Word">Don't Breathe a Word <span class="year">2026</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.00.01 PM.jpg" data-folder="Secrets in the Sisterhood">Secrets in the Sisterhood <span class="year">2025</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Dressed to Kill/IMG_0555.PNG" data-folder="Dressed to Kill">Dressed to Kill <span class="year">2025</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Secrets of an Influencer/IMG_1040.jpeg" data-folder="Secrets of an Influencer">Secrets of an Influencer <span class="year">2024</span></a><div class="inline-preview"></div></div>
+            <div class="card-grid" id="filmGrid">
+                    <div class="film-card" data-cat="series" data-folder="Paranormal Nobodies">
+                        <img src="assets/Paranormal Nobodies/pn_add_01.png" alt="Paranormal Nobodies">
+                        <div class="card-overlay">
+                            <div class="card-title">Paranormal Nobodies</div>
+                            <div class="card-meta">
+                                <span class="card-year">2023–Present</span>
+                                <span class="card-cat cat-series">Series</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="The Lies We Bury">
+                        <img src="assets/The Lies We Bury/IMG_1520.jpg" alt="The Lies We Bury">
+                        <div class="card-overlay">
+                            <div class="card-title">The Lies We Bury</div>
+                            <div class="card-meta">
+                                <span class="card-year">2025</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="The Romeo and Juliet Killers">
+                        <img src="assets/The Romeo and Juliet Killers/still_2.jpg" alt="The Romeo &amp; Juliet Killers">
+                        <div class="card-overlay">
+                            <div class="card-title">The Romeo &amp; Juliet Killers</div>
+                            <div class="card-meta">
+                                <span class="card-year">2022</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Tempted">
+                        <img src="assets/Tempted/still_1.jpg" alt="Tempted">
+                        <div class="card-overlay">
+                            <div class="card-title">Tempted</div>
+                            <div class="card-meta">
+                                <span class="card-year">2025</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Her Fiances Double Life">
+                        <img src="assets/Her Fiances Double Life/IMG_3834.jpeg" alt="Her Fiance’s Double Life">
+                        <div class="card-overlay">
+                            <div class="card-title">Her Fiance’s Double Life</div>
+                            <div class="card-meta">
+                                <span class="card-year">2023</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Vacation Home Nightmare">
+                        <img src="assets/Vacation Home Nightmare/Screen Shot 2022-09-11 at 4.26.46 PM.jpg" alt="Vacation Home Nightmare">
+                        <div class="card-overlay">
+                            <div class="card-title">Vacation Home Nightmare</div>
+                            <div class="card-meta">
+                                <span class="card-year">2023</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Don't Breathe a Word">
+                        <img src="assets/Don't Breathe a Word/IMG_2841.jpg" alt="Don’t Breathe a Word">
+                        <div class="card-overlay">
+                            <div class="card-title">Don’t Breathe a Word</div>
+                            <div class="card-meta">
+                                <span class="card-year">2026</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Secrets in the Sisterhood">
+                        <img src="assets/Secrets in the Sisterhood/Screenshot 2026-04-06 at 8.00.01 PM.jpg" alt="Secrets in the Sisterhood">
+                        <div class="card-overlay">
+                            <div class="card-title">Secrets in the Sisterhood</div>
+                            <div class="card-meta">
+                                <span class="card-year">2025</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Dressed to Kill">
+                        <img src="assets/Dressed to Kill/IMG_0555.PNG" alt="Dressed to Kill">
+                        <div class="card-overlay">
+                            <div class="card-title">Dressed to Kill</div>
+                            <div class="card-meta">
+                                <span class="card-year">2025</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Secrets of an Influencer">
+                        <img src="assets/Secrets of an Influencer/IMG_1040.jpeg" alt="Secrets of an Influencer">
+                        <div class="card-overlay">
+                            <div class="card-title">Secrets of an Influencer</div>
+                            <div class="card-meta">
+                                <span class="card-year">2024</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="In Love With My Partners Wife">
+                        <img src="assets/In Love With My Partners Wife/IMG_2695.jpeg" alt="In Love With My Partner’s Wife">
+                        <div class="card-overlay">
+                            <div class="card-title">In Love With My Partner’s Wife</div>
+                            <div class="card-meta">
+                                <span class="card-year">2022</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Deadly Debutante">
+                        <img src="assets/Deadly Debutante/IMG_2925.jpg" alt="Deadly Debutante">
+                        <div class="card-overlay">
+                            <div class="card-title">Deadly Debutante</div>
+                            <div class="card-meta">
+                                <span class="card-year">2021</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Trapped by My Sugar Daddy">
+                        <img src="assets/Trapped by My Sugar Daddy/IMG_1900.jpeg" alt="Trapped by My Sugar Daddy">
+                        <div class="card-overlay">
+                            <div class="card-title">Trapped by My Sugar Daddy</div>
+                            <div class="card-meta">
+                                <span class="card-year">2022</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="What the Nanny Saw">
+                        <img src="assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.04.32 PM.jpeg" alt="What the Nanny Saw">
+                        <div class="card-overlay">
+                            <div class="card-title">What the Nanny Saw</div>
+                            <div class="card-meta">
+                                <span class="card-year">2022</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Killer Ambition">
+                        <img src="assets/Killer Ambition/new_1.jpg" alt="Killer Ambition">
+                        <div class="card-overlay">
+                            <div class="card-title">Killer Ambition</div>
+                            <div class="card-meta">
+                                <span class="card-year">2021</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Sinister Cover Up">
+                        <img src="assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.27.29 AM.jpeg" alt="Sinister Cover Up">
+                        <div class="card-overlay">
+                            <div class="card-title">Sinister Cover Up</div>
+                            <div class="card-meta">
+                                <span class="card-year">2022</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller">
+                        <div class="card-placeholder"><span>Bodyguard Seduction</span></div>
+                        <div class="card-overlay">
+                            <div class="card-title">Bodyguard Seduction</div>
+                            <div class="card-meta">
+                                <span class="card-year">2022</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Forgotten Abduction">
+                        <img src="assets/Forgotten Abduction/R3LX_SDI_20190619_152418.jpg" alt="Forgotten Abduction">
+                        <div class="card-overlay">
+                            <div class="card-title">Forgotten Abduction</div>
+                            <div class="card-meta">
+                                <span class="card-year">2020</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="thriller" data-folder="Beware the Night Nurse">
+                        <img src="assets/Beware the Night Nurse/IMG_0050.jpg" alt="Beware the Night Nurse">
+                        <div class="card-overlay">
+                            <div class="card-title">Beware the Night Nurse</div>
+                            <div class="card-meta">
+                                <span class="card-year">2023</span>
+                                <span class="card-cat cat-thriller">Thriller</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="romance" data-folder="The Boxer and the Butterfly">
+                        <img src="assets/The Boxer and the Butterfly/still_3.jpg" alt="The Boxer and the Butterfly">
+                        <div class="card-overlay">
+                            <div class="card-title">The Boxer and the Butterfly</div>
+                            <div class="card-meta">
+                                <span class="card-year">2023</span>
+                                <span class="card-cat cat-romance">Romance</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="romance" data-folder="Dare to Say Yes">
+                        <img src="assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.08 PM.jpg" alt="Dare to Say Yes">
+                        <div class="card-overlay">
+                            <div class="card-title">Dare to Say Yes</div>
+                            <div class="card-meta">
+                                <span class="card-year">2023</span>
+                                <span class="card-cat cat-romance">Romance</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="romance" data-folder="Sweet Maple Romance">
+                        <img src="assets/Sweet Maple Romance/still_2.jpg" alt="Sweet Maple Romance">
+                        <div class="card-overlay">
+                            <div class="card-title">Sweet Maple Romance</div>
+                            <div class="card-meta">
+                                <span class="card-year">2021</span>
+                                <span class="card-cat cat-romance">Romance</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="romance" data-folder="Postcards from the Heart">
+                        <img src="assets/Postcards from the Heart/IMG_5601.jpeg" alt="Postcards from the Heart">
+                        <div class="card-overlay">
+                            <div class="card-title">Postcards from the Heart</div>
+                            <div class="card-meta">
+                                <span class="card-year">2026</span>
+                                <span class="card-cat cat-romance">Romance</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="holiday" data-folder="A Christmas Frequency">
+                        <img src="assets/A Christmas Frequency/IMG_0299.jpg" alt="A Christmas Frequency">
+                        <div class="card-overlay">
+                            <div class="card-title">A Christmas Frequency</div>
+                            <div class="card-meta">
+                                <span class="card-year">2023</span>
+                                <span class="card-cat cat-holiday">Holiday</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="holiday" data-folder="The Recipe Files">
+                        <div class="card-placeholder"><span>The Recipe Files</span></div>
+                        <div class="card-overlay">
+                            <div class="card-title">The Recipe Files</div>
+                            <div class="card-meta">
+                                <span class="card-year">2023</span>
+                                <span class="card-cat cat-holiday">Holiday</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="holiday" data-folder="Christmas on Repeat">
+                        <div class="card-placeholder"><span>Christmas on Repeat</span></div>
+                        <div class="card-overlay">
+                            <div class="card-title">Christmas on Repeat</div>
+                            <div class="card-meta">
+                                <span class="card-year">2022</span>
+                                <span class="card-cat cat-holiday">Holiday</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="holiday" data-folder="A Taste of Christmas">
+                        <img src="assets/A Taste of Christmas/A001_A008_0711QB_001.R3D_1.573.1.jpeg" alt="A Taste of Christmas">
+                        <div class="card-overlay">
+                            <div class="card-title">A Taste of Christmas</div>
+                            <div class="card-meta">
+                                <span class="card-year">2026</span>
+                                <span class="card-cat cat-holiday">Holiday</span>
+                                <span class="card-post">In Post</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="holiday" data-folder="The Sweetest Christmas Date">
+                        <img src="assets/The Sweetest Christmas Date/TGCCD_STILL_01_00-00-11-18.jpg" alt="The Sweetest Christmas Date">
+                        <div class="card-overlay">
+                            <div class="card-title">The Sweetest Christmas Date</div>
+                            <div class="card-meta">
+                                <span class="card-year">2026</span>
+                                <span class="card-cat cat-holiday">Holiday</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="holiday" data-folder="An Unexpected Christmas Plan">
+                        <img src="assets/An Unexpected Christmas Plan/poster.webp" alt="An Unexpected Christmas Plan">
+                        <div class="card-overlay">
+                            <div class="card-title">An Unexpected Christmas Plan</div>
+                            <div class="card-meta">
+                                <span class="card-year">2026</span>
+                                <span class="card-cat cat-holiday">Holiday</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="film-card" data-cat="holiday">
+                        <div class="card-placeholder"><span>Christmas in Clearwater</span></div>
+                        <div class="card-overlay">
+                            <div class="card-title">Christmas in Clearwater</div>
+                            <div class="card-meta">
+                                <span class="card-year">2026</span>
+                                <span class="card-cat cat-holiday">Holiday</span>
+                                <span class="card-post">In Post</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="film-col">
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/In Love With My Partners Wife/IMG_2695.jpeg" data-folder="In Love With My Partners Wife">In Love With My Partner's Wife <span class="year">2022</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Deadly Debutante/IMG_2925.jpg" data-folder="Deadly Debutante">Deadly Debutante <span class="year">2021</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Trapped by My Sugar Daddy/IMG_1900.jpeg" data-folder="Trapped by My Sugar Daddy">Trapped by My Sugar Daddy <span class="year">2022</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/What the Nanny Saw/Screen Shot 2022-02-04 at 2.04.32 PM.jpeg" data-folder="What the Nanny Saw">What the Nanny Saw <span class="year">2022</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Killer Ambition/new_1.jpg" data-folder="Killer Ambition">Killer Ambition <span class="year">2021</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Sinister Cover Up/Screen Shot 2022-04-04 at 8.27.29 AM.jpeg" data-folder="Sinister Cover Up">Sinister Cover Up <span class="year">2022</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller">Bodyguard Seduction <span class="year">2022</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Forgotten Abduction/R3LX_SDI_20190619_152418.jpg" data-folder="Forgotten Abduction">Forgotten Abduction <span class="year">2020</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="thriller" data-img="assets/Beware the Night Nurse/IMG_0050.jpg" data-folder="Beware the Night Nurse">Beware the Night Nurse <span class="year">2023</span></a><div class="inline-preview"></div></div>
-                </div>
-                <div class="film-col">
-                    <div class="film-item"><a href="#" class="film-link" data-cat="romance" data-folder="The Boxer and the Butterfly">The Boxer and the Butterfly <span class="year">2023</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="romance" data-img="assets/Dare to Say Yes/Screenshot 2026-04-06 at 8.06.08 PM.jpg" data-folder="Dare to Say Yes">Dare to Say Yes <span class="year">2023</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="romance" data-img="assets/Sweet Maple Romance/still_2.jpg" data-folder="Sweet Maple Romance">Sweet Maple Romance <span class="year">2021</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="romance" data-img="assets/Postcards from the Heart/IMG_5601.jpeg" data-folder="Postcards from the Heart">Postcards from the Heart <span class="year">2026</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday" data-img="assets/A Christmas Frequency/IMG_0299.jpg" data-folder="A Christmas Frequency">A Christmas Frequency <span class="year">2023</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday" data-folder="The Recipe Files">The Recipe Files <span class="year">2023</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday" data-folder="Christmas on Repeat">Christmas on Repeat <span class="year">2022</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday" data-img="assets/A Taste of Christmas/A001_A008_0711QB_001.R3D_1.573.1.jpeg" data-folder="A Taste of Christmas">A Taste of Christmas <span class="year">2026</span><span class="coming-soon">In Post</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday" data-img="assets/The Sweetest Christmas Date/TGCCD_STILL_01_00-00-11-18.jpg" data-folder="The Sweetest Christmas Date">The Sweetest Christmas Date <span class="year">2026</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday" data-img="assets/An Unexpected Christmas Plan/poster.webp" data-folder="An Unexpected Christmas Plan">An Unexpected Christmas Plan <span class="year">2026</span></a><div class="inline-preview"></div></div>
-                    <div class="film-item"><a href="#" class="film-link" data-cat="holiday">Christmas in Clearwater <span class="year">2026</span><span class="coming-soon">In Post</span></a><div class="inline-preview"></div></div>
-                </div>
-            </div>
         </section>
 
     </div>
