@@ -2643,5 +2643,28 @@
         ]
       }
     ]
+  },
+  "The Sweetest Christmas Date": {
+    "images": [
+      "assets/The Sweetest Christmas Date/poster.webp"
+    ],
+    "trailer": "https://www.youtube.com/embed/3FJ-tv0rJtI",
+    "layout": [
+      {
+        "type": "wide",
+        "src": "assets/The Sweetest Christmas Date/poster.webp"
+      }
+    ]
+  },
+  "An Unexpected Christmas Plan": {
+    "images": [
+      "assets/An Unexpected Christmas Plan/poster.webp"
+    ],
+    "layout": [
+      {
+        "type": "wide",
+        "src": "assets/An Unexpected Christmas Plan/poster.webp"
+      }
+    ]
   }
 }
