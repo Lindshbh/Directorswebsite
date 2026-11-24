@@ -579,7 +579,6 @@
       "assets/Paranormal Nobodies/pn_new_55.png",
       "assets/Paranormal Nobodies/pn_new_56.png",
       "assets/Paranormal Nobodies/pn_new_64.png",
-      "assets/Paranormal Nobodies/pn_new_74.png",
       "assets/Paranormal Nobodies/pn_new_78.png",
       "assets/Paranormal Nobodies/pn_new_79.png",
       "assets/Paranormal Nobodies/pn_new_83.png",
@@ -588,7 +587,6 @@
       "assets/Paranormal Nobodies/pn_new_95.png",
       "assets/Paranormal Nobodies/pn_new_99.png",
       "assets/Paranormal Nobodies/pn_new_bts1.jpeg",
-      "assets/Paranormal Nobodies/pn_new_bts2.jpeg",
       "assets/Paranormal Nobodies/pn_add_01.png",
       "assets/Paranormal Nobodies/pn_add_02.png",
       "assets/Paranormal Nobodies/pn_add_03.png",
@@ -801,11 +799,10 @@
         ]
       },
       {
-        "type": "trio",
+        "type": "pair",
         "src": [
           "assets/Paranormal Nobodies/pn_new_56.png",
-          "assets/Paranormal Nobodies/pn_new_64.png",
-          "assets/Paranormal Nobodies/pn_new_74.png"
+          "assets/Paranormal Nobodies/pn_new_64.png"
         ]
       },
       {
@@ -825,11 +822,10 @@
         ]
       },
       {
-        "type": "trio",
+        "type": "pair",
         "src": [
           "assets/Paranormal Nobodies/pn_new_99.png",
-          "assets/Paranormal Nobodies/pn_new_bts1.jpeg",
-          "assets/Paranormal Nobodies/pn_new_bts2.jpeg"
+          "assets/Paranormal Nobodies/pn_new_bts1.jpeg"
         ]
       },
       {
@@ -2725,16 +2721,13 @@
     "images": [
       "assets/The Sweetest Christmas Date/TGCCD_STILL_01_00-00-11-18.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_05_00-19-01-12.jpg",
-      "assets/The Sweetest Christmas Date/TGCCD_STILL_09_00-31-06-21.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_12_00-54-16-15.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_16_00-58-15-06.jpg",
-      "assets/The Sweetest Christmas Date/TGCCD_STILL_19_01-00-20-18.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_23_01-03-08-12.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_25_01-09-30-11.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_29_01-14-29-03.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_33_01-15-27-16.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_37_01-21-45-21.jpg",
-      "assets/The Sweetest Christmas Date/poster.webp",
       "assets/The Sweetest Christmas Date/unnamed.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_07_00-19-39-00.jpg",
       "assets/The Sweetest Christmas Date/TGCCD_STILL_10_00-46-10-16.jpg",
@@ -2748,11 +2741,8 @@
         "src": "assets/The Sweetest Christmas Date/TGCCD_STILL_01_00-00-11-18.jpg"
       },
       {
-        "type": "pair",
-        "src": [
-          "assets/The Sweetest Christmas Date/TGCCD_STILL_05_00-19-01-12.jpg",
-          "assets/The Sweetest Christmas Date/TGCCD_STILL_09_00-31-06-21.jpg"
-        ]
+        "type": "wide",
+        "src": "assets/The Sweetest Christmas Date/TGCCD_STILL_05_00-19-01-12.jpg"
       },
       {
         "type": "pair",
@@ -2762,11 +2752,8 @@
         ]
       },
       {
-        "type": "pair",
-        "src": [
-          "assets/The Sweetest Christmas Date/TGCCD_STILL_19_01-00-20-18.jpg",
-          "assets/The Sweetest Christmas Date/TGCCD_STILL_23_01-03-08-12.jpg"
-        ]
+        "type": "wide",
+        "src": "assets/The Sweetest Christmas Date/TGCCD_STILL_23_01-03-08-12.jpg"
       },
       {
         "type": "pair",
@@ -2783,11 +2770,8 @@
         ]
       },
       {
-        "type": "pair",
-        "src": [
-          "assets/The Sweetest Christmas Date/poster.webp",
-          "assets/The Sweetest Christmas Date/unnamed.jpg"
-        ]
+        "type": "wide",
+        "src": "assets/The Sweetest Christmas Date/unnamed.jpg"
       },
       {
         "type": "wide",
@@ -2825,17 +2809,12 @@
   "A Taste of Christmas": {
     "images": [
       "assets/A Taste of Christmas/A001_A008_0711QB_001.R3D_1.573.1.jpeg",
-      "assets/A Taste of Christmas/A003_A009_0712RP_001.R3D_1.824.1.jpeg",
       "assets/A Taste of Christmas/A004_A034_0713CT_001.R3D_1.600.1.jpeg",
       "assets/A Taste of Christmas/A009_A004_0717OA_001.R3D_1.1034.1.jpeg",
       "assets/A Taste of Christmas/A010_A012_0717HF_001.R3D_1.1131.1.jpeg",
-      "assets/A Taste of Christmas/A011_A050_0718LJ_001.R3D_1.1062.1.jpeg",
-      "assets/A Taste of Christmas/A012_A007_0718PC_001.R3D_1.1111.1.jpeg",
       "assets/A Taste of Christmas/A016_A040_0722GT_001.R3D_1.1003.1.jpeg",
-      "assets/A Taste of Christmas/A020_A010_07245M_001.R3D_1.166.1.jpeg",
       "assets/A Taste of Christmas/A024_A024_0726BC_001.R3D_1.633.1.jpeg",
       "assets/A Taste of Christmas/A025_A027_0727JC_001.R3D_1.918.1.jpeg",
-      "assets/A Taste of Christmas/A026_A010_0727OA_001.R3D_1.526.1.jpeg",
       "assets/A Taste of Christmas/A003_A005_07129H_001.R3D_1.861.1.jpeg",
       "assets/A Taste of Christmas/A004_A025_07131S_001.R3D_1.759.1.jpeg",
       "assets/A Taste of Christmas/A005_A003_0713R7_001.R3D_1.620.1.jpeg",
@@ -2851,11 +2830,8 @@
         "src": "assets/A Taste of Christmas/A001_A008_0711QB_001.R3D_1.573.1.jpeg"
       },
       {
-        "type": "pair",
-        "src": [
-          "assets/A Taste of Christmas/A003_A009_0712RP_001.R3D_1.824.1.jpeg",
-          "assets/A Taste of Christmas/A004_A034_0713CT_001.R3D_1.600.1.jpeg"
-        ]
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A004_A034_0713CT_001.R3D_1.600.1.jpeg"
       },
       {
         "type": "pair",
@@ -2865,29 +2841,16 @@
         ]
       },
       {
-        "type": "pair",
-        "src": [
-          "assets/A Taste of Christmas/A011_A050_0718LJ_001.R3D_1.1062.1.jpeg",
-          "assets/A Taste of Christmas/A012_A007_0718PC_001.R3D_1.1111.1.jpeg"
-        ]
-      },
-      {
-        "type": "pair",
-        "src": [
-          "assets/A Taste of Christmas/A016_A040_0722GT_001.R3D_1.1003.1.jpeg",
-          "assets/A Taste of Christmas/A020_A010_07245M_001.R3D_1.166.1.jpeg"
-        ]
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A016_A040_0722GT_001.R3D_1.1003.1.jpeg"
       },
       {
         "type": "wide",
         "src": "assets/A Taste of Christmas/A024_A024_0726BC_001.R3D_1.633.1.jpeg"
       },
       {
-        "type": "pair",
-        "src": [
-          "assets/A Taste of Christmas/A025_A027_0727JC_001.R3D_1.918.1.jpeg",
-          "assets/A Taste of Christmas/A026_A010_0727OA_001.R3D_1.526.1.jpeg"
-        ]
+        "type": "wide",
+        "src": "assets/A Taste of Christmas/A025_A027_0727JC_001.R3D_1.918.1.jpeg"
       },
       {
         "type": "wide",
