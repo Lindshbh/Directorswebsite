@@ -2671,7 +2671,11 @@
       "assets/A Taste of Christmas/A013_A044_071919_001.R3D_1.971.1.jpeg",
       "assets/A Taste of Christmas/A019_A022_0723UK_001.R3D_1.707.1.jpeg",
       "assets/A Taste of Christmas/A025_A034_07277X_001.R3D_1.928.1.jpeg",
-      "assets/A Taste of Christmas/A025_A043_0727IA_001.R3D_1.948.1.jpeg"
+      "assets/A Taste of Christmas/A025_A043_0727IA_001.R3D_1.948.1.jpeg",
+      "assets/A Taste of Christmas/toc_add_01.jpg",
+      "assets/A Taste of Christmas/toc_add_02.jpg",
+      "assets/A Taste of Christmas/toc_add_03.jpg",
+      "assets/A Taste of Christmas/toc_add_04.jpg"
     ],
     "layout": [
       {
@@ -2732,6 +2736,20 @@
       {
         "type": "wide",
         "src": "assets/A Taste of Christmas/A025_A043_0727IA_001.R3D_1.948.1.jpeg"
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/A Taste of Christmas/toc_add_01.jpg",
+          "assets/A Taste of Christmas/toc_add_02.jpg"
+        ]
+      },
+      {
+        "type": "pair",
+        "src": [
+          "assets/A Taste of Christmas/toc_add_03.jpg",
+          "assets/A Taste of Christmas/toc_add_04.jpg"
+        ]
       }
     ]
   }
