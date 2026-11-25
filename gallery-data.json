@@ -2752,5 +2752,85 @@
         ]
       }
     ]
+  },
+  "Christmas in Clearwater": {
+    "images": [
+      "cic_still_01.jpg",
+      "cic_still_02.jpg",
+      "cic_still_03.jpg",
+      "cic_still_04.jpg",
+      "cic_still_05.jpg",
+      "cic_still_06.jpg",
+      "cic_still_07.jpg",
+      "cic_still_08.jpg",
+      "cic_still_09.jpg",
+      "cic_still_10.jpg",
+      "cic_still_11.jpg",
+      "cic_still_12.jpg",
+      "cic_still_13.jpg",
+      "cic_still_14.jpg",
+      "cic_still_15.jpg",
+      "cic_still_16.jpg",
+      "cic_still_17.jpg"
+    ],
+    "layout": [
+      {
+        "type": "wide",
+        "index": 0
+      },
+      {
+        "type": "pair",
+        "indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "type": "trio",
+        "indices": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "type": "wide",
+        "index": 6
+      },
+      {
+        "type": "pair",
+        "indices": [
+          7,
+          8
+        ]
+      },
+      {
+        "type": "trio",
+        "indices": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "type": "wide",
+        "index": 12
+      },
+      {
+        "type": "pair",
+        "indices": [
+          13,
+          14
+        ]
+      },
+      {
+        "type": "trio",
+        "indices": [
+          15,
+          16,
+          10
+        ]
+      }
+    ]
   }
 }
