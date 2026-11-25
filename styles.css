@@ -717,24 +717,25 @@ img { max-width: 100%; display: block; }
 .hamburger {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 24px;
     right: 20px;
     z-index: 300;
-    width: 44px;
-    height: 44px;
-    padding: 10px;
+    width: 52px;
+    height: 52px;
+    padding: 12px;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
-    background: rgba(5, 5, 5, 0.9);
-    border: 1px solid var(--border);
+    gap: 6px;
+    background: rgba(20, 18, 16, 0.95);
+    border: 1px solid var(--accent);
     border-radius: 50%;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.5);
 }
 .hamburger span {
     display: block;
-    width: 20px;
-    height: 1.5px;
-    background: var(--text-dim);
+    width: 22px;
+    height: 2px;
+    background: var(--accent);
     transition: all 0.4s var(--ease-nv);
     margin: 0 auto;
 }
